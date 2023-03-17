@@ -1,0 +1,11 @@
+[Protocol]
+exec=RatCoin3.0-qt '%u'
+protocol=RatCoin3.0
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
