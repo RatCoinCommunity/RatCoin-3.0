@@ -15,8 +15,7 @@ rpcport=19764<br>
 Website – https://ratcoin.net/<br>
 Explorer – https://ratcoin.rektfreak.io/<br>
 
-Desktop Wallet QT - https://github.com/RatCoin3.0Community/RatCoin-3.0/releases/download/v2.0.1.0-g-freak/RatCoin3.0-qt.exe<br>
-Desktop Wallet Snapshot - https://github.com/RatCoin3.0Community/RatCoin-3.0/releases/download/v2.0.1.0-g-freak/Snapshot.zip<br>
+Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/tag/v3.0.0<br>
 
 Whitepaper - https://drive.google.com/file/d/1txXmDTf3FjA6FYe3WXjxdMMyb07dAymh/view
 
