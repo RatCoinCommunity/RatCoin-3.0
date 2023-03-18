@@ -65,9 +65,6 @@ RAT / BTCZ : https://cratex.io/index.php?pair=RAT/BTCZ<br>
 RAT / DOGE : https://cratex.io/index.php?pair=RAT/DOGE<br>
 RAT / LTC : https://cratex.io/index.php?pair=RAT/LTC<br>
 
-STAKING POOLS<br>
-https://www.coinstake.in<br>
-
 INFO SITES<br>
 CoinMarketCap - https://coinmarketcap.com/currencies/ratcoin-network/<br>
 CoinGecko - https://www.coingecko.com/en/coins/ratcoin<br>
