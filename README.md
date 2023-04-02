@@ -22,7 +22,7 @@ Whitepaper - https://drive.google.com/file/d/1txXmDTf3FjA6FYe3WXjxdMMyb07dAymh/v
 Telegram (English) - https://t.me/ratcoincommunity<br>
 Telegram (Portuguese) - https://t.me/ratcoinptbr<br>
 Telegram (Spanish) - https://t.me/RatCoin3.0Spanish<br>
-Telegram (Indonesian) - https://t.me/RATIndonesia<br>
+Telegram (Indonesian) - https://t.me/RatCoinIndonesian<br>
 Telegram (Russian) - https://t.me/RatCoin3.0Russia<br>
 Telegram (Arabic) - https://t.me/RatCoinArabic
 
