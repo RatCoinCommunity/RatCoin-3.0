@@ -26,7 +26,7 @@ Telegram (Indonesian) - https://t.me/RatCoinIndonesian<br>
 Telegram (Russian) - https://t.me/RatCoin3.0Russia<br>
 Telegram (Arabic) - https://t.me/RatCoinArabic
 
-Github - https://github.com/RatCoin3.0Community<br>
+Github - https://github.com/ratcoincommunity<br>
 Twitter - https://twitter.com/RatcoinR<br>
 Facebook - https://www.facebook.com/groups/142509831068661<br>
 Instagram - https://www.instagram.com/ratcoin <br>
