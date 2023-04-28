@@ -77,7 +77,12 @@ Blockspot.io - https://blockspot.io/coin/ratcoin/<br>
 Moonstats - https://www.moonstats.com/rat-ratcoin<br>
 Coinlore - https://www.coinlore.com/zh/coin/ratcoin<br>
 CoinMooner - https://coinmooner.com/coin/ratcoin-rat<br>
-Live Coin Watch - https://www.livecoinwatch.com/price/Ratcoin-_RAT
+Live Coin Watch - https://www.livecoinwatch.com/price/Ratcoin-_RAT<br>
+FreshCoins - https://www.freshcoins.io/coins/ratcoin<br>
+GemFinder - https://gemfinder.cc/gem/7143<br>
+CryptoTopList - https://cointoplist.net/coin/ratcoin<br>
+CoinVote - https://coinvote.cc/coin/Ratcoin<br>
+RugFreeCoins - https://www.rugfreecoins.com/details/7731<br>
 
 
 
