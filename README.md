@@ -19,6 +19,8 @@ Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/dow
 
 Whitepaper - https://drive.google.com/file/d/1txXmDTf3FjA6FYe3WXjxdMMyb07dAymh/view
 
+RatCoin Logo - https://imgur.com/NbthGZC 
+
 Telegram (English) - https://t.me/ratcoincommunity<br>
 Telegram (Portuguese) - https://t.me/ratcoinptbr<br>
 Telegram (Spanish) - https://t.me/RatCoin3.0Spanish<br>
