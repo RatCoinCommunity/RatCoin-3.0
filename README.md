@@ -76,6 +76,7 @@ Blockspot.io - https://blockspot.io/coin/ratcoin/<br>
 Moonstats - https://www.moonstats.com/rat-ratcoin<br>
 Coinlore - https://www.coinlore.com/zh/coin/ratcoin<br>
 CoinMooner - https://coinmooner.com/coin/ratcoin-rat
+Live Coin Watch - https://www.livecoinwatch.com/price/Ratcoin-_RAT
 
 
 
