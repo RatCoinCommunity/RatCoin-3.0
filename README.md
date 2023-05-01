@@ -41,11 +41,17 @@ YouTube - https://www.youtube.com/@ratcoinnetwork5787<br>
 StockTwits - https://stocktwits.com/symbol/RAT.X<br>
 
 EXCHANGES<br>
+https://xeggex.com<br>
 https://bololex.com<br>
 https://exchange-assets.com/en/<br>
 https://cratex.io<br>
 
+
 TRADING PAIRS<br>
+
+RAT / USDT - https://xeggex.com/market/RAT_USDT<br>
+RAT / DOGE - https://xeggex.com/market/RAT_DOGE<br>
+
 RAT / DOGE - https://bololex.com/trading/sessions/market-view?symbol=RAT-DOGE<br>
 RAT / USDT - https://bololex.com/trading/?symbol=RAT-USDT<br>
 RAT / TRX - https://bololex.com/trading/?symbol=RAT-TRX<br>
