@@ -51,6 +51,7 @@ TRADING PAIRS<br>
 
 RAT / USDT - https://xeggex.com/market/RAT_USDT<br>
 RAT / DOGE - https://xeggex.com/market/RAT_DOGE<br>
++ Various Other Liquidity Pool Pairs
 
 RAT / DOGE - https://bololex.com/trading/sessions/market-view?symbol=RAT-DOGE<br>
 RAT / USDT - https://bololex.com/trading/?symbol=RAT-USDT<br>
