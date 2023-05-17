@@ -32,12 +32,11 @@ Github - https://github.com/ratcoincommunity<br>
 Twitter - https://twitter.com/RatcoinR<br>
 Facebook - https://www.facebook.com/groups/142509831068661<br>
 Instagram - https://www.instagram.com/ratcoin <br>
-YouTube - https://www.youtube.com/channel/UCqe62xEEgJ5nPMFxfChTvDw/<br>
+YouTube - https://www.youtube.com/@ratcoinnetwork5787<br>
 Discord - https://discord.com/invite/r292sMnA9g<br>
 Medium - https://ratcoin.medium.com<br>
 Reddit - https://www.reddit.com/user/RatcoinTK<br>
 BitcoinTalk - https://bitcointalk.org/index.php?topic=5066723.0<br>
-YouTube - https://www.youtube.com/@ratcoinnetwork5787<br>
 StockTwits - https://stocktwits.com/symbol/RAT.X<br>
 
 EXCHANGES<br>
