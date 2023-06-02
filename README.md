@@ -27,6 +27,7 @@ Telegram (Spanish) - https://t.me/RatCoin3.0Spanish<br>
 Telegram (Indonesian) - https://t.me/RatCoinIndonesian<br>
 Telegram (Russian) - https://t.me/RatCoin3.0Russia<br>
 Telegram (Arabic) - https://t.me/RatCoinArabic
+Telegram (Chinese) - https://t.me/RatCoinChinese
 
 Github - https://github.com/ratcoincommunity<br>
 Twitter - https://twitter.com/RatcoinR<br>
