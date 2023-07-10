@@ -41,6 +41,7 @@ BitcoinTalk - https://bitcointalk.org/index.php?topic=5066723.0<br>
 StockTwits - https://stocktwits.com/symbol/RAT.X<br>
 
 EXCHANGES<br>
+https://stakecube.net<br>
 https://xeggex.com<br>
 https://bololex.com<br>
 https://exchange-assets.com/en/<br>
