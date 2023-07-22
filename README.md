@@ -85,6 +85,7 @@ RAT / CRATX : https://cratex.io/index.php?pair=RAT/CRATX<br>
 
 INFO SITES<br>
 Coincodex - https://coincodex.com/crypto/ratcoin/<br>
+Coingecko - https://www.coingecko.com/en/coins/ratcoin<br>
 CoinMarketCap - https://coinmarketcap.com/currencies/ratcoin-network/<br>
 CoinMarketLeague - https://coinmarketleague.com/coin/ratcoin<br>
 Coinpaprika - https://coinpaprika.com/coin/rat-ratcoin/<br>
