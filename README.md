@@ -22,6 +22,7 @@ Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfe
 RatCoin Logo - https://imgur.com/NbthGZC 
 
 Telegram (English) - https://t.me/ratcoincommunity<br>
+Telegram (News/Announcements) - https://t.me/RatCoin_News_Announcements<br>
 Telegram (Portuguese) - https://t.me/ratcoinptbr<br>
 Telegram (Spanish) - https://t.me/RatCoin3.0Spanish<br>
 Telegram (Indonesian) - https://t.me/RatCoinIndonesian<br>
