@@ -17,7 +17,7 @@ Explorer – https://ratcoin.rektfreak.io/<br>
 
 Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.0.1/RatCoin3.0-qt.exe<br>
 
-Whitepaper - https://drive.google.com/file/d/1txXmDTf3FjA6FYe3WXjxdMMyb07dAymh/view
+Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfeIb0u7TW6lyRM/edit<br>
 
 RatCoin Logo - https://imgur.com/NbthGZC 
 
