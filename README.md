@@ -3,6 +3,7 @@ RATCOIN INFO
 <b><u>SPECIFICATIONS:</u></b><br>
 Algorithm: Scrypt POS / POW<br>
 MAX Supply: 4,000,000,000 (4 Billion)<br>
+Block Time: 1.5 minutes<br>
 Premine: 100% <br>
 Coinbase maturity: 10 blocks<br>
 Target spacing: 3 minute<br>
