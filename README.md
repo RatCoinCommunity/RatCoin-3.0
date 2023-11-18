@@ -17,6 +17,7 @@ Website – https://ratcoin.net/<br>
 Explorer – https://ratcoin.rektfreak.io/<br>
 
 Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.0.1/RatCoin3.0-qt.exe<br>
+Mobile/Desktop Wallet - https://dogecash.net
 
 Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfeIb0u7TW6lyRM/edit<br>
 
@@ -48,6 +49,7 @@ https://xeggex.com<br>
 https://bololex.com<br>
 https://exchange-assets.com/en/<br>
 https://cratex.io<br>
+https://dogecash.net<br>
 
 
 TRADING PAIRS<br>
