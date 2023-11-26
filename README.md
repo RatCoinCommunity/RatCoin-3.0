@@ -44,6 +44,8 @@ BitcoinTalk - https://bitcointalk.org/index.php?topic=5066723.0<br>
 StockTwits - https://stocktwits.com/symbol/RAT.X<br>
 
 EXCHANGES<br>
+
+https://dex-trade.com/<br>
 https://stakecube.net<br>
 https://xeggex.com<br>
 https://bololex.com<br>
@@ -62,7 +64,7 @@ RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
 RAT / USDT - https://xeggex.com/market/RAT_USDT<br>
 RAT / USDC - https://xeggex.com/market/RAT_USDC<br>
 RAT / DOGE - https://xeggex.com/market/RAT_DOGE<br>
-LIQUIDITY POOL - ADDITIONAL PAIRS<br>
+LIQUIDITY POOLS - See Xeggex<br>
 
 RAT / DOGE - https://bololex.com/trading/sessions/market-view?symbol=RAT-DOGE<br>
 RAT / USDT - https://bololex.com/trading/?symbol=RAT-USDT<br>
