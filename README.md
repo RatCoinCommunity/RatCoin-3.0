@@ -57,7 +57,6 @@ https://dogecash.net<br>
 TRADING PAIRS<br>
 
 RAT / USDT - https://stakecube.net/app/exchange/rat_usdt<br>
-RAT / BUSD - https://stakecube.net/app/exchange/rat_busd<br>
 RAT / SCC - https://stakecube.net/app/exchange/rat_scc<br>
 RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
 
