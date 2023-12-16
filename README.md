@@ -53,8 +53,9 @@ https://exchange-assets.com/en/<br>
 https://cratex.io<br>
 https://dogecash.net<br>
 
-
 TRADING PAIRS<br>
+
+RAT / USDT - https://dex-trade.com/spot/trading/RATUSDT?interface=fullscreen<br>
 
 RAT / USDT - https://stakecube.net/app/exchange/rat_usdt<br>
 RAT / SCC - https://stakecube.net/app/exchange/rat_scc<br>
@@ -90,6 +91,7 @@ RAT / LTC : https://cratex.io/index.php?pair=RAT/LTC<br>
 RAT / CRATX : https://cratex.io/index.php?pair=RAT/CRATX<br>
 
 INFO SITES<br>
+
 Coincodex - https://coincodex.com/crypto/ratcoin/<br>
 Coingecko - https://www.coingecko.com/en/coins/ratcoin<br>
 CoinMarketCap - https://coinmarketcap.com/currencies/ratcoin-network/<br>
