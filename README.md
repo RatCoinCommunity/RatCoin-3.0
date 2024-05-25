@@ -77,18 +77,20 @@ RAT / XLM - https://bololex.com/trading/?symbol=RAT-XLM<br>
 RAT / ETH - https://bololex.com/trading/?symbol=RAT-ETH<br>
 RAT / BNB - https://bololex.com/trading/?symbol=RAT-BNB<br>
 RAT / RDD - https://bololex.com/trading/?symbol=RAT-RDD<br>
-RAT / BTC : https://bololex.com/trading/sessions/market-view?symbol=RAT-BTC<br>
-RAT / DGB : https://bololex.com/trading/sessions/market-view?symbol=RAT-DGB<br>
+RAT / BTC - https://bololex.com/trading/sessions/market-view?symbol=RAT-BTC<br>
+RAT / DGB - https://bololex.com/trading/sessions/market-view?symbol=RAT-DGB<br>
 
-RAT / USDT : https://exchange-assets.com/en/?market=rat_usdt<br>
-RAT / TRX : https://exchange-assets.com/en/?market=rat_trx<br>
-RAT / S11: https://exchange-assets.com/en/?market=rat_s11<br>
+RAT / USDT - https://exchange-assets.com/en/?market=rat_usdt<br>
+RAT / TRX - https://exchange-assets.com/en/?market=rat_trx<br>
+RAT / S11 - https://exchange-assets.com/en/?market=rat_s11<br>
 
-RAT / USDT : https://cratex.io/index.php?pair=RAT/USDT<br>
-RAT / BTCZ : https://cratex.io/index.php?pair=RAT/BTCZ<br>
-RAT / DOGE : https://cratex.io/index.php?pair=RAT/DOGE<br>
-RAT / LTC : https://cratex.io/index.php?pair=RAT/LTC<br>
-RAT / CRATX : https://cratex.io/index.php?pair=RAT/CRATX<br>
+RAT / USDT - https://cratex.io/index.php?pair=RAT/USDT<br>
+RAT / BTCZ - https://cratex.io/index.php?pair=RAT/BTCZ<br>
+RAT / DOGE - https://cratex.io/index.php?pair=RAT/DOGE<br>
+RAT / LTC  - https://cratex.io/index.php?pair=RAT/LTC<br>
+RAT / CRATX - https://cratex.io/index.php?pair=RAT/CRATX<br>
+
+RAT / USDT - https://app.dogecash.net/exchange/RAT_USDT
 
 INFO SITES<br>
 
