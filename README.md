@@ -82,7 +82,6 @@ RAT / DGB - https://bololex.com/trading/sessions/market-view?symbol=RAT-DGB<br>
 
 RAT / USDT - https://exchange-assets.com/en/?market=rat_usdt<br>
 RAT / TRX - https://exchange-assets.com/en/?market=rat_trx<br>
-RAT / S11 - https://exchange-assets.com/en/?market=rat_s11<br>
 
 RAT / USDT - https://cratex.io/index.php?pair=RAT/USDT<br>
 RAT / BTCZ - https://cratex.io/index.php?pair=RAT/BTCZ<br>
