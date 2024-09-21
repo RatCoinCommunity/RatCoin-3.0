@@ -49,7 +49,7 @@ https://dex-trade.com/<br>
 https://stakecube.net<br>
 https://xeggex.com<br>
 https://bololex.com<br>
-https://exchange-assets.com/en/<br>
+https://qutrade.io<br>
 https://cratex.io<br>
 https://dogecash.net<br>
 
@@ -64,7 +64,7 @@ RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
 RAT / USDT - https://xeggex.com/market/RAT_USDT<br>
 RAT / USDC - https://xeggex.com/market/RAT_USDC<br>
 RAT / DOGE - https://xeggex.com/market/RAT_DOGE<br>
-LIQUIDITY POOLS - See Xeggex<br>
+LIQUIDITY POOLS - See Xeggex and Qutrade<br>
 
 RAT / DOGE - https://bololex.com/trading/sessions/market-view?symbol=RAT-DOGE<br>
 RAT / USDT - https://bololex.com/trading/?symbol=RAT-USDT<br>
