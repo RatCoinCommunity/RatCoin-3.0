@@ -64,6 +64,7 @@ RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
 RAT / USDT - https://xeggex.com/market/RAT_USDT<br>
 RAT / USDC - https://xeggex.com/market/RAT_USDC<br>
 RAT / DOGE - https://xeggex.com/market/RAT_DOGE<br>
+
 LIQUIDITY POOLS - See Xeggex and Qutrade<br>
 
 RAT / DOGE - https://bololex.com/trading/sessions/market-view?symbol=RAT-DOGE<br>
