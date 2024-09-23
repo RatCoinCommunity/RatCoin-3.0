@@ -64,7 +64,7 @@ RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
 RAT / USDT - https://xeggex.com/market/RAT_USDT<br>
 RAT / USDC - https://xeggex.com/market/RAT_USDC<br>
 RAT / DOGE - https://xeggex.com/market/RAT_DOGE<br>
-LIQUIDITY POOL PAIRS<br>
+PLUS ADDITIONAL LIQUIDITY POOL PAIRS<br>
 
 RAT / DOGE - https://bololex.com/trading/sessions/market-view?symbol=RAT-DOGE<br>
 RAT / USDT - https://bololex.com/trading/?symbol=RAT-USDT<br>
@@ -82,7 +82,7 @@ RAT / DGB - https://bololex.com/trading/sessions/market-view?symbol=RAT-DGB<br>
 
 RAT / USDT - https://qutrade.io/en/?market=rat_usdt<br>
 RAT / TRX -  https://qutrade.io/en/?market=rat_trx<br>
-LIQUIDITY POOL PAIRS<br>
+PLUS ADDITIONAL LIQUIDITY POOL PAIRS<br>
 
 RAT / USDT - https://cratex.io/index.php?pair=RAT/USDT<br>
 RAT / BTCZ - https://cratex.io/index.php?pair=RAT/BTCZ<br>
