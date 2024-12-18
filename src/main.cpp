@@ -2857,6 +2857,16 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 
     if (strCommand == "version")
     {
+
+	int nVersion;
+    	vRecv >> nVersion; // Extract peer's version from the message
+    
+    	if (nVersion < MIN_PEER_PROTO_VERSION)
+    	{
+	        printf("Disconnecting peer with obsolete version %d\n", nVersion);
+	        pfrom->fDisconnect = true; // Mark the peer for disconnection
+	        return false; // Stop further processing for this peer
+    	}
         // Each connection can only send one version message
         if (pfrom->nVersion != 0)
         {
