@@ -539,6 +539,11 @@ void CNode::CloseSocketDisconnect()
 
 void CNode::PushVersion()
 {
+    if (nVersion < MIN_PEER_PROTO_VERSION) {
+    LogPrintf("Disconnecting peer %s for using obsolete version %d\n", addr.ToString(), nVersion);
+    fDisconnect = true;
+    return; // Stop processing further messages for this peer
+    }
     /// when NTP implemented, change to just nTime = GetAdjustedTime()
     int64_t nTime = (fInbound ? GetAdjustedTime() : GetTime());
     CAddress addrYou = (addr.IsRoutable() && !IsProxy(addr) ? addr : CAddress(CService("0.0.0.0",0)));
