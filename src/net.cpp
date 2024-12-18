@@ -540,7 +540,7 @@ void CNode::CloseSocketDisconnect()
 void CNode::PushVersion()
 {
     if (nVersion < MIN_PEER_PROTO_VERSION) {
-    LogPrintf("Disconnecting peer %s for using obsolete version %d\n", addr.ToString(), nVersion);
+    printf("Disconnecting peer %s for using obsolete version %d\n", addr.ToString(), nVersion);
     fDisconnect = true;
     return; // Stop processing further messages for this peer
     }
