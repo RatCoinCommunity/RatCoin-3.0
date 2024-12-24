@@ -3,8 +3,13 @@
 // Copyright (c) 2013 The NovaCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
+<<<<<<< HEAD
 #ifndef RatCoin3.0_MINER_H
 #define RatCoin3.0_MINER_H
+=======
+#ifndef RatCoin3.2_MINER_H
+#define RatCoin3.2_MINER_H
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 #include "main.h"
 #include "wallet.h"
@@ -27,4 +32,8 @@ bool CheckStake(CBlock* pblock, CWallet& wallet);
 /** Base sha256 mining transform */
 void SHA256Transform(void* pstate, void* pinput, const void* pinit);
 
+<<<<<<< HEAD
 #endif // RatCoin3.0_MINER_H
+=======
+#endif // RatCoin3.2_MINER_H
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)

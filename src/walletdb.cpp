@@ -533,7 +533,11 @@ DBErrors CWalletDB::LoadWallet(CWallet* pwallet)
 void ThreadFlushWalletDB(void* parg)
 {
     // Make this thread recognisable as the wallet flushing thread
+<<<<<<< HEAD
     RenameThread("RatCoin3.0-wallet");
+=======
+    RenameThread("RatCoin3.2-wallet");
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
     const string& strFile = ((const string*)parg)[0];
     static bool fOneThread;

@@ -528,7 +528,11 @@ void StakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
+<<<<<<< HEAD
     RenameThread("RatCoin3.0d-miner");
+=======
+    RenameThread("RatCoin3.2d-miner");
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
     bool fTryToSync = true;
 

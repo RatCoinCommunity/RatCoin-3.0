@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Source: RatCoin3.0
+=======
+Source: RatCoin3.2
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -19,6 +23,7 @@ Build-Depends: debhelper,
  libqt4-dev,
  libqrencode-dev
 Standards-Version: 3.9.2
+<<<<<<< HEAD
 Homepage: http://www.RatCoin3.0.su/
 Vcs-Git: git://github.com/CryptoManiac/RatCoin3.0.git
 Vcs-Browser: http://github.com/CryptoManiac/RatCoin3.0
@@ -28,6 +33,17 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
  RatCoin3.0 is a free open source peer-to-peer electronic cash system that
+=======
+Homepage: http://www.RatCoin3.2.su/
+Vcs-Git: git://github.com/CryptoManiac/RatCoin3.2.git
+Vcs-Browser: http://github.com/CryptoManiac/RatCoin3.2
+
+Package: RatCoin3.2d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ RatCoin3.2 is a free open source peer-to-peer electronic cash system that
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -38,6 +54,7 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 2+ GB of space, slowly growing.
  .
+<<<<<<< HEAD
  This package provides RatCoin3.0d, a combined daemon and CLI tool to
  interact with the daemon.
 
@@ -46,6 +63,16 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
  RatCoin3.0 is a free open source peer-to-peer electronic cash system that
+=======
+ This package provides RatCoin3.2d, a combined daemon and CLI tool to
+ interact with the daemon.
+
+Package: RatCoin3.2-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ RatCoin3.2 is a free open source peer-to-peer electronic cash system that
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -56,4 +83,8 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 2+ GB of space, slowly growing.
  .
+<<<<<<< HEAD
  This package provides RatCoin3.0-Qt, a GUI for RatCoin3.0 based on Qt.
+=======
+ This package provides RatCoin3.2-Qt, a GUI for RatCoin3.2 based on Qt.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)

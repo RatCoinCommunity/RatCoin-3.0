@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 RatCoin3.0-qt: Qt5 GUI for RatCoin3.0
+=======
+RatCoin3.2-qt: Qt5 GUI for RatCoin3.2
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 =======================================
 
 Build instructions
@@ -24,9 +28,15 @@ then execute the following:
     qmake
     make
 
+<<<<<<< HEAD
 Alternatively, install Qt Creator and open the `RatCoin3.0-qt.pro` file.
 
 An executable named `RatCoin3.0-qt` will be built.
+=======
+Alternatively, install Qt Creator and open the `RatCoin3.2-qt.pro` file.
+
+An executable named `RatCoin3.2-qt` will be built.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 
 Windows
@@ -69,7 +79,11 @@ Build configuration options
 UPNnP port forwarding
 ---------------------
 
+<<<<<<< HEAD
 To use UPnP for port forwarding behind a NAT router (recommended, as more connections overall allow for a faster and more stable RatCoin3.0 experience), pass the following argument to qmake:
+=======
+To use UPnP for port forwarding behind a NAT router (recommended, as more connections overall allow for a faster and more stable RatCoin3.2 experience), pass the following argument to qmake:
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 ::
 
@@ -117,9 +131,15 @@ flag to qmake to control this:
 Berkely DB version warning
 ==========================
 
+<<<<<<< HEAD
 A warning for people using the *static binary* version of RatCoin3.0 on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
 
 The static binary version of RatCoin3.0 is linked against libdb 5.0 (see also `this Debian issue`_).
+=======
+A warning for people using the *static binary* version of RatCoin3.2 on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
+
+The static binary version of RatCoin3.2 is linked against libdb 5.0 (see also `this Debian issue`_).
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 Now the nasty thing is that databases from 5.X are not compatible with 4.X.
 
@@ -134,7 +154,11 @@ Ubuntu 11.10 warning
 ====================
 
 Ubuntu 11.10 has a package called 'qt-at-spi' installed by default.  At the time of writing, having that package
+<<<<<<< HEAD
 installed causes RatCoin3.0-qt to crash intermittently.  The issue has been reported as `launchpad bug 857790`_, but
+=======
+installed causes RatCoin3.2-qt to crash intermittently.  The issue has been reported as `launchpad bug 857790`_, but
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 isn't yet fixed.
 
 Until the bug is fixed, you can remove the qt-at-spi package to work around the problem, though this will presumably

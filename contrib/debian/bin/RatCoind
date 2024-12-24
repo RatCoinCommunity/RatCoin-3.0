@@ -4,11 +4,20 @@ set -e
 
 umask 077
 
+<<<<<<< HEAD
 basedir=~/.RatCoin3.0
 cfgfile="$basedir/RatCoin3.0.conf"
+=======
+basedir=~/.RatCoin3.2
+cfgfile="$basedir/RatCoin3.2.conf"
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 [ -e "$basedir" ] || mkdir "$basedir"
 
 [ -e "$cfgfile" ] || perl -le 'print"rpcpassword=",map{(a..z,A..Z,0..9)[rand 62]}0..9' > "$cfgfile"
 
+<<<<<<< HEAD
 exec /usr/lib/RatCoin3.0/RatCoin3.0d "$@"
+=======
+exec /usr/lib/RatCoin3.2/RatCoin3.2d "$@"
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)

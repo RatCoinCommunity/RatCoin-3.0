@@ -42,7 +42,11 @@ static bool ipcScanCmd(int argc, char *argv[], bool fRelay)
     bool fSent = false;
     for (int i = 1; i < argc; i++)
     {
+<<<<<<< HEAD
         if (boost::algorithm::istarts_with(argv[i], "RatCoin3.0:"))
+=======
+        if (boost::algorithm::istarts_with(argv[i], "RatCoin3.2:"))
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         {
             const char *strURI = argv[i];
             try {
@@ -75,7 +79,11 @@ void ipcScanRelay(int argc, char *argv[])
 static void ipcThread(void* pArg)
 {
     // Make this thread recognisable as the GUI-IPC thread
+<<<<<<< HEAD
     RenameThread("RatCoin3.0-gui-ipc");
+=======
+    RenameThread("RatCoin3.2-gui-ipc");
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 	
     try
     {

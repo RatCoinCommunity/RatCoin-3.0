@@ -75,7 +75,11 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
+<<<<<<< HEAD
 const string RatCoin = "RatCoin3.0 Signed Message:\n";
+=======
+const string RatCoin = "RatCoin3.2 Signed Message:\n";
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 // Settings
 int64_t nTransactionFee = MIN_TX_FEE;
@@ -2071,7 +2075,11 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
         if (!CheckCoinStakeTimestamp(GetBlockTime(), (int64_t)vtx[1].nTime))
             return DoS(50, error("CheckBlock() : coinstake timestamp violation nTimeBlock=%" PRId64 " nTimeTx=%u", GetBlockTime(), vtx[1].nTime));
 
+<<<<<<< HEAD
         // RatCoin3.0: check proof-of-stake block signature
+=======
+        // RatCoin3.2: check proof-of-stake block signature
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         if (fCheckSig && !CheckBlockSignature())
             return DoS(100, error("CheckBlock() : bad proof-of-stake block signature"));
     }
@@ -2346,7 +2354,11 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
     return true;
 }
 
+<<<<<<< HEAD
 // RatCoin3.0: attempt to generate suitable proof-of-stake
+=======
+// RatCoin3.2: attempt to generate suitable proof-of-stake
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
     // if we are trying to sign
@@ -2434,7 +2446,11 @@ bool CheckDiskSpace(uint64_t nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
+<<<<<<< HEAD
         uiInterface.ThreadSafeMessageBox(strMessage, "RatCoin3.0", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+=======
+        uiInterface.ThreadSafeMessageBox(strMessage, "RatCoin3.2", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         StartShutdown();
         return false;
     }
@@ -2847,8 +2863,15 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 {
     static map<CService, CPubKey> mapReuseKey;
     RandAddSeedPerfmon();
+<<<<<<< HEAD
     if (fDebug)
         printf("received: %s (%" PRIszu " bytes)\n", strCommand.c_str(), vRecv.size());
+=======
+
+    if (fDebug)
+        printf("received: %s (%" PRIszu " bytes)\n", strCommand.c_str(), vRecv.size());
+
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     if (mapArgs.count("-dropmessagestest") && GetRand(atoi(mapArgs["-dropmessagestest"])) == 0)
     {
         printf("dropmessagestest DROPPING RECV MESSAGE\n");
@@ -2857,13 +2880,32 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 
     if (strCommand == "version")
     {
+<<<<<<< HEAD
         // Each connection can only send one version message
         if (pfrom->nVersion != 0)
         {
+=======
+        int nVersion;
+        vRecv >> nVersion;
+
+        // Disconnect if peer uses an obsolete version
+        if (nVersion < MIN_PEER_PROTO_VERSION)
+        {
+            printf("Disconnecting peer with obsolete version %d\n", nVersion);
+            pfrom->fDisconnect = true;
+            return false;
+        }
+
+        // Ensure only one "version" message is received per connection
+        if (pfrom->nVersion != 0)
+        {
+            printf("Peer sent duplicate version message, marking as misbehaving\n");
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
             pfrom->Misbehaving(1);
             return false;
         }
 
+<<<<<<< HEAD
         int64_t nTime;
         CAddress addrMe;
         CAddress addrFrom;
@@ -2896,10 +2938,37 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         if (nNonce == nLocalHostNonce && nNonce > 1)
         {
             printf("connected to self at %s, disconnecting\n", pfrom->addr.ToString().c_str());
+=======
+        // Set the peer's version after passing the checks
+        pfrom->nVersion = nVersion;
+
+        int64_t nTime;
+        CAddress addrMe, addrFrom;
+        uint64_t nNonce = 1;
+
+        vRecv >> pfrom->nServices >> nTime >> addrMe;
+        if (!vRecv.empty()) vRecv >> addrFrom >> nNonce;
+        if (!vRecv.empty()) vRecv >> pfrom->strSubVer;
+        if (!vRecv.empty()) vRecv >> pfrom->nStartingHeight;
+
+        printf("Peer %s connected with version %d, services=%llu, time=%lld, subver=%s, starting height=%d\n",
+               pfrom->addr.ToString().c_str(), pfrom->nVersion, pfrom->nServices, nTime,
+               pfrom->strSubVer.c_str(), pfrom->nStartingHeight);
+
+        // Handle peer using a reserved version
+        if (pfrom->nVersion == 10300)
+            pfrom->nVersion = 300;
+
+        // Check for self-connection
+        if (nNonce == nLocalHostNonce && nNonce > 1)
+        {
+            printf("Connected to self at %s, disconnecting\n", pfrom->addr.ToString().c_str());
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
             pfrom->fDisconnect = true;
             return true;
         }
 
+<<<<<<< HEAD
         // record my external IP reported by peer
         if (addrFrom.IsRoutable() && addrMe.IsRoutable())
             addrSeenByPeer = addrMe;
@@ -2920,6 +2989,35 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         if (!pfrom->fInbound)
         {
             // Advertise our address
+=======
+        // Record external IP address reported by the peer
+        if (addrFrom.IsRoutable() && addrMe.IsRoutable())
+            addrSeenByPeer = addrMe;
+
+        // Handle inbound connections
+        if (pfrom->fInbound)
+        {
+            if (addrMe.IsRoutable())
+            {
+                pfrom->addrLocal = addrMe;
+                SeenLocal(addrMe);
+            }
+            pfrom->PushVersion();
+        }
+
+        // Update client and time-sync state
+        pfrom->fClient = !(pfrom->nServices & NODE_NETWORK);
+        if (GetBoolArg("-synctime", true))
+            AddTimeData(pfrom->addr, nTime);
+
+        // Send verack response
+        pfrom->PushMessage("verack");
+        pfrom->ssSend.SetVersion(min(pfrom->nVersion, PROTOCOL_VERSION));
+
+        // Handle outbound connections
+        if (!pfrom->fInbound)
+        {
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
             if (!fNoListen && !IsInitialBlockDownload())
             {
                 CAddress addr = GetLocalAddress(&pfrom->addr);
@@ -2927,14 +3025,24 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
                     pfrom->PushAddress(addr);
             }
 
+<<<<<<< HEAD
             // Get recent addresses
+=======
+            // Request recent addresses
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
             if (pfrom->fOneShot || pfrom->nVersion >= CADDR_TIME_VERSION || addrman.size() < 1000)
             {
                 pfrom->PushMessage("getaddr");
                 pfrom->fGetAddr = true;
             }
             addrman.Good(pfrom->addr);
+<<<<<<< HEAD
         } else {
+=======
+        }
+        else
+        {
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
             if (((CNetAddr)pfrom->addr) == (CNetAddr)addrFrom)
             {
                 addrman.Add(addrFrom, addrFrom);
@@ -2942,6 +3050,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             }
         }
 
+<<<<<<< HEAD
         // Ask the first connected node for block updates
         static int nAskedForBlocks = 0;
         if (!pfrom->fClient && !pfrom->fOneShot &&
@@ -2949,6 +3058,14 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             (pfrom->nVersion < NOBLKS_VERSION_START ||
              pfrom->nVersion >= NOBLKS_VERSION_END) &&
              (nAskedForBlocks < 1 || vNodes.size() <= 1))
+=======
+        // Request blocks if conditions are met
+        static int nAskedForBlocks = 0;
+        if (!pfrom->fClient && !pfrom->fOneShot &&
+            (pfrom->nStartingHeight > (nBestHeight - 144)) &&
+            (pfrom->nVersion < NOBLKS_VERSION_START || pfrom->nVersion >= NOBLKS_VERSION_END) &&
+            (nAskedForBlocks < 1 || vNodes.size() <= 1))
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         {
             nAskedForBlocks++;
             pfrom->PushGetBlocks(pindexBest, uint256(0));
@@ -2957,7 +3074,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         // Relay alerts
         {
             LOCK(cs_mapAlerts);
+<<<<<<< HEAD
             BOOST_FOREACH(PAIRTYPE(const uint256, CAlert)& item, mapAlerts)
+=======
+            BOOST_FOREACH(PAIRTYPE(const uint256, CAlert) &item, mapAlerts)
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
                 item.second.RelayTo(pfrom);
         }
 
@@ -2968,6 +3089,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
                 Checkpoints::checkpointMessage.RelayTo(pfrom);
         }
 
+<<<<<<< HEAD
         pfrom->fSuccessfullyConnected = true;
 
         printf("receive version message: version %d, blocks=%d, us=%s, them=%s, peer=%s\n", pfrom->nVersion, pfrom->nStartingHeight, addrMe.ToString().c_str(), addrFrom.ToString().c_str(), pfrom->addr.ToString().c_str());
@@ -2980,6 +3102,18 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
     }
 
 
+=======
+        // Update connection status
+        pfrom->fSuccessfullyConnected = true;
+
+        printf("Version message processed for peer %s\n", pfrom->addr.ToString().c_str());
+        cPeerBlockCounts.input(pfrom->nStartingHeight);
+
+        // Handle checkpoints if not in initial block download
+        if (!IsInitialBlockDownload())
+            Checkpoints::AskForPendingSyncCheckpoint(pfrom);
+    }
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     else if (pfrom->nVersion == 0)
     {
         // Must have a version message before anything else

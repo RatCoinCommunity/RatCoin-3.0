@@ -3,6 +3,7 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
+<<<<<<< HEAD
         <source>About RatCoin3.0</source>
         <translation>Despre RatCoin3.0</translation>
     </message>
@@ -10,13 +11,28 @@
         <location line="+39"/>
         <source>&lt;b&gt;RatCoin3.0&lt;/b&gt; version</source>
         <translation>Versiune &lt;b&gt;RatCoin3.0&lt;/b&gt;</translation>
+=======
+        <source>About RatCoin3.2</source>
+        <translation>Despre RatCoin3.2</translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>&lt;b&gt;RatCoin3.2&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;RatCoin3.2&lt;/b&gt;</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 Copyright © 2018 The RatCoin3.0 developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2018 The RatCoin3.0 developers</translation>
+=======
+Copyright © 2018 The RatCoin3.2 developers</source>
+        <translation>Copyright © 2009-2014 The Bitcoin developers
+Copyright © 2018 The RatCoin3.2 developers</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+15"/>
@@ -63,8 +79,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-46"/>
+<<<<<<< HEAD
         <source>These are your RatCoin3.0 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Acestea sunt adresele RatCoin3.0 pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+=======
+        <source>These are your RatCoin3.2 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele RatCoin3.2 pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +99,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+11"/>
+<<<<<<< HEAD
         <source>Sign a message to prove you own a RatCoin3.0 address</source>
         <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă RatCoin3.0</translation>
+=======
+        <source>Sign a message to prove you own a RatCoin3.2 address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +119,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-14"/>
+<<<<<<< HEAD
         <source>Verify a message to ensure it was signed with a specified RatCoin3.0 address</source>
         <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă RatCoin3.0</translation>
+=======
+        <source>Verify a message to ensure it was signed with a specified RatCoin3.2 address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +292,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-58"/>
+<<<<<<< HEAD
         <source>RatCoin3.0 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>RatCoin3.0 se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+=======
+        <source>RatCoin3.2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>RatCoin3.2 se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +411,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+4"/>
+<<<<<<< HEAD
         <source>Show information about RatCoin3.0</source>
         <translation>Arată informații despre RatCoin3.0</translation>
+=======
+        <source>Show information about RatCoin3.2</source>
+        <translation>Arată informații despre RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+2"/>
@@ -425,6 +466,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-62"/>
+<<<<<<< HEAD
         <source>Send coins to a RatCoin3.0 address</source>
         <translation>Trimite monede către o adresă RatCoin3.0</translation>
     </message>
@@ -432,6 +474,15 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <location line="+45"/>
         <source>Modify configuration options for RatCoin3.0</source>
         <translation>Modifică opțiuni de configurare pentru RatCoin3.0</translation>
+=======
+        <source>Send coins to a RatCoin3.2 address</source>
+        <translation>Trimite monede către o adresă RatCoin3.2</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Modify configuration options for RatCoin3.2</source>
+        <translation>Modifică opțiuni de configurare pentru RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +521,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-200"/>
+<<<<<<< HEAD
         <source>RatCoin3.0</source>
         <translation>RatCoin3.0</translation>
+=======
+        <source>RatCoin3.2</source>
+        <translation>RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +536,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+178"/>
+<<<<<<< HEAD
         <source>&amp;About RatCoin3.0</source>
         <translation>Despre RatCoin3.0</translation>
+=======
+        <source>&amp;About RatCoin3.2</source>
+        <translation>Despre RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+9"/>
@@ -537,6 +598,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     <message>
         <location line="+0"/>
         <location line="+60"/>
+<<<<<<< HEAD
         <source>RatCoin3.0 client</source>
         <translation>Clientul RatCoin3.0</translation>
     </message>
@@ -544,6 +606,15 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <location line="+70"/>
         <source>%n active connection(s) to RatCoin3.0 network</source>
         <translation><numerusform>%n conexiune activă la reteaua RatCoin3.0</numerusform><numerusform>%n conexiuni active la reteaua RatCoin3.0</numerusform><numerusform>%n conexiuni active la reteaua RatCoin3.0</numerusform></translation>
+=======
+        <source>RatCoin3.2 client</source>
+        <translation>Clientul RatCoin3.2</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+70"/>
+        <source>%n active connection(s) to RatCoin3.2 network</source>
+        <translation><numerusform>%n conexiune activă la reteaua RatCoin3.2</numerusform><numerusform>%n conexiuni active la reteaua RatCoin3.2</numerusform><numerusform>%n conexiuni active la reteaua RatCoin3.2</numerusform></translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +728,13 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid RatCoin3.0 address or malformed URI parameters.</source>
         <translation>URI nu poate fi parsatt! Cauza poate fi o adresa RatCoin3.0 invalidă sau parametrii URI malformați.</translation>
+=======
+        <source>URI can not be parsed! This can be caused by an invalid RatCoin3.2 address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa RatCoin3.2 invalidă sau parametrii URI malformați.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +793,13 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
+<<<<<<< HEAD
         <source>A fatal error occurred. RatCoin3.0 can no longer continue safely and will quit.</source>
         <translation>A apărut o eroare fatală. RatCoin3.0 nu mai poate continua în condiții de siguranță și va iesi.</translation>
+=======
+        <source>A fatal error occurred. RatCoin3.2 can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. RatCoin3.2 nu mai poate continua în condiții de siguranță și va iesi.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
 </context>
 <context>
@@ -1051,8 +1132,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is not a valid RatCoin3.0 address.</source>
         <translation>Adresa introdusă &quot;%1&quot; nu este o adresă RatCoin3.0 validă</translation>
+=======
+        <source>The entered address &quot;%1&quot; is not a valid RatCoin3.2 address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă RatCoin3.2 validă</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1156,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
+<<<<<<< HEAD
         <source>RatCoin3.0-Qt</source>
         <translation>RatCoin3.0-Qt</translation>
+=======
+        <source>RatCoin3.2-Qt</source>
+        <translation>RatCoin3.2-Qt</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-12"/>
@@ -1143,6 +1234,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
+<<<<<<< HEAD
         <source>Automatically start RatCoin3.0 after logging in to the system.</source>
         <translation>Pornește RatCoin3.0 imdiat după logarea în sistem</translation>
     </message>
@@ -1150,6 +1242,15 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <location line="+3"/>
         <source>&amp;Start RatCoin3.0 on system login</source>
         <translation>$Pornește RatCoin3.0 la logarea în sistem</translation>
+=======
+        <source>Automatically start RatCoin3.2 after logging in to the system.</source>
+        <translation>Pornește RatCoin3.2 imdiat după logarea în sistem</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Start RatCoin3.2 on system login</source>
+        <translation>$Pornește RatCoin3.2 la logarea în sistem</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1269,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
+<<<<<<< HEAD
         <source>Automatically open the RatCoin3.0 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Deschide automat portul pentru cientul RatCoin3.0 pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+=======
+        <source>Automatically open the RatCoin3.2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul RatCoin3.2 pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1284,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Connect to the RatCoin3.0 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Conecteaza la reteaua RatCoin3.0 prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
+=======
+        <source>Connect to the RatCoin3.2 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecteaza la reteaua RatCoin3.2 prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1364,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.0.</source>
         <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea RatCoin3.0.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.2.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea RatCoin3.2.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1384,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+9"/>
+<<<<<<< HEAD
         <source>Whether to show RatCoin3.0 addresses in the transaction list or not.</source>
         <translation>Dacă să arate adrese RatCoin3.0 din lista de tranzacție sau nu.</translation>
+=======
+        <source>Whether to show RatCoin3.2 addresses in the transaction list or not.</source>
+        <translation>Dacă să arate adrese RatCoin3.2 din lista de tranzacție sau nu.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1436,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
+<<<<<<< HEAD
         <source>This setting will take effect after restarting RatCoin3.0.</source>
         <translation>Aceasta setare va avea efect dupa repornirea RatCoin3.0.</translation>
+=======
+        <source>This setting will take effect after restarting RatCoin3.2.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea RatCoin3.2.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1460,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.0 network after a connection is established, but this process has not completed yet.</source>
         <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua RatCoin3.0 după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua RatCoin3.2 după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1681,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Show the RatCoin3.0-Qt help message to get a list with possible RatCoin3.0 command-line options.</source>
         <translation>Afișa mesajul de ajutor RatCoin3.0-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă RatCoin3.0.</translation>
+=======
+        <source>Show the RatCoin3.2-Qt help message to get a list with possible RatCoin3.2 command-line options.</source>
+        <translation>Afișa mesajul de ajutor RatCoin3.2-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă RatCoin3.2.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -1570,6 +1706,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
+<<<<<<< HEAD
         <source>RatCoin3.0 - Debug window</source>
         <translation>RatCoin3.0 - fereastră depanare</translation>
     </message>
@@ -1577,6 +1714,15 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <location line="+25"/>
         <source>RatCoin3.0 Core</source>
         <translation>RatCoin3.0 Core</translation>
+=======
+        <source>RatCoin3.2 - Debug window</source>
+        <translation>RatCoin3.2 - fereastră depanare</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>RatCoin3.2 Core</source>
+        <translation>RatCoin3.2 Core</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1731,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Open the RatCoin3.0 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Deschideti fisierul de depanare RatCoin3.0 din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+=======
+        <source>Open the RatCoin3.2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare RatCoin3.2 din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1746,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
+<<<<<<< HEAD
         <source>Welcome to the RatCoin3.0 RPC console.</source>
         <translation>Bine ati venit la consola RatCoin3.0 RPC.</translation>
+=======
+        <source>Welcome to the RatCoin3.2 RPC console.</source>
+        <translation>Bine ati venit la consola RatCoin3.2 RPC.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+1"/>
@@ -1754,8 +1910,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
+<<<<<<< HEAD
         <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Introduceți o adresă RatCoin3.0(ex:TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+=======
+        <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Introduceți o adresă RatCoin3.2(ex:TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +2015,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+251"/>
+<<<<<<< HEAD
         <source>WARNING: Invalid RatCoin3.0 address</source>
         <translation>Atenție: Adresă RatCoin3.0 invalidă</translation>
+=======
+        <source>WARNING: Invalid RatCoin3.2 address</source>
+        <translation>Atenție: Adresă RatCoin3.2 invalidă</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +2094,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
+<<<<<<< HEAD
         <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Introduceți o adresă RatCoin3.0(ex:TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+=======
+        <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Introduceți o adresă RatCoin3.2(ex:TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
 </context>
 <context>
@@ -1989,8 +2160,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this RatCoin3.0 address</source>
         <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă RatCoin3.0</translation>
+=======
+        <source>Sign the message to prove you own this RatCoin3.2 address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2197,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+40"/>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified RatCoin3.0 address</source>
         <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă RatCoin3.0</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified RatCoin3.2 address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2213,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Introduceți o adresă RatCoin3.0(ex:TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+=======
+        <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Introduceți o adresă RatCoin3.2(ex:TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2228,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Enter RatCoin3.0 signature</source>
         <translation>Introduceti semnatura RatCoin3.0</translation>
+=======
+        <source>Enter RatCoin3.2 signature</source>
+        <translation>Introduceti semnatura RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2804,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
+<<<<<<< HEAD
         <source>RatCoin3.0 version</source>
         <translation>Versiune RatCoin3.0</translation>
+=======
+        <source>RatCoin3.2 version</source>
+        <translation>Versiune RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+1"/>
@@ -2623,8 +2819,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Send command to -server or RatCoin3.0d</source>
         <translation>Trimite comanda catre server sau RatCoin3.0d</translation>
+=======
+        <source>Send command to -server or RatCoin3.2d</source>
+        <translation>Trimite comanda catre server sau RatCoin3.2d</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+1"/>
@@ -2643,6 +2844,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
+<<<<<<< HEAD
         <source>Specify configuration file (default: RatCoin3.0.conf)</source>
         <translation>Specifica fisier de configurare(implicit: RatCoin3.0.conf)</translation>
     </message>
@@ -2650,6 +2852,15 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <location line="+1"/>
         <source>Specify pid file (default: RatCoin3.0d.pid)</source>
         <translation>Speficica fisier pid(implicit: RatCoin3.0.pid)</translation>
+=======
+        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: RatCoin3.2.conf)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Specify pid file (default: RatCoin3.2d.pid)</source>
+        <translation>Speficica fisier pid(implicit: RatCoin3.2.pid)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+2"/>
@@ -2798,8 +3009,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+61"/>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.0 will not work properly.</source>
         <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit RatCoin3.0 nu va functiona corect.</translation>
+=======
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.2 will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit RatCoin3.2 nu va functiona corect.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-31"/>
@@ -2988,22 +3204,37 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
+<<<<<<< HEAD
 rpcuser=RatCoin3.0rpc
+=======
+rpcuser=RatCoin3.2rpc
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
+<<<<<<< HEAD
 for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@foo.com
 </source>
         <translation>%s, trebuie să configurați o parolă rpc în fișierul de configurare: %s
 Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=RatCoin3.0rpc
+=======
+for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admin@foo.com
+</source>
+        <translation>%s, trebuie să configurați o parolă rpc în fișierul de configurare: %s
+Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=RatCoin3.2rpc
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 rpcpassword=%s
 (nu trebuie să țineți minte această parolă)
 Username-ul și parola NU TREBUIE să fie aceleași.
 Dacă fișierul nu există, creați-l cu drepturi de citire doar de către deținător.
 Este deasemenea recomandat să setați alertnotify pentru a fi notificat de probleme;
+<<<<<<< HEAD
 de exemplu: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@foo.com
+=======
+de exemplu: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admin@foo.com
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 </translation>
     </message>
     <message>
@@ -3128,13 +3359,22 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Cannot obtain a lock on data directory %s.  RatCoin3.0 is probably already running.</source>
+=======
+        <source>Cannot obtain a lock on data directory %s.  RatCoin3.2 is probably already running.</source>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         <translation>Nu se poate obtine un lock pe directorul de date &amp;s. Testoin probabil ruleaza deja.</translation>
     </message>
     <message>
         <location line="-98"/>
+<<<<<<< HEAD
         <source>RatCoin3.0</source>
         <translation>RatCoin3.0</translation>
+=======
+        <source>RatCoin3.2</source>
+        <translation>RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+140"/>
@@ -3168,6 +3408,7 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.0</source>
         <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de RatCoin3.0</translation>
     </message>
@@ -3175,6 +3416,15 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@fo
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart RatCoin3.0 to complete</source>
         <translation>A fost nevoie de rescrierea portofelului: restartați RatCoin3.0 pentru a finaliza</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.2</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de RatCoin3.2</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Wallet needed to be rewritten: restart RatCoin3.2 to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați RatCoin3.2 pentru a finaliza</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+1"/>
@@ -3243,8 +3493,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. RatCoin3.0 is probably already running.</source>
         <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil RatCoin3.0 ruleaza</translation>
+=======
+        <source>Unable to bind to %s on this computer. RatCoin3.2 is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil RatCoin3.2 ruleaza</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-97"/>

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Name RatCoin3.0
+=======
+Name RatCoin3.2
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,11 +10,19 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.3.0
+<<<<<<< HEAD
 !define COMPANY "RatCoin3.0 project"
 !define URL http://www.RatCoin3.0.ru/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/RatCoin3.0.ico"
+=======
+!define COMPANY "RatCoin3.2 project"
+!define URL http://www.RatCoin3.2.ru/
+
+# MUI Symbol Definitions
+!define MUI_ICON "../share/pixmaps/RatCoin3.2.ico"
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 !define MUI_WELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
@@ -19,8 +31,13 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
+<<<<<<< HEAD
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER RatCoin3.0
 #!define MUI_FINISHPAGE_RUN $INSTDIR\RatCoin3.0-qt.exe
+=======
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER RatCoin3.2
+#!define MUI_FINISHPAGE_RUN $INSTDIR\RatCoin3.2-qt.exe
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -45,14 +62,23 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
+<<<<<<< HEAD
 OutFile RatCoin3.0-0.3.0-win32-setup.exe
 InstallDir $PROGRAMFILES\RatCoin3.0
+=======
+OutFile RatCoin3.2-0.3.0-win32-setup.exe
+InstallDir $PROGRAMFILES\RatCoin3.2
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.3.0.0
+<<<<<<< HEAD
 VIAddVersionKey ProductName RatCoin3.0
+=======
+VIAddVersionKey ProductName RatCoin3.2
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,18 +92,30 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
+<<<<<<< HEAD
     #File ../release/RatCoin3.0-qt.exe
     File /oname=license.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
     File ../src/RatCoin3.0d.exe
+=======
+    #File ../release/RatCoin3.2-qt.exe
+    File /oname=license.txt ../COPYING
+    File /oname=readme.txt ../doc/README_windows.txt
+    SetOutPath $INSTDIR\daemon
+    File ../src/RatCoin3.2d.exe
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     SetOutPath $INSTDIR\src
     File /r /x *.exe /x *.o ../src\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
+<<<<<<< HEAD
     #Delete /REBOOTOK $INSTDIR\RatCoin3.0.exe
+=======
+    #Delete /REBOOTOK $INSTDIR\RatCoin3.2.exe
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     #RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -87,7 +125,11 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
+<<<<<<< HEAD
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall RatCoin3.0.lnk" $INSTDIR\uninstall.exe
+=======
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall RatCoin3.2.lnk" $INSTDIR\uninstall.exe
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -120,7 +162,11 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
+<<<<<<< HEAD
     #Delete /REBOOTOK $INSTDIR\RatCoin3.0-qt.exe
+=======
+    #Delete /REBOOTOK $INSTDIR\RatCoin3.2-qt.exe
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     Delete /REBOOTOK $INSTDIR\license.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -130,7 +176,11 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
+<<<<<<< HEAD
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall RatCoin3.0.lnk"
+=======
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall RatCoin3.2.lnk"
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     #Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Bitcoin.lnk"
     #Delete /REBOOTOK "$SMSTARTUP\Bitcoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
@@ -140,7 +190,11 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
+<<<<<<< HEAD
     DeleteRegKey HKCR "RatCoin3.0"
+=======
+    DeleteRegKey HKCR "RatCoin3.2"
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

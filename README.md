@@ -4,6 +4,9 @@ RATCOIN INFO
 Algorithm: Scrypt POS / POW<br>
 MAX Supply: 4,000,000,000 (4 Billion)<br>
 Block Time: 1.5 minutes<br>
+=======
+Block Time: 1.5 minutes<br>
+
 Premine: 100% <br>
 Coinbase maturity: 10 blocks<br>
 Target spacing: 3 minute<br>
@@ -15,6 +18,8 @@ rpcport=19764<br>
 
 Website – https://ratcoin.net/<br>
 Explorer – https://ratcoin.rektfreak.io/<br>
+Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.2.0/RatCoin3.2-qt.exe<br>
+Mobile/Desktop Wallet - https://dogecash.net
 
 Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.0.1/RatCoin3.0-qt.exe<br>
 Mobile/Desktop Wallet - https://dogecash.net
@@ -29,6 +34,7 @@ Telegram (Portuguese) - https://t.me/ratcoinptbr<br>
 Telegram (Spanish) - https://t.me/RatCoin3.0Spanish<br>
 Telegram (Indonesian) - https://t.me/RatCoinIndonesian<br>
 Telegram (Russian) - https://t.me/RatCoin3.0Russia<br>
+Telegram (News/Announcements) - https://t.me/RatCoin_News_Announcements<br>
 Telegram (Arabic) - https://t.me/RatCoinArabic<br>
 Telegram (Chinese) - https://t.me/RatCoinChinese
 
@@ -39,6 +45,9 @@ Instagram - https://www.instagram.com/ratcoin <br>
 YouTube - https://www.youtube.com/@ratcoinnetwork5787<br>
 Discord - https://discord.com/invite/r292sMnA9g<br>
 Medium - https://ratcoin.medium.com<br>
+
+Reddit - https://www.reddit.com/user/RatcoinTK<br>
+=======
 Reddit - https://www.reddit.com/r/TheRatCoinCommunity/<br>
 BitcoinTalk - https://bitcointalk.org/index.php?topic=5066723.0<br>
 StockTwits - https://stocktwits.com/symbol/RAT.X<br>
@@ -64,6 +73,31 @@ RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
 RAT / USDT - https://xeggex.com/market/RAT_USDT<br>
 RAT / USDC - https://xeggex.com/market/RAT_USDC<br>
 RAT / DOGE - https://xeggex.com/market/RAT_DOGE<br>
+
+LIQUIDITY POOL - ADDITIONAL PAIRS<br>
+=======
+
+https://dex-trade.com/<br>
+https://stakecube.net<br>
+https://xeggex.com<br>
+https://bololex.com<br>
+https://qutrade.io<br>
+https://cratex.io<br>
+https://dogecash.net<br>
+
+TRADING PAIRS<br>
+
+RAT / USDT - https://dex-trade.com/spot/trading/RATUSDT?interface=fullscreen<br>
+
+RAT / USDT - https://stakecube.net/app/exchange/rat_usdt<br>
+RAT / SCC - https://stakecube.net/app/exchange/rat_scc<br>
+RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
+
+RAT / USDT - https://xeggex.com/market/RAT_USDT<br>
+RAT / USDC - https://xeggex.com/market/RAT_USDC<br>
+RAT / DOGE - https://xeggex.com/market/RAT_DOGE<br>
+=======
+
 PLUS ADDITIONAL LIQUIDITY POOL PAIRS<br>
 
 RAT / DOGE - https://bololex.com/trading/sessions/market-view?symbol=RAT-DOGE<br>
@@ -77,6 +111,31 @@ RAT / XLM - https://bololex.com/trading/?symbol=RAT-XLM<br>
 RAT / ETH - https://bololex.com/trading/?symbol=RAT-ETH<br>
 RAT / BNB - https://bololex.com/trading/?symbol=RAT-BNB<br>
 RAT / RDD - https://bololex.com/trading/?symbol=RAT-RDD<br>
+
+
+RAT / BTC : https://bololex.com/trading/sessions/market-view?symbol=RAT-BTC<br>
+RAT / DGB : https://bololex.com/trading/sessions/market-view?symbol=RAT-DGB<br>
+=======
+RAT / BTC - https://bololex.com/trading/sessions/market-view?symbol=RAT-BTC<br>
+RAT / DGB - https://bololex.com/trading/sessions/market-view?symbol=RAT-DGB<br>
+
+RAT / USDT - https://qutrade.io/en/?market=rat_usdt<br>
+RAT / TRX -  https://qutrade.io/en/?market=rat_trx<br>
+PLUS ADDITIONAL LIQUIDITY POOL PAIRS<br>
+
+
+RAT / USDT - https://cratex.io/index.php?pair=RAT/USDT<br>
+RAT / BTCZ - https://cratex.io/index.php?pair=RAT/BTCZ<br>
+RAT / DOGE - https://cratex.io/index.php?pair=RAT/DOGE<br>
+RAT / LTC  - https://cratex.io/index.php?pair=RAT/LTC<br>
+RAT / CRATX - https://cratex.io/index.php?pair=RAT/CRATX<br>
+
+RAT / USDT - https://app.dogecash.net/exchange/RAT_USDT
+
+INFO SITES<br>
+
+Coincodex - https://coincodex.com/crypto/ratcoin/<br>
+=======
 RAT / BTC - https://bololex.com/trading/sessions/market-view?symbol=RAT-BTC<br>
 RAT / DGB - https://bololex.com/trading/sessions/market-view?symbol=RAT-DGB<br>
 
@@ -95,6 +154,7 @@ RAT / USDT - https://app.dogecash.net/exchange/RAT_USDT
 INFO SITES<br>
 
 Coincodex - https://coincodex.com/crypto/ratcoin/<br>
+=======
 Coingecko - https://www.coingecko.com/en/coins/ratcoin<br>
 CoinMarketCap - https://coinmarketcap.com/currencies/ratcoin-network/<br>
 CoinMarketLeague - https://coinmarketleague.com/coin/ratcoin<br>

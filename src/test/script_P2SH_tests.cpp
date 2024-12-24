@@ -103,14 +103,22 @@ BOOST_AUTO_TEST_CASE(sign)
     for (int i = 0; i < 8; i++)
         for (int j = 0; j < 8; j++)
         {
+<<<<<<< HEAD
             CScript siRatCoin3.0 = txTo[i].vin[0].scriptSig;
+=======
+            CScript siRatCoin3.2 = txTo[i].vin[0].scriptSig;
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
             txTo[i].vin[0].scriptSig = txTo[j].vin[0].scriptSig;
             bool sigOK = VerifySignature(txFrom, txTo[i], 0, true, 0);
             if (i == j)
                 BOOST_CHECK_MESSAGE(sigOK, strprintf("VerifySignature %d %d", i, j));
             else
                 BOOST_CHECK_MESSAGE(!sigOK, strprintf("VerifySignature %d %d", i, j));
+<<<<<<< HEAD
             txTo[i].vin[0].scriptSig = siRatCoin3.0;
+=======
+            txTo[i].vin[0].scriptSig = siRatCoin3.2;
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         }
 }
 

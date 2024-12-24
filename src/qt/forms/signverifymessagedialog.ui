@@ -145,7 +145,11 @@
          <item>
           <widget class="QPushButton" name="signMessageButton_SM">
            <property name="toolTip">
+<<<<<<< HEAD
             <string>Sign the message to prove you own this RatCoin3.0 address</string>
+=======
+            <string>Sign the message to prove you own this RatCoin3.2 address</string>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
            </property>
            <property name="text">
             <string>&amp;Sign Message</string>
@@ -291,7 +295,11 @@
          <item>
           <widget class="QPushButton" name="verifyMessageButton_VM">
            <property name="toolTip">
+<<<<<<< HEAD
             <string>Verify the message to ensure it was signed with the specified RatCoin3.0 address</string>
+=======
+            <string>Verify the message to ensure it was signed with the specified RatCoin3.2 address</string>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
            </property>
            <property name="text">
             <string>&amp;Verify Message</string>
