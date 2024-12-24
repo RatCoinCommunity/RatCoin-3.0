@@ -81,7 +81,11 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 {
     setFixedSize(970, 550);
 	QFontDatabase::addApplicationFont(":/fonts/Bebas");
+<<<<<<< HEAD
     setWindowTitle(tr("RatCoin3.0") + " - " + tr("Wallet"));
+=======
+    setWindowTitle(tr("RatCoin3.2") + " - " + tr("Wallet"));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 	qApp->setStyleSheet("QMainWindow { background-image:url(:images/bkg);border:none; } #frame { } QToolBar QLabel { padding-top: 0px;padding-bottom: 0px;spacing: 10px;} QToolBar QLabel:item { padding-top: 0px;padding-bottom: 0px;spacing: 10px;} #spacer { background: transparent;border:none; } #toolbar2 { border:none;width:0px;hight:0px;padding-top:40px;padding-bottom:0px; background-color: transparent; } #labelMiningIcon { padding-left:5px;font-family:Century Gothic;width:100%;font-size:10px;text-align:center;color:black; } QMenu { background-color: qlineargradient(spread:pad, x1:0.511, y1:1, x2:0.482909, y2:0, stop:0 rgba(232,232,232), stop:1 rgba(232,232,232)); color: black; padding-bottom:10px; } QMenu::item { color: black; background: transparent; } QMenu::item:selected { background-color:qlineargradient(x1: 0, y1: 0, x2: 0.5, y2: 0.5,stop: 0 rgba(99,99,99,45), stop: 1 rgba(99,99,99,45)); } QMenuBar { background-color: white; color: white; } QMenuBar::item { font-size:12px;padding-bottom:3px;padding-top:3px;padding-left:15px;padding-right:15px;color: black; background-color: white; } QMenuBar::item:selected { background-color:qlineargradient(x1: 0, y1: 0, x2: 0.5, y2: 0.5,stop: 0 rgba(99,99,99,45), stop: 1 rgba(99,99,99,45)); }");
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
@@ -209,7 +213,11 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&SEND COINS"), this);
+<<<<<<< HEAD
     sendCoinsAction->setToolTip(tr("Send coins to a RatCoin3.0 address"));
+=======
+    sendCoinsAction->setToolTip(tr("Send coins to a RatCoin3.2 address"));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -254,14 +262,23 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
+<<<<<<< HEAD
     aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About RatCoin3.0"), this);
     aboutAction->setToolTip(tr("Show information about RatCoin3.0"));
+=======
+    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About RatCoin3.2"), this);
+    aboutAction->setToolTip(tr("Show information about RatCoin3.2"));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/icons/qtlogo-64"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
+<<<<<<< HEAD
     optionsAction->setToolTip(tr("Modify configuration options for RatCoin3.0"));
+=======
+    optionsAction->setToolTip(tr("Modify configuration options for RatCoin3.2"));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -368,7 +385,11 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 #endif
             if(trayIcon)
             {
+<<<<<<< HEAD
                 trayIcon->setToolTip(tr("RatCoin3.0 client") + QString(" ") + tr("[testnet]"));
+=======
+                trayIcon->setToolTip(tr("RatCoin3.2 client") + QString(" ") + tr("[testnet]"));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -428,7 +449,11 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
+<<<<<<< HEAD
     trayIcon->setToolTip(tr("RatCoin3.0 client"));
+=======
+    trayIcon->setToolTip(tr("RatCoin3.2 client"));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -498,7 +523,11 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(28,54));
+<<<<<<< HEAD
     labelConnectionsIcon->setToolTip(tr("%n active connection(s) to RatCoin3.0 network", "", count));
+=======
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to RatCoin3.2 network", "", count));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 }
 
 void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
@@ -797,7 +826,11 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
+<<<<<<< HEAD
             notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid RatCoin3.0 address or malformed URI parameters."));
+=======
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid RatCoin3.2 address or malformed URI parameters."));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     }
 
     event->acceptProposedAction();
@@ -812,7 +845,11 @@ void BitcoinGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
+<<<<<<< HEAD
         notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid RatCoin3.0 address or malformed URI parameters."));
+=======
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid RatCoin3.2 address or malformed URI parameters."));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 }
 
 void BitcoinGUI::setEncryptionStatus(int status)

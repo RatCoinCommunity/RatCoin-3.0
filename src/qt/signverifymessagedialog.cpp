@@ -24,11 +24,19 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
+<<<<<<< HEAD
     ui->addressIn_SM->setPlaceholderText(tr("Enter a RatCoin3.0 address (e.g. M8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
     ui->addressIn_VM->setPlaceholderText(tr("Enter a RatCoin3.0 address (e.g. M8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
     ui->signatureIn_VM->setPlaceholderText(tr("Enter RatCoin3.0 signature"));
+=======
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a RatCoin3.2 address (e.g. M8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
+    ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
+
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a RatCoin3.2 address (e.g. M8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter RatCoin3.2 signature"));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

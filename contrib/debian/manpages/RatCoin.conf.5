@@ -1,19 +1,35 @@
+<<<<<<< HEAD
 .TH RatCoin3.0.CONF "8" "April 2013" "RatCoin3.0.conf 3.19"
 .SH NAME
 RatCoin3.0.conf \- RatCoin3.0 configuration file
+=======
+.TH RatCoin3.2.CONF "8" "April 2013" "RatCoin3.2.conf 3.19"
+.SH NAME
+RatCoin3.2.conf \- RatCoin3.2 configuration file
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .SH SYNOPSIS
 All command-line options (except for '-datadir' and '-conf') may be specified in a configuration file, and all configuration file options may also be specified on the command line. Command-line options override values set in the configuration file.
 .TP
 The configuration file is a list of 'setting=value' pairs, one per line, with optional comments starting with the '#' character.
 .TP
+<<<<<<< HEAD
 The configuration file is not automatically created; you can create it using your favorite plain-text editor. By default, RatCoin3.0d(1) will look for a file named RatCoin3.0.conf(5) in the RatCoin3.0 data directory, but both the data directory and the configuration file path may be changed using the '-datadir' and '-conf' command-line arguments.
 .SH LOCATION
 RatCoin3.0.conf should be located in $HOME/.RatCoin3.0
+=======
+The configuration file is not automatically created; you can create it using your favorite plain-text editor. By default, RatCoin3.2d(1) will look for a file named RatCoin3.2.conf(5) in the RatCoin3.2 data directory, but both the data directory and the configuration file path may be changed using the '-datadir' and '-conf' command-line arguments.
+.SH LOCATION
+RatCoin3.2.conf should be located in $HOME/.RatCoin3.2
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .SH NETWORK-RELATED SETTINGS
 .TP
 .TP
 \fBtestnet=\fR[\fI'1'\fR|\fI'0'\fR]
+<<<<<<< HEAD
 Enable or disable run on the test network instead of the real *RatCoin3.0* network.
+=======
+Enable or disable run on the test network instead of the real *RatCoin3.2* network.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBproxy=\fR\fI'127.0.0.1:9050'\fR
 Connect via a socks4 proxy.
@@ -25,14 +41,22 @@ Use as many *addnode=* settings as you like to connect to specific peers.
 Use as many *connect=* settings as you like to connect ONLY to specific peers.
 .TP
 \fBnoirc=\fR[\fI'1'\fR|\fI'0'\fR]
+<<<<<<< HEAD
 Use or Do not use Internet Relay Chat (irc.lfnet.org #RatCoin3.0 channel) to find other peers.
+=======
+Use or Do not use Internet Relay Chat (irc.lfnet.org #RatCoin3.2 channel) to find other peers.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fRmaxconnections=\fR\fI'value'\fR
 Maximum number of inbound+outbound connections.
 .SH JSON-RPC OPTIONS
 .TP
 \fBserver=\fR[\fI'1'\fR|\fI'0'\fR]
+<<<<<<< HEAD
 Tells *RatCoin3.0* to accept or not accept JSON-RPC commands.
+=======
+Tells *RatCoin3.2* to accept or not accept JSON-RPC commands.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBrpcuser=\fR\fI'username'\fR
 You must set *rpcuser* to secure the JSON-RPC api.
@@ -41,7 +65,11 @@ You must set *rpcuser* to secure the JSON-RPC api.
 You must set *rpcpassword* to secure the JSON-RPC api.
 .TP
 \fBrpctimeout=\fR\fI'30'\fR
+<<<<<<< HEAD
 How many seconds *RatCoin3.0* will wait for a complete RPC HTTP request, after the HTTP connection is established.
+=======
+How many seconds *RatCoin3.2* will wait for a complete RPC HTTP request, after the HTTP connection is established.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBrpcallowip=\fR\fI'192.168.1.*'\fR
 By default, only RPC connections from localhost are allowed. Specify as many *rpcallowip=* settings as you like to allow connections from other hosts (and you may use * as a wildcard character).
@@ -50,10 +78,17 @@ By default, only RPC connections from localhost are allowed. Specify as many *rp
 Listen for RPC connections on this TCP port.
 .TP
 \fBrpcconnect=\fR\fI'127.0.0.1'\fR
+<<<<<<< HEAD
 You can use *RatCoin3.0* or *RatCoin3.0d(1)* to send commands to *RatCoin3.0*/*RatCoin3.0d(1)* running on another host using this option.
 .TP
 \fBrpcssl=\fR\fI'1'\fR
 Use Secure Sockets Layer (also known as TLS or HTTPS) to communicate with *RatCoin3.0* '-server' or *RatCoin3.0d(1)*. Example of OpenSSL settings used when *rpcssl*='1':
+=======
+You can use *RatCoin3.2* or *RatCoin3.2d(1)* to send commands to *RatCoin3.2*/*RatCoin3.2d(1)* running on another host using this option.
+.TP
+\fBrpcssl=\fR\fI'1'\fR
+Use Secure Sockets Layer (also known as TLS or HTTPS) to communicate with *RatCoin3.2* '-server' or *RatCoin3.2d(1)*. Example of OpenSSL settings used when *rpcssl*='1':
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBrpcsslciphers=\fR\fI'TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH'\fR
 .TP
@@ -64,13 +99,21 @@ Use Secure Sockets Layer (also known as TLS or HTTPS) to communicate with *RatCo
 .SH MISCELLANEOUS OPTIONS
 .TP
 \fBgen=\fR[\fI'0'\fR|\fI'1'\fR]
+<<<<<<< HEAD
 Enable or disable attempt to generate RatCoin3.0s.
+=======
+Enable or disable attempt to generate RatCoin3.2s.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBkeypool=\fR\fI'100'\fR
 Pre-generate this many public/private key pairs, so wallet backups will be valid for both prior transactions and several dozen future transactions.
 .TP
 \fBpaytxfee=\fR\fI'0.00'\fR
+<<<<<<< HEAD
 Pay an optional transaction fee every time you send RatCoin3.0s. Transactions with fees are more likely than free transactions to be included in generated blocks, so may be validated sooner.
+=======
+Pay an optional transaction fee every time you send RatCoin3.2s. Transactions with fees are more likely than free transactions to be included in generated blocks, so may be validated sooner.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBallowreceivebyip=\fR\fI'1'\fR
 Allow direct connections for the 'pay via IP address' feature.
@@ -78,12 +121,20 @@ Allow direct connections for the 'pay via IP address' feature.
 .SH USER INTERFACE OPTIONS
 .TP
 \fBmin=\fR[\fI'0'\fR|\fI'1'\fR]
+<<<<<<< HEAD
 Enable or disable start RatCoin3.0d minimized.
+=======
+Enable or disable start RatCoin3.2d minimized.
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBminimizetotray=\fR[\fI'0'\fR|\fI'1'\fR]
 Enable or disable minimize to the system tray.
 .SH "SEE ALSO"
+<<<<<<< HEAD
 RatCoin3.0d(1)
+=======
+RatCoin3.2d(1)
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .SH AUTHOR
 This manual page was written by Micah Anderson <micah@debian.org> for the Debian system (but may be used by others). Permission is granted to copy, distribute and/or modify this document under the terms of the GNU General Public License, Version 3 or any later version published by the Free Software Foundation.
 

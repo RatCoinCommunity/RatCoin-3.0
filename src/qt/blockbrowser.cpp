@@ -210,7 +210,11 @@ std::string getOutputs(std::string txid)
         str.append(lol7);
         str.append(": ");
         str.append(amount);
+<<<<<<< HEAD
         str.append(" RatCoin3.0");
+=======
+        str.append(" RatCoin3.2");
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         str.append("\n");
     }
 
@@ -254,7 +258,11 @@ std::string getInputs(std::string txid)
         str.append(lol6);
         str.append(": ");
         str.append(amount);
+<<<<<<< HEAD
         str.append("RatCoin3.0");
+=======
+        str.append("RatCoin3.2");
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         str.append("\n");
     }
 
@@ -406,11 +414,19 @@ void BlockBrowser::updateExplorer(bool block)
         QString QOutputs = QString::fromUtf8(outputs.c_str());
         QString QInputs = QString::fromUtf8(inputs.c_str());
         QString QFees = QString::number(fees, 'f', 6);
+<<<<<<< HEAD
         ui->valueBox->setText(QValue + " RatCoin3.0");
         ui->txID->setText(QID);
         ui->outputBox->setText(QOutputs);
         ui->inputBox->setText(QInputs);
         ui->feesBox->setText(QFees + " RatCoin3.0");
+=======
+        ui->valueBox->setText(QValue + " RatCoin3.2");
+        ui->txID->setText(QID);
+        ui->outputBox->setText(QOutputs);
+        ui->inputBox->setText(QInputs);
+        ui->feesBox->setText(QFees + " RatCoin3.2");
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     }
 }
 

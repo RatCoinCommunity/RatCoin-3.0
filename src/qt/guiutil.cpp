@@ -81,8 +81,13 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
+<<<<<<< HEAD
     // RatCoin3.0: check prefix
     if(uri.scheme() != QString("RatCoin3.0"))
+=======
+    // RatCoin3.2: check prefix
+    if(uri.scheme() != QString("RatCoin3.2"))
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         return false;
 
     SendCoinsRecipient rv;
@@ -127,6 +132,7 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
+<<<<<<< HEAD
     // Convert RatCoin3.0:// to RatCoin3.0:
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
@@ -134,6 +140,15 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     if(uri.startsWith("RatCoin3.0://"))
     {
         uri.replace(0, 12, "RatCoin3.0:");
+=======
+    // Convert RatCoin3.2:// to RatCoin3.2:
+    //
+    //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
+    //    which will lower-case it (and thus invalidate the address).
+    if(uri.startsWith("RatCoin3.2://"))
+    {
+        uri.replace(0, 12, "RatCoin3.2:");
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -277,7 +292,11 @@ bool ToolTipToRichTextFilter::eventFilter(QObject *obj, QEvent *evt)
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
+<<<<<<< HEAD
     return GetSpecialFolderPath(CSIDL_STARTUP) / "RatCoin3.0.lnk";
+=======
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "RatCoin3.2.lnk";
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 }
 
 bool GetStartOnSystemStartup()
@@ -359,7 +378,11 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
+<<<<<<< HEAD
     return GetAutostartDir() / "RatCoin3.0.desktop";
+=======
+    return GetAutostartDir() / "RatCoin3.2.desktop";
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 }
 
 bool GetStartOnSystemStartup()
@@ -400,7 +423,11 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
+<<<<<<< HEAD
         optionFile << "Name=RatCoin3.0\n";
+=======
+        optionFile << "Name=RatCoin3.2\n";
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -421,10 +448,17 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
+<<<<<<< HEAD
     header = tr("RatCoin3.0-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
         "  RatCoin3.0-qt [" + tr("command-line options") + "]                     " + "\n";
+=======
+    header = tr("RatCoin3.2-Qt") + " " + tr("version") + " " +
+        QString::fromStdString(FormatFullVersion()) + "\n\n" +
+        tr("Usage:") + "\n" +
+        "  RatCoin3.2-qt [" + tr("command-line options") + "]                     " + "\n";
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
     coreOptions = QString::fromStdString(HelpMessage());
 
@@ -433,7 +467,11 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
+<<<<<<< HEAD
     setWindowTitle(tr("RatCoin3.0-Qt"));
+=======
+    setWindowTitle(tr("RatCoin3.2-Qt"));
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));

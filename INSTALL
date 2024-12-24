@@ -1,9 +1,9 @@
-Building RatCoin3.0
+Building RatCoin3.2
 
-See doc/readme-qt.rst for instructions on building RatCoin3.0 QT,
+See doc/readme-qt.rst for instructions on building RatCoin3.2 QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of RatCoin3.0.
+implementation of RatCoin3.2.
 
-See doc/build-*.txt for instructions on building RatCoin3.0d,
+See doc/build-*.txt for instructions on building RatCoin3.2d,
 the intended-for-services, no-graphical-interface, reference
-implementation of RatCoin3.0.
+implementation of RatCoin3.2.

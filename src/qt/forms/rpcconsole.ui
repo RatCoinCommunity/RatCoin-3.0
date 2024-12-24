@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
+<<<<<<< HEAD
    <string>RatCoin3.0 - Debug window</string>
+=======
+   <string>RatCoin3.2 - Debug window</string>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -36,7 +40,11 @@
           </font>
          </property>
          <property name="text">
+<<<<<<< HEAD
           <string>RatCoin3.0 Core</string>
+=======
+          <string>RatCoin3.2 Core</string>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
          </property>
         </widget>
        </item>
@@ -322,7 +330,11 @@
        <item row="15" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
+<<<<<<< HEAD
           <string>Open the RatCoin3.0 debug log file from the current data directory. This can take a few seconds for large log files.</string>
+=======
+          <string>Open the RatCoin3.2 debug log file from the current data directory. This can take a few seconds for large log files.</string>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -348,7 +360,11 @@
        <item row="17" column="0">
         <widget class="QPushButton" name="showCLOptionsButton">
          <property name="toolTip">
+<<<<<<< HEAD
           <string>Show the RatCoin3.0-Qt help message to get a list with possible RatCoin3.0 command-line options.</string>
+=======
+          <string>Show the RatCoin3.2-Qt help message to get a list with possible RatCoin3.2 command-line options.</string>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
          </property>
          <property name="text">
           <string>&amp;Show</string>

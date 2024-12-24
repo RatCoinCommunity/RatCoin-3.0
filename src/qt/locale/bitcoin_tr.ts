@@ -3,6 +3,7 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
+<<<<<<< HEAD
         <source>About RatCoin3.0</source>
         <translation>RatCoin3.0 Hakkında</translation>
     </message>
@@ -10,11 +11,24 @@
         <location line="+39"/>
         <source>&lt;b&gt;RatCoin3.0&lt;/b&gt; version</source>
         <translation>&lt;b&gt;RatCoin3.0&lt;/b&gt; versiyonu</translation>
+=======
+        <source>About RatCoin3.2</source>
+        <translation>RatCoin3.2 Hakkında</translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>&lt;b&gt;RatCoin3.2&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;RatCoin3.2&lt;/b&gt; versiyonu</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 Copyright © 2018 The RatCoin3.0 developers</source>
+=======
+Copyright © 2018 The RatCoin3.2 developers</source>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         <translation type="unfinished"/>
     </message>
     <message>
@@ -62,8 +76,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
+<<<<<<< HEAD
         <source>These are your RatCoin3.0 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Bunlar, ödeme almak için RatCoin3.0 adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+=======
+        <source>These are your RatCoin3.2 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için RatCoin3.2 adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+60"/>
@@ -77,8 +96,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
+<<<<<<< HEAD
         <source>Sign a message to prove you own a RatCoin3.0 address</source>
         <translation>Bir RatCoin3.0 adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+=======
+        <source>Sign a message to prove you own a RatCoin3.2 address</source>
+        <translation>Bir RatCoin3.2 adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -92,8 +116,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
+<<<<<<< HEAD
         <source>Verify a message to ensure it was signed with a specified RatCoin3.0 address</source>
         <translation>Mesajın, belirli bir RatCoin3.0 adresiyle imzalandığından emin olmak için onu doğrula</translation>
+=======
+        <source>Verify a message to ensure it was signed with a specified RatCoin3.2 address</source>
+        <translation>Mesajın, belirli bir RatCoin3.2 adresiyle imzalandığından emin olmak için onu doğrula</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -260,8 +289,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
+<<<<<<< HEAD
         <source>RatCoin3.0 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>RatCoin3.0, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+=======
+        <source>RatCoin3.2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>RatCoin3.2, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +408,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
+<<<<<<< HEAD
         <source>Show information about RatCoin3.0</source>
         <translation>RatCoin3.0 hakkındaki bilgiyi göster</translation>
+=======
+        <source>Show information about RatCoin3.2</source>
+        <translation>RatCoin3.2 hakkındaki bilgiyi göster</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+2"/>
@@ -424,6 +463,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
+<<<<<<< HEAD
         <source>Send coins to a RatCoin3.0 address</source>
         <translation>Bir RatCoin3.0 adresine coin gönder</translation>
     </message>
@@ -431,6 +471,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+45"/>
         <source>Modify configuration options for RatCoin3.0</source>
         <translation>RatCoin3.0 yapılandırma seçeneklerini değiştir</translation>
+=======
+        <source>Send coins to a RatCoin3.2 address</source>
+        <translation>Bir RatCoin3.2 adresine coin gönder</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Modify configuration options for RatCoin3.2</source>
+        <translation>RatCoin3.2 yapılandırma seçeneklerini değiştir</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+18"/>
@@ -469,8 +518,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
+<<<<<<< HEAD
         <source>RatCoin3.0</source>
         <translation>RatCoin3.0</translation>
+=======
+        <source>RatCoin3.2</source>
+        <translation>RatCoin3.2</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+0"/>
@@ -479,8 +533,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
+<<<<<<< HEAD
         <source>&amp;About RatCoin3.0</source>
         <translation>RatCoin3.0 &amp;Hakkında</translation>
+=======
+        <source>&amp;About RatCoin3.2</source>
+        <translation>RatCoin3.2 &amp;Hakkında</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+9"/>
@@ -536,6 +595,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
+<<<<<<< HEAD
         <source>RatCoin3.0 client</source>
         <translation>RatCoin3.0 istemcisi</translation>
     </message>
@@ -543,6 +603,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+70"/>
         <source>%n active connection(s) to RatCoin3.0 network</source>
         <translation><numerusform>RatCoin3.0 ağına %n etkin bağlantı</numerusform><numerusform>RatCoin3.0 ağına %n etkin bağlantı</numerusform></translation>
+=======
+        <source>RatCoin3.2 client</source>
+        <translation>RatCoin3.2 istemcisi</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+70"/>
+        <source>%n active connection(s) to RatCoin3.2 network</source>
+        <translation><numerusform>RatCoin3.2 ağına %n etkin bağlantı</numerusform><numerusform>RatCoin3.2 ağına %n etkin bağlantı</numerusform></translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+40"/>
@@ -656,8 +725,13 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid RatCoin3.0 address or malformed URI parameters.</source>
         <translation>URI ayrıştırılamadı! Bu, geçersiz bir RatCoin3.0 adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+=======
+        <source>URI can not be parsed! This can be caused by an invalid RatCoin3.2 address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir RatCoin3.2 adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+18"/>
@@ -716,8 +790,13 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
+<<<<<<< HEAD
         <source>A fatal error occurred. RatCoin3.0 can no longer continue safely and will quit.</source>
         <translation>Önemli bir hata oluştu. RatCoin3.0 artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+=======
+        <source>A fatal error occurred. RatCoin3.2 can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. RatCoin3.2 artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
 </context>
 <context>
@@ -1050,8 +1129,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is not a valid RatCoin3.0 address.</source>
         <translation>Girilen %1 adresi, geçerli bir RatCoin3.0 adresi değildir.</translation>
+=======
+        <source>The entered address &quot;%1&quot; is not a valid RatCoin3.2 address.</source>
+        <translation>Girilen %1 adresi, geçerli bir RatCoin3.2 adresi değildir.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+10"/>
@@ -1069,8 +1153,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
+<<<<<<< HEAD
         <source>RatCoin3.0-Qt</source>
         <translation>RatCoin3.0-Qt</translation>
+=======
+        <source>RatCoin3.2-Qt</source>
+        <translation>RatCoin3.2-Qt</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-12"/>
@@ -1142,6 +1231,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
+<<<<<<< HEAD
         <source>Automatically start RatCoin3.0 after logging in to the system.</source>
         <translation>Sisteme giriş yaptıktan sonra RatCoin3.0&apos;i otomatik olarak başlat</translation>
     </message>
@@ -1149,6 +1239,15 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+3"/>
         <source>&amp;Start RatCoin3.0 on system login</source>
         <translation>Sisteme girişte RatCoin3.0&apos;i &amp;başlat</translation>
+=======
+        <source>Automatically start RatCoin3.2 after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra RatCoin3.2&apos;i otomatik olarak başlat</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Start RatCoin3.2 on system login</source>
+        <translation>Sisteme girişte RatCoin3.2&apos;i &amp;başlat</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+7"/>
@@ -1167,8 +1266,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
+<<<<<<< HEAD
         <source>Automatically open the RatCoin3.0 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Yönelticide RatCoin3.0 istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+=======
+        <source>Automatically open the RatCoin3.2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide RatCoin3.2 istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -1177,8 +1281,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Connect to the RatCoin3.0 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>RatCoin3.0 ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
+=======
+        <source>Connect to the RatCoin3.2 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>RatCoin3.2 ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -1252,8 +1361,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.0.</source>
         <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, RatCoin3.0 yeniden başlatıldığında etkin olacaktır.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.2.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, RatCoin3.2 yeniden başlatıldığında etkin olacaktır.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+11"/>
@@ -1267,8 +1381,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
+<<<<<<< HEAD
         <source>Whether to show RatCoin3.0 addresses in the transaction list or not.</source>
         <translation>RatCoin3.0 adresinin işlem listesinde gösterilmesi veya gösterilmemesi</translation>
+=======
+        <source>Whether to show RatCoin3.2 addresses in the transaction list or not.</source>
+        <translation>RatCoin3.2 adresinin işlem listesinde gösterilmesi veya gösterilmemesi</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -1314,8 +1433,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
+<<<<<<< HEAD
         <source>This setting will take effect after restarting RatCoin3.0.</source>
         <translation>Bu ayar, RatCoin3.0&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+=======
+        <source>This setting will take effect after restarting RatCoin3.2.</source>
+        <translation>Bu ayar, RatCoin3.2&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+29"/>
@@ -1333,8 +1457,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.0 network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak RatCoin3.0 ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak RatCoin3.2 ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-160"/>
@@ -1549,8 +1678,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Show the RatCoin3.0-Qt help message to get a list with possible RatCoin3.0 command-line options.</source>
         <translation>Muhtemel RatCoin3.0 komut satırı seçeneklerinin bir listesini getirmek için RatCoin3.0-Qt yardım mesajını göster</translation>
+=======
+        <source>Show the RatCoin3.2-Qt help message to get a list with possible RatCoin3.2 command-line options.</source>
+        <translation>Muhtemel RatCoin3.2 komut satırı seçeneklerinin bir listesini getirmek için RatCoin3.2-Qt yardım mesajını göster</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+3"/>
@@ -1569,6 +1703,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
+<<<<<<< HEAD
         <source>RatCoin3.0 - Debug window</source>
         <translation>RatCoin3.0 - Hata ayıklama penceresi</translation>
     </message>
@@ -1576,6 +1711,15 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+25"/>
         <source>RatCoin3.0 Core</source>
         <translation>RatCoin3.0 Core</translation>
+=======
+        <source>RatCoin3.2 - Debug window</source>
+        <translation>RatCoin3.2 - Hata ayıklama penceresi</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>RatCoin3.2 Core</source>
+        <translation>RatCoin3.2 Core</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+279"/>
@@ -1584,8 +1728,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Open the RatCoin3.0 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>RatCoin3.0 hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+=======
+        <source>Open the RatCoin3.2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>RatCoin3.2 hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+102"/>
@@ -1594,8 +1743,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
+<<<<<<< HEAD
         <source>Welcome to the RatCoin3.0 RPC console.</source>
         <translation>RatCoin3.0 RPC konsoluna hoş geldiniz.</translation>
+=======
+        <source>Welcome to the RatCoin3.2 RPC console.</source>
+        <translation>RatCoin3.2 RPC konsoluna hoş geldiniz.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+1"/>
@@ -1753,8 +1907,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
+<<<<<<< HEAD
         <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Bir RatCoin3.0 adresi gir (örn: TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+=======
+        <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Bir RatCoin3.2 adresi gir (örn: TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+15"/>
@@ -1853,8 +2012,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
+<<<<<<< HEAD
         <source>WARNING: Invalid RatCoin3.0 address</source>
         <translation>UYARI: Geçersiz RatCoin3.0 adresi</translation>
+=======
+        <source>WARNING: Invalid RatCoin3.2 address</source>
+        <translation>UYARI: Geçersiz RatCoin3.2 adresi</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+13"/>
@@ -1927,8 +2091,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
+<<<<<<< HEAD
         <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Bir RatCoin3.0 adresi girin (örn: TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+=======
+        <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Bir RatCoin3.2 adresi girin (örn: TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
 </context>
 <context>
@@ -1988,8 +2157,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this RatCoin3.0 address</source>
         <translation>Bu RatCoin3.0 adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+=======
+        <source>Sign the message to prove you own this RatCoin3.2 address</source>
+        <translation>Bu RatCoin3.2 adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+17"/>
@@ -2020,8 +2194,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified RatCoin3.0 address</source>
         <translation>Mesajın, belirtilen RatCoin3.0 adresiyle imzalandığından emin olmak için onu doğrula</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified RatCoin3.2 address</source>
+        <translation>Mesajın, belirtilen RatCoin3.2 adresiyle imzalandığından emin olmak için onu doğrula</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+17"/>
@@ -2031,8 +2210,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Bir RatCoin3.0 adresi girin (örn: TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+=======
+        <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Bir RatCoin3.2 adresi girin (örn: TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-2"/>
@@ -2041,8 +2225,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Enter RatCoin3.0 signature</source>
         <translation>RatCoin3.0 imzası gir</translation>
+=======
+        <source>Enter RatCoin3.2 signature</source>
+        <translation>RatCoin3.2 imzası gir</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+82"/>
@@ -2612,8 +2801,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
+<<<<<<< HEAD
         <source>RatCoin3.0 version</source>
         <translation>RatCoin3.0 versiyonu</translation>
+=======
+        <source>RatCoin3.2 version</source>
+        <translation>RatCoin3.2 versiyonu</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+1"/>
@@ -2622,8 +2816,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Send command to -server or RatCoin3.0d</source>
         <translation>-sunucu veya RatCoin3.0d&apos;ye komut gönder</translation>
+=======
+        <source>Send command to -server or RatCoin3.2d</source>
+        <translation>-sunucu veya RatCoin3.2d&apos;ye komut gönder</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+1"/>
@@ -2642,6 +2841,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
+<<<<<<< HEAD
         <source>Specify configuration file (default: RatCoin3.0.conf)</source>
         <translation>Konfigürasyon dosyasını belirt (varsayılan: RatCoin3.0.conf)</translation>
     </message>
@@ -2649,6 +2849,15 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+1"/>
         <source>Specify pid file (default: RatCoin3.0d.pid)</source>
         <translation>pid dosyasını belirt (varsayılan: RatCoin3.0.pid)</translation>
+=======
+        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: RatCoin3.2.conf)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Specify pid file (default: RatCoin3.2d.pid)</source>
+        <translation>pid dosyasını belirt (varsayılan: RatCoin3.2.pid)</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="+2"/>
@@ -2797,8 +3006,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.0 will not work properly.</source>
         <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, RatCoin3.0 düzgün çalışmayacaktır.</translation>
+=======
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.2 will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, RatCoin3.2 düzgün çalışmayacaktır.</translation>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
     </message>
     <message>
         <location line="-31"/>
@@ -2987,24 +3201,40 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
+<<<<<<< HEAD
 rpcuser=RatCoin3.0rpc
+=======
+rpcuser=RatCoin3.2rpc
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
+<<<<<<< HEAD
 for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@foo.com
+=======
+for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admin@foo.com
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 </source>
         <translation>%s, konfigürasyon dosyasında bir rpcpassword belirlemelisiniz:
  %s
 Aşağıdaki rastgele parolayı kullanmanız tavsiye edilir:
+<<<<<<< HEAD
 rpcuser=RatCoin3.0rpc
+=======
+rpcuser=RatCoin3.2rpc
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekmemektedir)
 Kullanıcı adı ve parola aynı OLMAMALIDIR.
 Dosya mevcut değilse, dosyayı sadece-kullanıcı-okuyabilir dosya izniyle yaratınız.
 alertnotify ayarlamanız da ayrıca tavsiye edilir böylece sorunlar, size bildirilir;
+<<<<<<< HEAD
 örneğin: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Uyarısı&quot; admin@foo.com
+=======
+örneğin: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Uyarısı&quot; admin@foo.com
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 </translation>
     </message>
     <message>
@@ -3129,12 +3359,20 @@ alertnotify ayarlamanız da ayrıca tavsiye edilir böylece sorunlar, size bildi
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Cannot obtain a lock on data directory %s.  RatCoin3.0 is probably already running.</source>
+=======
+        <source>Cannot obtain a lock on data directory %s.  RatCoin3.2 is probably already running.</source>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
+<<<<<<< HEAD
         <source>RatCoin3.0</source>
+=======
+        <source>RatCoin3.2</source>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3169,12 +3407,20 @@ alertnotify ayarlamanız da ayrıca tavsiye edilir böylece sorunlar, size bildi
     </message>
     <message>
         <location line="+4"/>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.0</source>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.2</source>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Wallet needed to be rewritten: restart RatCoin3.0 to complete</source>
+=======
+        <source>Wallet needed to be rewritten: restart RatCoin3.2 to complete</source>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3244,7 +3490,11 @@ alertnotify ayarlamanız da ayrıca tavsiye edilir böylece sorunlar, size bildi
     </message>
     <message>
         <location line="+122"/>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. RatCoin3.0 is probably already running.</source>
+=======
+        <source>Unable to bind to %s on this computer. RatCoin3.2 is probably already running.</source>
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         <translation type="unfinished"/>
     </message>
     <message>

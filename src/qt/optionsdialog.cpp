@@ -200,7 +200,11 @@ void OptionsDialog::showRestartWarning_Proxy()
 {
     if(!fRestartWarningDisplayed_Proxy)
     {
+<<<<<<< HEAD
         QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting RatCoin3.0."), QMessageBox::Ok);
+=======
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting RatCoin3.2."), QMessageBox::Ok);
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         fRestartWarningDisplayed_Proxy = true;
     }
 }
@@ -209,7 +213,11 @@ void OptionsDialog::showRestartWarning_Lang()
 {
     if(!fRestartWarningDisplayed_Lang)
     {
+<<<<<<< HEAD
         QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting RatCoin3.0."), QMessageBox::Ok);
+=======
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting RatCoin3.2."), QMessageBox::Ok);
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
         fRestartWarningDisplayed_Lang = true;
     }
 }

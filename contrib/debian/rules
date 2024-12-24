@@ -5,13 +5,19 @@
 #build/bitcoind::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bitcoin)
 
+<<<<<<< HEAD
 DEB_INSTALL_EXAMPLES_RatCoin3.0d += debian/examples/*
 DEB_INSTALL_MANPAGES_RatCoin3.0d += debian/manpages/*
+=======
+DEB_INSTALL_EXAMPLES_RatCoin3.2d += debian/examples/*
+DEB_INSTALL_MANPAGES_RatCoin3.2d += debian/manpages/*
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 %:
 	dh --with bash-completion $@
 
 override_dh_auto_build:
+<<<<<<< HEAD
 	cd src; $(MAKE) -f makefile.unix RatCoin3.0d
 	$(MAKE)
 
@@ -31,3 +37,24 @@ binary-post-install/RatCoin3.0d:
 	chmod +x $(cdbs_curdestdir)usr/bin/RatCoin3.0d
 binary-post-install/RatCoin3.0-qt:
 	chmod +x $(cdbs_curdestdir)usr/bin/RatCoin3.0-qt
+=======
+	cd src; $(MAKE) -f makefile.unix RatCoin3.2d
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f RatCoin3.2-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake RatCoin3.2-qt.pro USE_QRCODE=1
+
+override_dh_auto_test:
+	cd src; $(MAKE) -f makefile.unix test_RatCoin3.2
+	src/test_RatCoin3.2
+
+# Ensure wrapper is set executable
+binary-post-install/RatCoin3.2d:
+	chmod +x $(cdbs_curdestdir)usr/bin/RatCoin3.2d
+binary-post-install/RatCoin3.2-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/RatCoin3.2-qt
+>>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
