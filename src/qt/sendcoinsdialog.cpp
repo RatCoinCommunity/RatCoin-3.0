@@ -37,11 +37,8 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-<<<<<<< HEAD
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a RatCoin3.0 address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
-=======
     ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a RatCoin3.2 address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 #endif
 
     addEntry();
@@ -466,11 +463,8 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-<<<<<<< HEAD
-            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid RatCoin3.0 address"));
-=======
             ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid RatCoin3.2 address"));
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         }
         else
         {

@@ -141,11 +141,8 @@
           <enum>Qt::ActionsContextMenu</enum>
          </property>
          <property name="text">
-<<<<<<< HEAD
-          <string notr="true">0.00 RatCoin3.0</string>
-=======
           <string notr="true">0.00 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -225,11 +222,8 @@
           <enum>Qt::ActionsContextMenu</enum>
          </property>
          <property name="text">
-<<<<<<< HEAD
-          <string notr="true">0.00 RatCoin3.0</string>
-=======
           <string notr="true">0.00 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -315,11 +309,8 @@
           <enum>Qt::ActionsContextMenu</enum>
          </property>
          <property name="text">
-<<<<<<< HEAD
-          <string notr="true">0.00 RatCoin3.0</string>
-=======
           <string notr="true">0.00 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -357,11 +348,8 @@
           <enum>Qt::ActionsContextMenu</enum>
          </property>
          <property name="text">
-<<<<<<< HEAD
-          <string notr="true">0.00 RatCoin3.0</string>
-=======
           <string notr="true">0.00 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>

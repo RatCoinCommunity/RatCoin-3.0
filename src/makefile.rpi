@@ -161,11 +161,8 @@ OBJS= \
     obj/zerocoin/SpendMetaData.o \
     obj/zerocoin/ZeroTest.o
 
-<<<<<<< HEAD
-all: RatCoin3.0d
-=======
 all: RatCoin3.2d
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -178,11 +175,8 @@ obj/txdb-leveldb.o: leveldb/libleveldb.a
 # auto-generated dependencies:
 -include obj/*.P
 
-<<<<<<< HEAD
-RatCoin3.0d:: obj obj/zerocoin
-=======
 RatCoin3.2d:: obj obj/zerocoin
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
 obj obj/zerocoin:
 	mkdir -p $@
@@ -215,19 +209,12 @@ obj/zerocoin/%.o: zerocoin/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-<<<<<<< HEAD
-RatCoin3.0d:: $(OBJS:obj/%=obj/%)
-	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
-
-clean:
-	-rm -f RatCoin3.0d
-=======
 RatCoin3.2d:: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
 	-rm -f RatCoin3.2d
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 	-rm -f obj/*.o
 	-rm -f obj/zerocoin/*.o
 	-rm -f obj/*.P

@@ -7,11 +7,8 @@ cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP
 software written by Thomas Bernard.
 
 
-<<<<<<< HEAD
-See readme-qt.rst for instructions on building RatCoin3.0 QT, the
-=======
 See readme-qt.rst for instructions on building RatCoin3.2 QT, the
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -80,18 +77,10 @@ make -f Makefile.mingw
 mkdir miniupnpc
 cp *.h miniupnpc/
 
-<<<<<<< HEAD
-RatCoin3.0
--------
-DOS prompt:
-cd \RatCoin3.0\src
-mingw32-make -f makefile.mingw
-strip RatCoin3.0d.exe
-=======
 RatCoin3.2
 -------
 DOS prompt:
 cd \RatCoin3.2\src
 mingw32-make -f makefile.mingw
 strip RatCoin3.2d.exe
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+

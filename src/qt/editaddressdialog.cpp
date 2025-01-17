@@ -99,11 +99,8 @@ void EditAddressDialog::accept()
             break;
         case AddressTableModel::INVALID_ADDRESS:
             QMessageBox::warning(this, windowTitle(),
-<<<<<<< HEAD
-                tr("The entered address \"%1\" is not a valid RatCoin3.0 address.").arg(ui->addressEdit->text()),
-=======
                 tr("The entered address \"%1\" is not a valid RatCoin3.2 address.").arg(ui->addressEdit->text()),
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                 QMessageBox::Ok, QMessageBox::Ok);
             break;
         case AddressTableModel::DUPLICATE_ADDRESS:

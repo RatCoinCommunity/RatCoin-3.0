@@ -312,11 +312,8 @@ void RPCConsole::clear()
                 "b { color: #006060; } "
                 );
 
-<<<<<<< HEAD
-    message(CMD_REPLY, (tr("Welcome to the RatCoin3.0 RPC console.") + "<br>" +
-=======
     message(CMD_REPLY, (tr("Welcome to the RatCoin3.2 RPC console.") + "<br>" +
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                         tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")), true);
 }

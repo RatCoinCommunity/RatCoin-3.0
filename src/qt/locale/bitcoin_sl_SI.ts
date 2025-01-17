@@ -3,15 +3,6 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-<<<<<<< HEAD
-        <source>About RatCoin3.0</source>
-        <translation>O RatCoin3.0</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;RatCoin3.0&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;RatCoin3.0&lt;/b&gt; verzija</translation>
-=======
         <source>About RatCoin3.2</source>
         <translation>O RatCoin3.2</translation>
     </message>
@@ -19,16 +10,13 @@
         <location line="+39"/>
         <source>&lt;b&gt;RatCoin3.2&lt;/b&gt; version</source>
         <translation>&lt;b&gt;RatCoin3.2&lt;/b&gt; verzija</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
-Copyright © 2018 The RatCoin3.0 developers</source>
-=======
 Copyright © 2018 The RatCoin3.2 developers</source>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         <translation type="unfinished"/>
     </message>
     <message>
@@ -76,13 +64,9 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-46"/>
-<<<<<<< HEAD
-        <source>These are your RatCoin3.0 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši RatCoin3.0 naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
-=======
         <source>These are your RatCoin3.2 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>To so vaši RatCoin3.2 naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+60"/>
@@ -96,13 +80,9 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+11"/>
-<<<<<<< HEAD
-        <source>Sign a message to prove you own a RatCoin3.0 address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva RatCoin3.0 naslova</translation>
-=======
         <source>Sign a message to prove you own a RatCoin3.2 address</source>
         <translation>Podpišite sporočilo, kot dokazilo lastništva RatCoin3.2 naslova</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -116,13 +96,9 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-14"/>
-<<<<<<< HEAD
-        <source>Verify a message to ensure it was signed with a specified RatCoin3.0 address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim RatCoin3.0 naslovom</translation>
-=======
         <source>Verify a message to ensure it was signed with a specified RatCoin3.2 address</source>
         <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim RatCoin3.2 naslovom</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -289,13 +265,9 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-58"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>RatCoin3.0 se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
-=======
         <source>RatCoin3.2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>RatCoin3.2 se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+13"/>
@@ -408,13 +380,9 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+4"/>
-<<<<<<< HEAD
-        <source>Show information about RatCoin3.0</source>
-        <translation>Pokaži informacije o RatCoin3.0</translation>
-=======
         <source>Show information about RatCoin3.2</source>
         <translation>Pokaži informacije o RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+2"/>
@@ -463,15 +431,6 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-62"/>
-<<<<<<< HEAD
-        <source>Send coins to a RatCoin3.0 address</source>
-        <translation>Pošlji kovance na RatCoin3.0 naslov</translation>
-    </message>
-    <message>
-        <location line="+45"/>
-        <source>Modify configuration options for RatCoin3.0</source>
-        <translation>Spremeni nastavitve za BRatCoin3.0</translation>
-=======
         <source>Send coins to a RatCoin3.2 address</source>
         <translation>Pošlji kovance na RatCoin3.2 naslov</translation>
     </message>
@@ -479,7 +438,7 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
         <location line="+45"/>
         <source>Modify configuration options for RatCoin3.2</source>
         <translation>Spremeni nastavitve za BRatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+18"/>
@@ -518,13 +477,9 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-200"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0</source>
-        <translation>RatCoin3.0</translation>
-=======
         <source>RatCoin3.2</source>
         <translation>RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+0"/>
@@ -533,13 +488,9 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+178"/>
-<<<<<<< HEAD
-        <source>&amp;About RatCoin3.0</source>
-        <translation>&amp;O RatCoin3.0</translation>
-=======
         <source>&amp;About RatCoin3.2</source>
         <translation>&amp;O RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+9"/>
@@ -595,15 +546,6 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 client</source>
-        <translation>RatCoin3.0 program</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+70"/>
-        <source>%n active connection(s) to RatCoin3.0 network</source>
-        <translation><numerusform>%n aktivne povezave na RatCoin3.0 omrežje</numerusform><numerusform>%n aktivnih povezav na RatCoin3.0 omrežje</numerusform><numerusform>%n aktivnih povezav na RatCoin3.0 omrežje</numerusform><numerusform>%n aktivnih povezav na RatCoin3.0 omrežje</numerusform></translation>
-=======
         <source>RatCoin3.2 client</source>
         <translation>RatCoin3.2 program</translation>
     </message>
@@ -611,7 +553,7 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
         <location line="+70"/>
         <source>%n active connection(s) to RatCoin3.2 network</source>
         <translation><numerusform>%n aktivne povezave na RatCoin3.2 omrežje</numerusform><numerusform>%n aktivnih povezav na RatCoin3.2 omrežje</numerusform><numerusform>%n aktivnih povezav na RatCoin3.2 omrežje</numerusform><numerusform>%n aktivnih povezav na RatCoin3.2 omrežje</numerusform></translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+40"/>
@@ -725,13 +667,9 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-<<<<<<< HEAD
-        <source>URI can not be parsed! This can be caused by an invalid RatCoin3.0 address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega RatCoin3.0 naslova ali slabih parametrov URI.</translation>
-=======
         <source>URI can not be parsed! This can be caused by an invalid RatCoin3.2 address or malformed URI parameters.</source>
         <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega RatCoin3.2 naslova ali slabih parametrov URI.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+18"/>
@@ -790,13 +728,9 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-<<<<<<< HEAD
-        <source>A fatal error occurred. RatCoin3.0 can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program RatCoin3.0 se ne more več varno nadaljevati in se bo zato zaprl. </translation>
-=======
         <source>A fatal error occurred. RatCoin3.2 can no longer continue safely and will quit.</source>
         <translation>Prišlo je do usodne napake. Program RatCoin3.2 se ne more več varno nadaljevati in se bo zato zaprl. </translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
 </context>
 <context>
@@ -1129,13 +1063,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-<<<<<<< HEAD
-        <source>The entered address &quot;%1&quot; is not a valid RatCoin3.0 address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven RatCoin3.0 naslov.</translation>
-=======
         <source>The entered address &quot;%1&quot; is not a valid RatCoin3.2 address.</source>
         <translation>Vneseni naslov &quot;%1&quot; ni veljaven RatCoin3.2 naslov.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+10"/>
@@ -1153,13 +1083,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0-Qt</source>
-        <translation>RatCoin3.0-Qt</translation>
-=======
         <source>RatCoin3.2-Qt</source>
         <translation>RatCoin3.2-Qt</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-12"/>
@@ -1231,15 +1157,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-<<<<<<< HEAD
-        <source>Automatically start RatCoin3.0 after logging in to the system.</source>
-        <translation>Avtomatično zaženi RatCoin3.0 ob zagonu sistema.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start RatCoin3.0 on system login</source>
-        <translation>&amp;Zaženi RatCoin3.0 ob prijavi v sistem</translation>
-=======
         <source>Automatically start RatCoin3.2 after logging in to the system.</source>
         <translation>Avtomatično zaženi RatCoin3.2 ob zagonu sistema.</translation>
     </message>
@@ -1247,7 +1164,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <location line="+3"/>
         <source>&amp;Start RatCoin3.2 on system login</source>
         <translation>&amp;Zaženi RatCoin3.2 ob prijavi v sistem</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+7"/>
@@ -1266,13 +1183,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-<<<<<<< HEAD
-        <source>Automatically open the RatCoin3.0 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za RatCoin3.0 program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
-=======
         <source>Automatically open the RatCoin3.2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Avtomatično odpri vrata na routerju za RatCoin3.2 program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1281,13 +1194,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Connect to the RatCoin3.0 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na RatCoin3.0 omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
-=======
         <source>Connect to the RatCoin3.2 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Poveži se na RatCoin3.2 omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1361,13 +1270,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-<<<<<<< HEAD
-        <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.0.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu RatCoin3.0 aplikacije. </translation>
-=======
         <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.2.</source>
         <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu RatCoin3.2 aplikacije. </translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+11"/>
@@ -1381,13 +1286,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+9"/>
-<<<<<<< HEAD
-        <source>Whether to show RatCoin3.0 addresses in the transaction list or not.</source>
-        <translation>Izbira prikaza RatCoin3.0 naslovov v seznamu transakcij.</translation>
-=======
         <source>Whether to show RatCoin3.2 addresses in the transaction list or not.</source>
         <translation>Izbira prikaza RatCoin3.2 naslovov v seznamu transakcij.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1433,13 +1334,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-<<<<<<< HEAD
-        <source>This setting will take effect after restarting RatCoin3.0.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu RatCoin3.0 aplikacije</translation>
-=======
         <source>This setting will take effect after restarting RatCoin3.2.</source>
         <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu RatCoin3.2 aplikacije</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+29"/>
@@ -1457,13 +1354,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-<<<<<<< HEAD
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.0 network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z RatCoin3.0 omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
-=======
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.2 network after a connection is established, but this process has not completed yet.</source>
         <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z RatCoin3.2 omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-160"/>
@@ -1678,13 +1571,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Show the RatCoin3.0-Qt help message to get a list with possible RatCoin3.0 command-line options.</source>
-        <translation>Prikaži RatCoin3.0-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice RatCoin3.0 aplikacije</translation>
-=======
         <source>Show the RatCoin3.2-Qt help message to get a list with possible RatCoin3.2 command-line options.</source>
         <translation>Prikaži RatCoin3.2-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice RatCoin3.2 aplikacije</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1703,15 +1592,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 - Debug window</source>
-        <translation>RatCoin3.0 - okno za odpravljanje napak</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>RatCoin3.0 Core</source>
-        <translation>RatCoin3.0 jedro</translation>
-=======
         <source>RatCoin3.2 - Debug window</source>
         <translation>RatCoin3.2 - okno za odpravljanje napak</translation>
     </message>
@@ -1719,7 +1599,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <location line="+25"/>
         <source>RatCoin3.2 Core</source>
         <translation>RatCoin3.2 jedro</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+279"/>
@@ -1728,13 +1608,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Open the RatCoin3.0 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri RatCoin3.0 datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
-=======
         <source>Open the RatCoin3.2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Odpri RatCoin3.2 datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+102"/>
@@ -1743,13 +1619,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-<<<<<<< HEAD
-        <source>Welcome to the RatCoin3.0 RPC console.</source>
-        <translation>Dobrodošli v RatCoin3.0 RPC konzoli.</translation>
-=======
         <source>Welcome to the RatCoin3.2 RPC console.</source>
         <translation>Dobrodošli v RatCoin3.2 RPC konzoli.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -1907,13 +1779,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Vnesite RatCoin3.0 naslov (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Vnesite RatCoin3.2 naslov (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+15"/>
@@ -2012,13 +1880,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+251"/>
-<<<<<<< HEAD
-        <source>WARNING: Invalid RatCoin3.0 address</source>
-        <translation>OPOZORILO: Neveljaven RatCoin3.0 naslov</translation>
-=======
         <source>WARNING: Invalid RatCoin3.2 address</source>
         <translation>OPOZORILO: Neveljaven RatCoin3.2 naslov</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+13"/>
@@ -2091,13 +1955,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Vnesite RatCoin3.0 naslov (npr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Vnesite RatCoin3.2 naslov (npr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
 </context>
 <context>
@@ -2157,13 +2017,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this RatCoin3.0 address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva RatCoin3.0 naslova</translation>
-=======
         <source>Sign the message to prove you own this RatCoin3.2 address</source>
         <translation>Podpišite sporočilo, kot dokazilo lastništva RatCoin3.2 naslova</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+17"/>
@@ -2194,13 +2050,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-<<<<<<< HEAD
-        <source>Verify the message to ensure it was signed with the specified RatCoin3.0 address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim RatCoin3.0 naslovom</translation>
-=======
         <source>Verify the message to ensure it was signed with the specified RatCoin3.2 address</source>
         <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim RatCoin3.2 naslovom</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+17"/>
@@ -2210,13 +2062,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Vnesite RatCoin3.0 naslov (npr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Vnesite RatCoin3.2 naslov (npr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-2"/>
@@ -2225,13 +2073,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-<<<<<<< HEAD
-        <source>Enter RatCoin3.0 signature</source>
-        <translation>Vnesite RatCoin3.0 podpis</translation>
-=======
         <source>Enter RatCoin3.2 signature</source>
         <translation>Vnesite RatCoin3.2 podpis</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+82"/>
@@ -2801,13 +2645,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 version</source>
-        <translation>RatCoin3.0 različica</translation>
-=======
         <source>RatCoin3.2 version</source>
         <translation>RatCoin3.2 različica</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2656,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-        <source>Send command to -server or RatCoin3.0d</source>
-        <translation>Pošlji ukaz na -server ali RatCoin3.0d</translation>
-=======
         <source>Send command to -server or RatCoin3.2d</source>
         <translation>Pošlji ukaz na -server ali RatCoin3.2d</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -2841,15 +2677,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
-        <source>Specify configuration file (default: RatCoin3.0.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: RatCoin3.0.conf)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Specify pid file (default: RatCoin3.0d.pid)</source>
-        <translation>Določi pid datoteko (privzeto: RatCoin3.0.pid)</translation>
-=======
         <source>Specify configuration file (default: RatCoin3.2.conf)</source>
         <translation>Določi konfiguracijsko datoteko (privzeto: RatCoin3.2.conf)</translation>
     </message>
@@ -2857,7 +2684,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <location line="+1"/>
         <source>Specify pid file (default: RatCoin3.2d.pid)</source>
         <translation>Določi pid datoteko (privzeto: RatCoin3.2.pid)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+2"/>
@@ -3006,13 +2833,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+61"/>
-<<<<<<< HEAD
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.0 will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno RatCoin3.0 ne bo deloval.</translation>
-=======
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.2 will not work properly.</source>
         <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno RatCoin3.2 ne bo deloval.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-31"/>
@@ -3201,40 +3024,28 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-<<<<<<< HEAD
-rpcuser=RatCoin3.0rpc
-=======
 rpcuser=RatCoin3.2rpc
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-<<<<<<< HEAD
-for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@foo.com
-=======
 for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admin@foo.com
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 </source>
         <translation>%s, nastaviti morate rpcgeslo v konfiguracijski datoteki: 
  %s
 Priporočeno je, da uporabite naslednje naključno geslo:
-<<<<<<< HEAD
-rpcuser=RatCoin3.0rpc
-=======
 rpcuser=RatCoin3.2rpc
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 rpcpassword=%s
 (tega gesla si vam ni potrebno zapomniti)
 Uporabniško ime in geslo NE SMETA biti ista. 
 Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke. 
 Prav tako je priporočeno, da nastavite alernotify, tkako da vas opozori na probleme;
-<<<<<<< HEAD
-na primer: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alarm&quot; admin@foo.com
-=======
 na primer: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alarm&quot; admin@foo.com
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 </translation>
     </message>
     <message>
@@ -3359,15 +3170,6 @@ na primer: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alarm&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-        <source>Cannot obtain a lock on data directory %s.  RatCoin3.0 is probably already running.</source>
-        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija RatCoin3.0 je verjetno že zagnana.</translation>
-    </message>
-    <message>
-        <location line="-98"/>
-        <source>RatCoin3.0</source>
-        <translation>RatCoin3.0</translation>
-=======
         <source>Cannot obtain a lock on data directory %s.  RatCoin3.2 is probably already running.</source>
         <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija RatCoin3.2 je verjetno že zagnana.</translation>
     </message>
@@ -3375,7 +3177,7 @@ na primer: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alarm&quot; admin@foo
         <location line="-98"/>
         <source>RatCoin3.2</source>
         <translation>RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+140"/>
@@ -3409,15 +3211,6 @@ na primer: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alarm&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-<<<<<<< HEAD
-        <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.0</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo RatCoin3.0</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart RatCoin3.0 to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite RatCoin3.0 za dokončanje</translation>
-=======
         <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.2</source>
         <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo RatCoin3.2</translation>
     </message>
@@ -3425,7 +3218,7 @@ na primer: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alarm&quot; admin@foo
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart RatCoin3.2 to complete</source>
         <translation>Denarnica mora biti prepisana: ponovno odprite RatCoin3.2 za dokončanje</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -3494,13 +3287,9 @@ na primer: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alarm&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-<<<<<<< HEAD
-        <source>Unable to bind to %s on this computer. RatCoin3.0 is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča RatCoin3.0 aplikacija je verjetno že zagnana.</translation>
-=======
         <source>Unable to bind to %s on this computer. RatCoin3.2 is probably already running.</source>
         <translation>Navezava v %s  na tem računalniku ni mogoča RatCoin3.2 aplikacija je verjetno že zagnana.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-97"/>

@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-.TH RatCoin3.0D "7" "April 2013" "RatCoin3.0d 3.19" 
-.SH NAME
-RatCoin3.0d \- peer-to-peer network based digital currency
-.SH SYNOPSIS
-RatCoin3.0 [options] <command> [params]  
-.TP
-RatCoin3.0 [options] help <command> - Get help for a command
-.SH DESCRIPTION
-This  manual page documents the RatCoin3.0d program. RatCoin3.0 is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
-
-RatCoin3.0s can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the RatCoin3.0 system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
-=======
 .TH RatCoin3.2D "7" "April 2013" "RatCoin3.2d 3.19" 
 .SH NAME
 RatCoin3.2d \- peer-to-peer network based digital currency
@@ -22,16 +9,12 @@ RatCoin3.2 [options] help <command> - Get help for a command
 This  manual page documents the RatCoin3.2d program. RatCoin3.2 is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
 
 RatCoin3.2s can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the RatCoin3.2 system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
 .SH OPTIONS
 .TP
 \fB\-conf=\fR<file>
-<<<<<<< HEAD
-Specify configuration file (default: RatCoin3.0.conf)
-=======
+
 Specify configuration file (default: RatCoin3.2.conf)
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fB\-gen\fR
 Generate coins
@@ -102,16 +85,6 @@ This help message
 \fBbackupwallet 'destination'\fR
 Safely copies *wallet.dat* to 'destination', which can be a directory or a path with filename.
 .TP
-<<<<<<< HEAD
-\fBgetaccount 'RatCoin3.0address'\fR
-Returns the account associated with the given address.
-.TP
-\fBsetaccount 'RatCoin3.0address' ['account']\fR
-Sets the ['account'] associated with the given address. ['account'] may be omitted to remove an address from ['account'].
-.TP
-\fBgetaccountaddress 'account'\fR
-Returns a new RatCoin3.0 address for 'account'.
-=======
 \fBgetaccount 'RatCoin3.2address'\fR
 Returns the account associated with the given address.
 .TP
@@ -120,7 +93,6 @@ Sets the ['account'] associated with the given address. ['account'] may be omitt
 .TP
 \fBgetaccountaddress 'account'\fR
 Returns a new RatCoin3.2 address for 'account'.
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBgetaddressesbyaccount 'account'\fR
 Returns the list of addresses associated with the given 'account'.
@@ -141,11 +113,7 @@ Returns the number of connections to other nodes.
 Returns the proof-of-work difficulty as a multiple of the minimum difficulty.
 .TP
 \fBgetgenerate\fR
-<<<<<<< HEAD
-Returns boolean true if server is trying to generate RatCoin3.0s, false otherwise.
-=======
 Returns boolean true if server is trying to generate RatCoin3.2s, false otherwise.
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBsetgenerate 'generate' ['genproclimit']\fR
 Generation is limited to ['genproclimit'] processors, -1 is unlimited.
@@ -157,22 +125,13 @@ Returns a recent hashes per second performance measurement while generating.
 Returns an object containing server information.
 .TP
 \fBgetnewaddress 'account'\fR
-<<<<<<< HEAD
-Returns a new RatCoin3.0 address for receiving payments. If 'account' is specified (recommended), it is added to the address book so payments received with the address will be credited to 'account'.
-=======
 Returns a new RatCoin3.2 address for receiving payments. If 'account' is specified (recommended), it is added to the address book so payments received with the address will be credited to 'account'.
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBgetreceivedbyaccount 'account' ['minconf=1']\fR
 Returns the total amount received by addresses associated with 'account' in transactions with at least ['minconf'] confirmations.
 .TP
-<<<<<<< HEAD
-\fBgetreceivedbyaddress 'RatCoin3.0address' ['minconf=1']\fR
-Returns the total amount received by 'RatCoin3.0address' in transactions with at least ['minconf'] confirmations.
-=======
 \fBgetreceivedbyaddress 'RatCoin3.2address' ['minconf=1']\fR
 Returns the total amount received by 'RatCoin3.2address' in transactions with at least ['minconf'] confirmations.
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .TP
 \fBgettransaction 'txid'\fR
 Returns information about a specific transaction, given hexadecimal transaction ID.
@@ -221,23 +180,6 @@ Returns a list of the last ['count'] transactions for 'account' - for all accoun
 \fBmove <'fromaccount'> <'toaccount'> <'amount'> ['minconf=1'] ['comment']\fR
 Moves funds between accounts.
 .TP
-<<<<<<< HEAD
-\fBsendfrom* <'account'> <'RatCoin3.0address'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
-Sends amount from account's balance to 'RatCoin3.0address'. This method will fail if there is less than amount RatCoin3.0s with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
-.TP     
-\fBsendtoaddress 'RatCoin3.0address' 'amount' ['comment'] ['comment-to']\fR
-Sends amount from the server's available balance to 'RatCoin3.0address'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
-.TP    
-\fBstop\fR
-Stops the RatCoin3.0 server.
-.TP    
-\fBvalidateaddress 'RatCoin3.0address'\fR
-Checks that 'RatCoin3.0address' looks like a proper RatCoin3.0 address. Returns an object containing:
-
-    "isvalid" : true or false.
-    "ismine"  : true if the address is in the server's wallet.
-    "address" : RatCoin3.0address.
-=======
 \fBsendfrom* <'account'> <'RatCoin3.2address'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
 Sends amount from account's balance to 'RatCoin3.2address'. This method will fail if there is less than amount RatCoin3.2s with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
 .TP     
@@ -253,16 +195,11 @@ Checks that 'RatCoin3.2address' looks like a proper RatCoin3.2 address. Returns 
     "isvalid" : true or false.
     "ismine"  : true if the address is in the server's wallet.
     "address" : RatCoin3.2address.
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
     *note: ismine and address are only returned if the address is valid.
 
 .SH "SEE ALSO"
-<<<<<<< HEAD
-RatCoin3.0.conf(5)
-=======
 RatCoin3.2.conf(5)
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 .SH AUTHOR
 This manual page was written by Micah Anderson <micah@debian.org> for the Debian system (but may be used by others). Permission is granted to copy, distribute and/or modify this document under the terms of the GNU General Public License, Version 3 or any later version published by the Free Software Foundation.
 

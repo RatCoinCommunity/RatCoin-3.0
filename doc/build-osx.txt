@@ -7,20 +7,14 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-<<<<<<< HEAD
-Mac OS X RatCoin3.0d build instructions
-=======
 Mac OS X RatCoin3.2d build instructions
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
 
-<<<<<<< HEAD
-See readme-qt.rst for instructions on building RatCoin3.0 QT, the
-=======
 See readme-qt.rst for instructions on building RatCoin3.2 QT, the
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -35,11 +29,8 @@ but you can get the current version from http://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-<<<<<<< HEAD
-git clone git@github.com:MyCryptoCoins/RatCoin3.0.git RatCoin3.0
-=======
 git clone git@github.com:MyCryptoCoins/RatCoin3.2.git RatCoin3.2
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -53,19 +44,6 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-<<<<<<< HEAD
-4.  Now you should be able to build RatCoin3.0d:
-
-cd RatCoin3.0/src
-make -f makefile.osx
-
-Run:
-  ./RatCoin3.0d --help  # for a list of command-line options.
-Run
-  ./RatCoin3.0d -daemon # to start the RatCoin3.0 daemon.
-Run
-  ./RatCoin3.0d help # When the daemon is running, to get a list of RPC commands
-=======
 4.  Now you should be able to build RatCoin3.2d:
 
 cd RatCoin3.2/src
@@ -77,4 +55,4 @@ Run
   ./RatCoin3.2d -daemon # to start the RatCoin3.2 daemon.
 Run
   ./RatCoin3.2d help # When the daemon is running, to get a list of RPC commands
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+

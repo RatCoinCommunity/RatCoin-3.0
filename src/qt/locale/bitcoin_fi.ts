@@ -3,15 +3,6 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-<<<<<<< HEAD
-        <source>About RatCoin3.0</source>
-        <translation>Tietoa BRatCoin3.0ista</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;RatCoin3.0&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;RatCoin3.0&lt;/b&gt; versio</translation>
-=======
         <source>About RatCoin3.2</source>
         <translation>Tietoa BRatCoin3.2ista</translation>
     </message>
@@ -19,16 +10,13 @@
         <location line="+39"/>
         <source>&lt;b&gt;RatCoin3.2&lt;/b&gt; version</source>
         <translation>&lt;b&gt;RatCoin3.2&lt;/b&gt; versio</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
-Copyright © 2018 The RatCoin3.0 developers</source>
-=======
 Copyright © 2018 The RatCoin3.2 developers</source>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,13 +65,9 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-<<<<<<< HEAD
-        <source>These are your RatCoin3.0 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat RatCoin3.0-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
-=======
         <source>These are your RatCoin3.2 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Nämä ovat RatCoin3.2-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+60"/>
@@ -97,13 +81,9 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-<<<<<<< HEAD
-        <source>Sign a message to prove you own a RatCoin3.0 address</source>
-        <translation>Allekirjoita viesti osoittaaksesi RatCoin3.0-osoitteesi omistajuus</translation>
-=======
         <source>Sign a message to prove you own a RatCoin3.2 address</source>
         <translation>Allekirjoita viesti osoittaaksesi RatCoin3.2-osoitteesi omistajuus</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -117,13 +97,9 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-<<<<<<< HEAD
-        <source>Verify a message to ensure it was signed with a specified RatCoin3.0 address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen RatCoin3.0-osoitteesi on allekirjoittanut sen</translation>
-=======
         <source>Verify a message to ensure it was signed with a specified RatCoin3.2 address</source>
         <translation>Vahvista viesti varmistaaksesi että kyseinen RatCoin3.2-osoitteesi on allekirjoittanut sen</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -290,13 +266,9 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>RatCoin3.0-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
-=======
         <source>RatCoin3.2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>RatCoin3.2-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+13"/>
@@ -409,13 +381,9 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-<<<<<<< HEAD
-        <source>Show information about RatCoin3.0</source>
-        <translation>Näytä tietoja RatCoin3.0ista</translation>
-=======
         <source>Show information about RatCoin3.2</source>
         <translation>Näytä tietoja RatCoin3.2ista</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+2"/>
@@ -464,15 +432,6 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-<<<<<<< HEAD
-        <source>Send coins to a RatCoin3.0 address</source>
-        <translation>Lähetä kolikkoja RatCoin3.0 osoitteeseen</translation>
-    </message>
-    <message>
-        <location line="+45"/>
-        <source>Modify configuration options for RatCoin3.0</source>
-        <translation>Mukauta RatCoin3.0in konfigurointiasetuksia</translation>
-=======
         <source>Send coins to a RatCoin3.2 address</source>
         <translation>Lähetä kolikkoja RatCoin3.2 osoitteeseen</translation>
     </message>
@@ -480,7 +439,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
         <location line="+45"/>
         <source>Modify configuration options for RatCoin3.2</source>
         <translation>Mukauta RatCoin3.2in konfigurointiasetuksia</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+18"/>
@@ -519,13 +478,9 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-200"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0</source>
-        <translation>RatCoin3.0</translation>
-=======
         <source>RatCoin3.2</source>
         <translation>RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+0"/>
@@ -534,13 +489,9 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+178"/>
-<<<<<<< HEAD
-        <source>&amp;About RatCoin3.0</source>
-        <translation>&amp;Tietoa RatCoin3.0ista</translation>
-=======
         <source>&amp;About RatCoin3.2</source>
         <translation>&amp;Tietoa RatCoin3.2ista</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+9"/>
@@ -596,15 +547,6 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 client</source>
-        <translation>RatCoin3.0-asiakas</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+70"/>
-        <source>%n active connection(s) to RatCoin3.0 network</source>
-        <translation><numerusform>%n aktiivinen yhteys RatCoin3.0-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä RatCoin3.0-verkkoon</numerusform></translation>
-=======
         <source>RatCoin3.2 client</source>
         <translation>RatCoin3.2-asiakas</translation>
     </message>
@@ -612,7 +554,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
         <location line="+70"/>
         <source>%n active connection(s) to RatCoin3.2 network</source>
         <translation><numerusform>%n aktiivinen yhteys RatCoin3.2-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä RatCoin3.2-verkkoon</numerusform></translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+40"/>
@@ -725,13 +667,9 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-<<<<<<< HEAD
-        <source>URI can not be parsed! This can be caused by an invalid RatCoin3.0 address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä RatCoin3.0-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
-=======
         <source>URI can not be parsed! This can be caused by an invalid RatCoin3.2 address or malformed URI parameters.</source>
         <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä RatCoin3.2-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+18"/>
@@ -790,13 +728,9 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-<<<<<<< HEAD
-        <source>A fatal error occurred. RatCoin3.0 can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. RatCoin3.0-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
-=======
         <source>A fatal error occurred. RatCoin3.2 can no longer continue safely and will quit.</source>
         <translation>Vakava virhe kohdattu. RatCoin3.2-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
 </context>
 <context>
@@ -1129,13 +1063,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-<<<<<<< HEAD
-        <source>The entered address &quot;%1&quot; is not a valid RatCoin3.0 address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty RatCoin3.0-osoite.</translation>
-=======
         <source>The entered address &quot;%1&quot; is not a valid RatCoin3.2 address.</source>
         <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty RatCoin3.2-osoite.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+10"/>
@@ -1153,13 +1083,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0-Qt</source>
-        <translation>RatCoin3.0-Qt</translation>
-=======
         <source>RatCoin3.2-Qt</source>
         <translation>RatCoin3.2-Qt</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-12"/>
@@ -1231,15 +1157,6 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-<<<<<<< HEAD
-        <source>Automatically start RatCoin3.0 after logging in to the system.</source>
-        <translation>Käynnistä RatCoin3.0-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start RatCoin3.0 on system login</source>
-        <translation>%Käynnistä RatCoin3.0-asiakasohjelma kirjautuessasi</translation>
-=======
         <source>Automatically start RatCoin3.2 after logging in to the system.</source>
         <translation>Käynnistä RatCoin3.2-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
@@ -1247,7 +1164,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+3"/>
         <source>&amp;Start RatCoin3.2 on system login</source>
         <translation>%Käynnistä RatCoin3.2-asiakasohjelma kirjautuessasi</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+7"/>
@@ -1266,13 +1183,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-<<<<<<< HEAD
-        <source>Automatically open the RatCoin3.0 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa RatCoin3.0-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
-=======
         <source>Automatically open the RatCoin3.2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Avaa RatCoin3.2-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1281,13 +1194,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Connect to the RatCoin3.0 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä RatCoin3.0-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
-=======
         <source>Connect to the RatCoin3.2 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Yhdistä RatCoin3.2-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1361,13 +1270,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-<<<<<<< HEAD
-        <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.0.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta RatCoin3.0-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
-=======
         <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.2.</source>
         <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta RatCoin3.2-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+11"/>
@@ -1381,13 +1286,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-<<<<<<< HEAD
-        <source>Whether to show RatCoin3.0 addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota RatCoin3.0-osoitteet rahansiirtolistassa.</translation>
-=======
         <source>Whether to show RatCoin3.2 addresses in the transaction list or not.</source>
         <translation>Näytä tai piilota RatCoin3.2-osoitteet rahansiirtolistassa.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1433,13 +1334,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-<<<<<<< HEAD
-        <source>This setting will take effect after restarting RatCoin3.0.</source>
-        <translation>Tämä asetus tulee voimaan vasta RatCoin3.0-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
-=======
         <source>This setting will take effect after restarting RatCoin3.2.</source>
         <translation>Tämä asetus tulee voimaan vasta RatCoin3.2-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+29"/>
@@ -1457,13 +1354,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-<<<<<<< HEAD
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.0 network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti RatCoin3.0-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
-=======
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.2 network after a connection is established, but this process has not completed yet.</source>
         <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti RatCoin3.2-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-160"/>
@@ -1678,13 +1571,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Show the RatCoin3.0-Qt help message to get a list with possible RatCoin3.0 command-line options.</source>
-        <translation>Näytä RatCoin3.0-Qt:n avustusohje saadaksesi listan käytettävistä RatCoin3.0in komentokehotteen määritteistä.</translation>
-=======
         <source>Show the RatCoin3.2-Qt help message to get a list with possible RatCoin3.2 command-line options.</source>
         <translation>Näytä RatCoin3.2-Qt:n avustusohje saadaksesi listan käytettävistä RatCoin3.2in komentokehotteen määritteistä.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1703,15 +1592,6 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 - Debug window</source>
-        <translation>RatCoin3.0 - Debug-ikkuna</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>RatCoin3.0 Core</source>
-        <translation>RatCoin3.0in ydin</translation>
-=======
         <source>RatCoin3.2 - Debug window</source>
         <translation>RatCoin3.2 - Debug-ikkuna</translation>
     </message>
@@ -1719,7 +1599,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+25"/>
         <source>RatCoin3.2 Core</source>
         <translation>RatCoin3.2in ydin</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+279"/>
@@ -1728,13 +1608,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Open the RatCoin3.0 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa RatCoin3.0-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
-=======
         <source>Open the RatCoin3.2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa RatCoin3.2-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+102"/>
@@ -1743,13 +1619,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-<<<<<<< HEAD
-        <source>Welcome to the RatCoin3.0 RPC console.</source>
-        <translation>Tervetuloa RatCoin3.0in RPC-konsoliin.</translation>
-=======
         <source>Welcome to the RatCoin3.2 RPC console.</source>
         <translation>Tervetuloa RatCoin3.2in RPC-konsoliin.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -1907,13 +1779,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Syötä RatCoin3.0-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Syötä RatCoin3.2-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+15"/>
@@ -2012,13 +1880,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-<<<<<<< HEAD
-        <source>WARNING: Invalid RatCoin3.0 address</source>
-        <translation>VAROITUS: Epäkelpo RatCoin3.0-osoite</translation>
-=======
         <source>WARNING: Invalid RatCoin3.2 address</source>
         <translation>VAROITUS: Epäkelpo RatCoin3.2-osoite</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+13"/>
@@ -2091,13 +1955,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Syötä RatCoin3.0-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Syötä RatCoin3.2-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
 </context>
 <context>
@@ -2157,13 +2017,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this RatCoin3.0 address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän RatCoin3.0-osoitteen</translation>
-=======
         <source>Sign the message to prove you own this RatCoin3.2 address</source>
         <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän RatCoin3.2-osoitteen</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+17"/>
@@ -2194,13 +2050,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-<<<<<<< HEAD
-        <source>Verify the message to ensure it was signed with the specified RatCoin3.0 address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä RatCoin3.0-osoitteella</translation>
-=======
         <source>Verify the message to ensure it was signed with the specified RatCoin3.2 address</source>
         <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä RatCoin3.2-osoitteella</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+17"/>
@@ -2210,13 +2062,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Syötä RatCoin3.0-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Syötä RatCoin3.2-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-2"/>
@@ -2225,13 +2073,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-<<<<<<< HEAD
-        <source>Enter RatCoin3.0 signature</source>
-        <translation>Syötä RatCoin3.0-allekirjoitus</translation>
-=======
         <source>Enter RatCoin3.2 signature</source>
         <translation>Syötä RatCoin3.2-allekirjoitus</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+82"/>
@@ -2801,13 +2645,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 version</source>
-        <translation>RatCoin3.0in versio</translation>
-=======
         <source>RatCoin3.2 version</source>
         <translation>RatCoin3.2in versio</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2656,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-        <source>Send command to -server or RatCoin3.0d</source>
-        <translation>Syötä komento kohteeseen -server tai RatCoin3.0d</translation>
-=======
         <source>Send command to -server or RatCoin3.2d</source>
         <translation>Syötä komento kohteeseen -server tai RatCoin3.2d</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -2841,15 +2677,6 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
-        <source>Specify configuration file (default: RatCoin3.0.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: RatCoin3.0.conf)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Specify pid file (default: RatCoin3.0d.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: RatCoin3.0.pid)</translation>
-=======
         <source>Specify configuration file (default: RatCoin3.2.conf)</source>
         <translation>Määritä asetustiedosto (oletus: RatCoin3.2.conf)</translation>
     </message>
@@ -2857,7 +2684,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+1"/>
         <source>Specify pid file (default: RatCoin3.2d.pid)</source>
         <translation>Määritä prosessitiedosto (oletus: RatCoin3.2.pid)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+2"/>
@@ -3006,13 +2833,9 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-<<<<<<< HEAD
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.0 will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, RatCoin3.0 ei toimi oikein.</translation>
-=======
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.2 will not work properly.</source>
         <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, RatCoin3.2 ei toimi oikein.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-31"/>
@@ -3201,39 +3024,27 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-<<<<<<< HEAD
-rpcuser=RatCoin3.0rpc
-=======
 rpcuser=RatCoin3.2rpc
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-<<<<<<< HEAD
-for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@foo.com
-=======
 for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admin@foo.com
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-<<<<<<< HEAD
-rpcuser=RatCoin3.0rpc
-=======
 rpcuser=RatCoin3.2rpc
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-<<<<<<< HEAD
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@foo.com
-=======
 On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admin@foo.com
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 </translation>
     </message>
     <message>
@@ -3358,15 +3169,6 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-        <source>Cannot obtain a lock on data directory %s.  RatCoin3.0 is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. RatCoin3.0-asiakasohjelma on ehkä jo käynnissä.</translation>
-    </message>
-    <message>
-        <location line="-98"/>
-        <source>RatCoin3.0</source>
-        <translation>RatCoin3.0</translation>
-=======
         <source>Cannot obtain a lock on data directory %s.  RatCoin3.2 is probably already running.</source>
         <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. RatCoin3.2-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
@@ -3374,7 +3176,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <location line="-98"/>
         <source>RatCoin3.2</source>
         <translation>RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+140"/>
@@ -3408,15 +3210,6 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-<<<<<<< HEAD
-        <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.0</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version RatCoin3.0-asiakasohjelmasta</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart RatCoin3.0 to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä RatCoin3.0-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
-=======
         <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.2</source>
         <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version RatCoin3.2-asiakasohjelmasta</translation>
     </message>
@@ -3424,7 +3217,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart RatCoin3.2 to complete</source>
         <translation>Lompakko on kirjoitettava uudelleen: käynnistä RatCoin3.2-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -3493,13 +3286,9 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-<<<<<<< HEAD
-        <source>Unable to bind to %s on this computer. RatCoin3.0 is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. RatCoin3.0-asiakasohjelma on jo ehkä päällä.</translation>
-=======
         <source>Unable to bind to %s on this computer. RatCoin3.2 is probably already running.</source>
         <translation>Ei voitu liittää %s tällä tietokoneella. RatCoin3.2-asiakasohjelma on jo ehkä päällä.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-97"/>

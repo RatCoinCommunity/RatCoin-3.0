@@ -562,20 +562,14 @@ bool CAddrDB::Read(CAddrMan& addr)
 
     unsigned char pchMsgTmp[4];
     try {
-<<<<<<< HEAD
-        // de-serialize file header (pchMessageStart RatCoin3.0 number) and
-=======
         // de-serialize file header (pchMessageStart RatCoin3.2 number) and
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         ssPeers >> FLATDATA(pchMsgTmp);
 
         // verify the network matches ours
         if (memcmp(pchMsgTmp, pchMessageStart, sizeof(pchMsgTmp)))
-<<<<<<< HEAD
-            return error("CAddrman::Read() : invalid network RatCoin3.0 number");
-=======
             return error("CAddrman::Read() : invalid network RatCoin3.2 number");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
         // de-serialize address data into one CAddrMan object
         ssPeers >> addr;

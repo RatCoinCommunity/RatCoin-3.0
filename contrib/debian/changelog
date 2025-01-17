@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-RatCoin3.0 (0.4.0~dfsg-1) unstable; urgency=low
-=======
 RatCoin3.2 (0.4.0~dfsg-1) unstable; urgency=low
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 
   [ Balthazar ]
   * Initial release.

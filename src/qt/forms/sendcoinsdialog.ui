@@ -321,11 +321,8 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string>0.00 RatCoin3.0</string>
-=======
                   <string>0.00 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -411,11 +408,8 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string>0.00 RatCoin3.0</string>
-=======
                   <string>0.00 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -504,11 +498,8 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string>0.00 RatCoin3.0</string>
-=======
                   <string>0.00 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -540,11 +531,8 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string>0.00 RatCoin3.0</string>
-=======
                   <string>0.00 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -692,11 +680,8 @@
               <bool>false</bool> 
              </property> 
              <property name="text"> 
-<<<<<<< HEAD
-              <string>0.00 RatCoin3.0</string> 
-=======
               <string>0.00 RatCoin3.2</string> 
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
              </property>
             </widget> 
             </item>
@@ -837,11 +822,8 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-<<<<<<< HEAD
-          <string>123.456 RatCoin3.0</string>
-=======
           <string>123.456 RatCoin3.2</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>

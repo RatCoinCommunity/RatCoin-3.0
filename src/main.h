@@ -30,11 +30,8 @@ class CNode;
 class CTxMemPool;
 
 
-<<<<<<< HEAD
-static const int LAST_POW_BLOCK = 2000000000;
-=======
 static const int LAST_POW_BLOCK = 100000;
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */

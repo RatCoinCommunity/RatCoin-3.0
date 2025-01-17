@@ -116,11 +116,8 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" + 
-<<<<<<< HEAD
-                                         tr("RatCoin3.0 will close now to finish the encryption process. "
-=======
                                          tr("RatCoin3.2 will close now to finish the encryption process. "
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                                          "Remember that encrypting your wallet cannot fully protect "
                                          "your coins from being stolen by malware infecting your computer.") + 
                                          "<br><br><b>" + 

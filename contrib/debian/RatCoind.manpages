@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-debian/manpages/RatCoin3.0d.1
-debian/manpages/RatCoin3.0.conf.5
-=======
 debian/manpages/RatCoin3.2d.1
 debian/manpages/RatCoin3.2.conf.5
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)

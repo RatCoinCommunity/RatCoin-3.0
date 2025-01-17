@@ -78,11 +78,8 @@ BOOST_AUTO_TEST_CASE(multisig_verify)
 
     // Test a AND b:
     keys.clear();
-<<<<<<< HEAD
-    keys += key[0],key[1]; // RatCoin3.0 operator+= from boost.assign
-=======
     keys += key[0],key[1]; // RatCoin3.2 operator+= from boost.assign
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     s = sign_multisig(a_and_b, keys, txTo[0], 0);
     BOOST_CHECK(VerifyScript(s, a_and_b, txTo[0], 0, true, 0));
 

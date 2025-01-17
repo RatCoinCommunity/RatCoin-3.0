@@ -25,9 +25,6 @@ namespace Checkpoints
     // + Contains no strange transactions
     //
     static MapCheckpoints mapCheckpoints =
-<<<<<<< HEAD
-        boost::assign::map_list_of(0, uint256("0x00000fd1b9d871b88e181e5b4a223c3aa90b30645ffe2a5a41b488dd25d4d711"))(1000, uint256("6666b911cb82660ca7ede57bde0105c806e2d4bf223442f50f7d8614b2a6ee51"))(5000, uint256("15607af8bb5dab86eb9224e8a8ccf85e9a4a01c1801a9492ba26069750639c40"));
-=======
         boost::assign::map_list_of
 	(0, uint256("0x00000fd1b9d871b88e181e5b4a223c3aa90b30645ffe2a5a41b488dd25d4d711"))
 	(1000, uint256("6666b911cb82660ca7ede57bde0105c806e2d4bf223442f50f7d8614b2a6ee51"))
@@ -38,7 +35,7 @@ namespace Checkpoints
 	(100000, uint256("7800eb79a844d87194edee5aa3a2e0d43939784a45daafacf09077eeeddd9468"))
 	(117731, uint256("26c5b9bef52b394e35cd902bc364a8c73317f7ad71c994853e626fb95b71335f"))
 	(118000, uint256("755d1e40c95dd06eaab1290633189453dbc88b27c463fd1d28e355a83e172a27"));
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet =

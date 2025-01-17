@@ -1,6 +1,2 @@
 # Linked code is Expat - only Debian packaging is GPL-2+
-<<<<<<< HEAD
-RatCoin3.0-qt: possible-gpl-code-linked-with-openssl
-=======
 RatCoin3.2-qt: possible-gpl-code-linked-with-openssl
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)

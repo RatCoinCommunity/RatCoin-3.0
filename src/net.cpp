@@ -371,11 +371,8 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET / HTTP/1.1\r\n"
                      "Host: checkip.dyndns.org\r\n"
-<<<<<<< HEAD
-                     "User-Agent: RatCoin3.0\r\n"
-=======
                      "User-Agent: RatCoin3.2\r\n"
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -394,11 +391,8 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET /simple/ HTTP/1.1\r\n"
                      "Host: www.showmyip.com\r\n"
-<<<<<<< HEAD
-                     "User-Agent: RatCoin3.0\r\n"
-=======
                      "User-Agent: RatCoin3.2\r\n"
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -415,11 +409,8 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-ext-ip");
-=======
     RenameThread("RatCoin3.2-ext-ip");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -760,11 +751,8 @@ void SocketSendData(CNode *pnode)
 void ThreadSocketHandler(void* parg)
 {
     // Make this thread recognisable as the networking thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-net");
-=======
     RenameThread("RatCoin3.2-net");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     try
     {
@@ -1093,11 +1081,8 @@ void ThreadSocketHandler2(void* parg)
 void ThreadMapPort(void* parg)
 {
     // Make this thread recognisable as the UPnP thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-UPnP");
-=======
     RenameThread("RatCoin3.2-UPnP");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     try
     {
@@ -1158,11 +1143,8 @@ void ThreadMapPort2(void* parg)
             }
         }
 
-<<<<<<< HEAD
-        string strDesc = "RatCoin3.0 " + FormatFullVersion();
-=======
         string strDesc = "RatCoin3.2 " + FormatFullVersion();
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 #ifndef UPNPDISCOVER_SUCCESS
         /* miniupnpc 1.5 */
         r = UPNP_AddPortMapping(urls.controlURL, data.first.servicetype,
@@ -1252,11 +1234,8 @@ static const char *strDNSSeed[][2] = {
 void ThreadDNSAddressSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-dnsseed");
-=======
     RenameThread("RatCoin3.2-dnsseed");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     try
     {
@@ -1342,11 +1321,8 @@ void ThreadDumpAddress2(void* parg)
 void ThreadDumpAddress(void* parg)
 {
     // Make this thread recognisable as the address dumping thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-adrdump");
-=======
     RenameThread("RatCoin3.2-adrdump");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     try
     {
@@ -1361,11 +1337,8 @@ void ThreadDumpAddress(void* parg)
 void ThreadOpenConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-opencon");
-=======
     RenameThread("RatCoin3.2-opencon");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     try
     {
@@ -1546,11 +1519,8 @@ void ThreadOpenConnections2(void* parg)
 void ThreadOpenAddedConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-opencon");
-=======
     RenameThread("RatCoin3.2-opencon");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     try
     {
@@ -1681,11 +1651,8 @@ bool OpenNetworkConnection(const CAddress& addrConnect, CSemaphoreGrant *grantOu
 void ThreadMessageHandler(void* parg)
 {
     // Make this thread recognisable as the message handling thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-msghand");
-=======
     RenameThread("RatCoin3.2-msghand");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     try
     {
@@ -1851,11 +1818,8 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-<<<<<<< HEAD
-            strError = strprintf(_("Unable to bind to %s on this computer. RatCoin3.0 is probably already running."), addrBind.ToString().c_str());
-=======
             strError = strprintf(_("Unable to bind to %s on this computer. RatCoin3.2 is probably already running."), addrBind.ToString().c_str());
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -1936,11 +1900,8 @@ void static Discover()
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-<<<<<<< HEAD
-    RenameThread("RatCoin3.0-start");
-=======
     RenameThread("RatCoin3.2-start");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
     if (semOutbound == NULL) {
         // initialize semaphore

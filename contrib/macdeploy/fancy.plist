@@ -22,11 +22,7 @@
 			<integer>370</integer>
 			<integer>156</integer>
 		</array>
-<<<<<<< HEAD
-		<key>RatCoin3.0-Qt.app</key>
-=======
 		<key>RatCoin3.2-Qt.app</key>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 		<array>
 			<integer>128</integer>
 			<integer>156</integer>

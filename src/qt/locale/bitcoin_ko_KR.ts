@@ -2608,11 +2608,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-        <source>Send command to -server or RatCoin3.0d</source>
-=======
         <source>Send command to -server or RatCoin3.2d</source>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2632,20 +2629,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
-        <source>Specify configuration file (default: RatCoin3.0.conf)</source>
-=======
         <source>Specify configuration file (default: RatCoin3.2.conf)</source>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-        <source>Specify pid file (default: RatCoin3.0d.pid)</source>
-=======
         <source>Specify pid file (default: RatCoin3.2d.pid)</source>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         <translation type="unfinished"/>
     </message>
     <message>

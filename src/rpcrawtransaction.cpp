@@ -166,11 +166,8 @@ Value listunspent(const Array& params, bool fHelp)
         {
             CBitcoinAddress address(input.get_str());
             if (!address.IsValid())
-<<<<<<< HEAD
-                throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid RatCoin3.0 address: ")+input.get_str());
-=======
                 throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid RatCoin3.2 address: ")+input.get_str());
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
             if (setAddress.count(address))
                 throw JSONRPCError(RPC_INVALID_PARAMETER, string("Invalid parameter, duplicated address: ")+input.get_str());
            setAddress.insert(address);
@@ -262,11 +259,8 @@ Value createrawtransaction(const Array& params, bool fHelp)
     {
         CBitcoinAddress address(s.name_);
         if (!address.IsValid())
-<<<<<<< HEAD
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid RatCoin3.0 address: ")+s.name_);
-=======
             throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid RatCoin3.2 address: ")+s.name_);
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
         if (setAddress.count(address))
             throw JSONRPCError(RPC_INVALID_PARAMETER, string("Invalid parameter, duplicated address: ")+s.name_);

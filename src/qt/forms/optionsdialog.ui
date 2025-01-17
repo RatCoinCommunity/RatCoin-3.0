@@ -125,17 +125,11 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-<<<<<<< HEAD
-          <string>Automatically start RatCoin3.0 after logging in to the system.</string>
-         </property>
-         <property name="text">
-          <string>&amp;Start RatCoin3.0 on system login</string>
-=======
           <string>Automatically start RatCoin3.2 after logging in to the system.</string>
          </property>
          <property name="text">
           <string>&amp;Start RatCoin3.2 on system login</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
         </widget>
        </item>
@@ -172,11 +166,8 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-<<<<<<< HEAD
-          <string>Automatically open the RatCoin3.0 client port on the router. This only works when your router supports UPnP and it is enabled.</string>
-=======
           <string>Automatically open the RatCoin3.2 client port on the router. This only works when your router supports UPnP and it is enabled.</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -186,11 +177,8 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-<<<<<<< HEAD
-          <string>Connect to the RatCoin3.0 network through a SOCKS proxy (e.g. when connecting through Tor).</string>
-=======
           <string>Connect to the RatCoin3.2 network through a SOCKS proxy (e.g. when connecting through Tor).</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS proxy:</string>
@@ -364,11 +352,8 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-<<<<<<< HEAD
-            <string>The user interface language can be set here. This setting will take effect after restarting RatCoin3.0.</string>
-=======
             <string>The user interface language can be set here. This setting will take effect after restarting RatCoin3.2.</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
            </property>
           </widget>
          </item>
@@ -401,11 +386,8 @@
        <item>
         <widget class="QCheckBox" name="displayAddresses">
          <property name="toolTip">
-<<<<<<< HEAD
-          <string>Whether to show RatCoin3.0 addresses in the transaction list or not.</string>
-=======
           <string>Whether to show RatCoin3.2 addresses in the transaction list or not.</string>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
          </property>
          <property name="text">
           <string>&amp;Display addresses in transaction list</string>

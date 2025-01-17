@@ -83,11 +83,8 @@ void QRCodeDialog::genCode()
 
 QString QRCodeDialog::getURI()
 {
-<<<<<<< HEAD
-    QString ret = QString("RatCoin3.0:%1").arg(address);
-=======
     QString ret = QString("RatCoin3.2:%1").arg(address);
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     int paramCount = 0;
 
     ui->outUri->clear();

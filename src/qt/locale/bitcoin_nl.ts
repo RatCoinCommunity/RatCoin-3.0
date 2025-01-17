@@ -3,15 +3,6 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-<<<<<<< HEAD
-        <source>About RatCoin3.0</source>
-        <translation>Over RatCoin3.0</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;RatCoin3.0&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;RatCoin3.0&lt;/b&gt; versie</translation>
-=======
         <source>About RatCoin3.2</source>
         <translation>Over RatCoin3.2</translation>
     </message>
@@ -19,20 +10,15 @@
         <location line="+39"/>
         <source>&lt;b&gt;RatCoin3.2&lt;/b&gt; version</source>
         <translation>&lt;b&gt;RatCoin3.2&lt;/b&gt; versie</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
-Copyright © 2018 The RatCoin3.0 developers</source>
-        <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
-Copyright © 2018 De RatCoin3.0 ontwikkelaars</translation>
-=======
 Copyright © 2018 The RatCoin3.2 developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2018 De RatCoin3.2 ontwikkelaars</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+15"/>
@@ -79,13 +65,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-46"/>
-<<<<<<< HEAD
-        <source>These are your RatCoin3.0 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn al jou RatCoin3.0 adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
-=======
         <source>These are your RatCoin3.2 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dit zijn al jou RatCoin3.2 adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+60"/>
@@ -99,13 +81,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-<<<<<<< HEAD
-        <source>Sign a message to prove you own a RatCoin3.0 address</source>
-        <translation>Teken een bericht om te bewijzen dat je een RatCoin3.0 adres bezit.</translation>
-=======
         <source>Sign a message to prove you own a RatCoin3.2 address</source>
         <translation>Teken een bericht om te bewijzen dat je een RatCoin3.2 adres bezit.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -119,13 +97,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-14"/>
-<<<<<<< HEAD
-        <source>Verify a message to ensure it was signed with a specified RatCoin3.0 address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek RatCoin3.0 adres</translation>
-=======
         <source>Verify a message to ensure it was signed with a specified RatCoin3.2 address</source>
         <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek RatCoin3.2 adres</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -292,13 +266,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-58"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>RatCoin3.0 zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
-=======
         <source>RatCoin3.2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>RatCoin3.2 zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+13"/>
@@ -411,13 +381,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-<<<<<<< HEAD
-        <source>Show information about RatCoin3.0</source>
-        <translation>Toon informatie over RatCoin3.0</translation>
-=======
         <source>Show information about RatCoin3.2</source>
         <translation>Toon informatie over RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+2"/>
@@ -466,15 +432,6 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-62"/>
-<<<<<<< HEAD
-        <source>Send coins to a RatCoin3.0 address</source>
-        <translation>Verstuur munten naar een RatCoin3.0 adres</translation>
-    </message>
-    <message>
-        <location line="+45"/>
-        <source>Modify configuration options for RatCoin3.0</source>
-        <translation>Verander configuratie opties voor RatCoin3.0</translation>
-=======
         <source>Send coins to a RatCoin3.2 address</source>
         <translation>Verstuur munten naar een RatCoin3.2 adres</translation>
     </message>
@@ -482,7 +439,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+45"/>
         <source>Modify configuration options for RatCoin3.2</source>
         <translation>Verander configuratie opties voor RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+18"/>
@@ -521,13 +478,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-200"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0</source>
-        <translation>RatCoin3.0</translation>
-=======
         <source>RatCoin3.2</source>
         <translation>RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+0"/>
@@ -536,13 +489,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+178"/>
-<<<<<<< HEAD
-        <source>&amp;About RatCoin3.0</source>
-        <translation>&amp;Over RatCoin3.0</translation>
-=======
         <source>&amp;About RatCoin3.2</source>
         <translation>&amp;Over RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+9"/>
@@ -598,15 +547,6 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <location line="+60"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 client</source>
-        <translation>RatCoin3.0 client</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+70"/>
-        <source>%n active connection(s) to RatCoin3.0 network</source>
-        <translation><numerusform>%n actieve verbinding naar RatCoin3.0 netwerk</numerusform><numerusform>%n actieve verbindingen naar RatCoin3.0 netwerk</numerusform></translation>
-=======
         <source>RatCoin3.2 client</source>
         <translation>RatCoin3.2 client</translation>
     </message>
@@ -614,7 +554,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+70"/>
         <source>%n active connection(s) to RatCoin3.2 network</source>
         <translation><numerusform>%n actieve verbinding naar RatCoin3.2 netwerk</numerusform><numerusform>%n actieve verbindingen naar RatCoin3.2 netwerk</numerusform></translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+40"/>
@@ -728,13 +668,9 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-<<<<<<< HEAD
-        <source>URI can not be parsed! This can be caused by an invalid RatCoin3.0 address or malformed URI parameters.</source>
-        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig RatCoin3.0 adres of incorrecte URI parameters.</translation>
-=======
         <source>URI can not be parsed! This can be caused by an invalid RatCoin3.2 address or malformed URI parameters.</source>
         <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig RatCoin3.2 adres of incorrecte URI parameters.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+18"/>
@@ -793,13 +729,9 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-<<<<<<< HEAD
-        <source>A fatal error occurred. RatCoin3.0 can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . BRatCoin3.0 kan niet langer veilig doorgaan en sluit af.</translation>
-=======
         <source>A fatal error occurred. RatCoin3.2 can no longer continue safely and will quit.</source>
         <translation>Een fatale fout . BRatCoin3.2 kan niet langer veilig doorgaan en sluit af.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
 </context>
 <context>
@@ -1132,13 +1064,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-5"/>
-<<<<<<< HEAD
-        <source>The entered address &quot;%1&quot; is not a valid RatCoin3.0 address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig BRatCoin3.0 adres.</translation>
-=======
         <source>The entered address &quot;%1&quot; is not a valid RatCoin3.2 address.</source>
         <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig BRatCoin3.2 adres.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+10"/>
@@ -1156,13 +1084,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0-Qt</source>
-        <translation>RatCoin3.0-Qt</translation>
-=======
         <source>RatCoin3.2-Qt</source>
         <translation>RatCoin3.2-Qt</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-12"/>
@@ -1234,15 +1158,6 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-<<<<<<< HEAD
-        <source>Automatically start RatCoin3.0 after logging in to the system.</source>
-        <translation>Automatisch starten van BRatCoin3.0 na inloggen van het systeem.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start RatCoin3.0 on system login</source>
-        <translation>&amp;Start BRatCoin3.0 bij systeem aanmelding</translation>
-=======
         <source>Automatically start RatCoin3.2 after logging in to the system.</source>
         <translation>Automatisch starten van BRatCoin3.2 na inloggen van het systeem.</translation>
     </message>
@@ -1250,7 +1165,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <location line="+3"/>
         <source>&amp;Start RatCoin3.2 on system login</source>
         <translation>&amp;Start BRatCoin3.2 bij systeem aanmelding</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+7"/>
@@ -1269,13 +1184,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-<<<<<<< HEAD
-        <source>Automatically open the RatCoin3.0 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>De RatCoin3.0 client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
-=======
         <source>Automatically open the RatCoin3.2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>De RatCoin3.2 client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1284,13 +1195,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Connect to the RatCoin3.0 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbinding maken met het RatCoin3.0 netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
-=======
         <source>Connect to the RatCoin3.2 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Verbinding maken met het RatCoin3.2 netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1364,13 +1271,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+13"/>
-<<<<<<< HEAD
-        <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.0.</source>
-        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na RatCoin3.0 opnieuw op te starten.</translation>
-=======
         <source>The user interface language can be set here. This setting will take effect after restarting RatCoin3.2.</source>
         <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na RatCoin3.2 opnieuw op te starten.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+11"/>
@@ -1384,13 +1287,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+9"/>
-<<<<<<< HEAD
-        <source>Whether to show RatCoin3.0 addresses in the transaction list or not.</source>
-        <translation>RatCoin3.0 adressen in de transactielijst weergeven of niet</translation>
-=======
         <source>Whether to show RatCoin3.2 addresses in the transaction list or not.</source>
         <translation>RatCoin3.2 adressen in de transactielijst weergeven of niet</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1436,13 +1335,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-<<<<<<< HEAD
-        <source>This setting will take effect after restarting RatCoin3.0.</source>
-        <translation>Deze instelling word toegepast na een restart van RatCoin3.0.</translation>
-=======
         <source>This setting will take effect after restarting RatCoin3.2.</source>
         <translation>Deze instelling word toegepast na een restart van RatCoin3.2.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+29"/>
@@ -1460,13 +1355,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-<<<<<<< HEAD
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.0 network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het RatCoin3.0 netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
-=======
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RatCoin3.2 network after a connection is established, but this process has not completed yet.</source>
         <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het RatCoin3.2 netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-160"/>
@@ -1681,13 +1572,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Show the RatCoin3.0-Qt help message to get a list with possible RatCoin3.0 command-line options.</source>
-        <translation>Laat het BRatCoin3.0-QT help bericht zien om een lijst te krijgen met mogelijke BRatCoin3.0 command-regel opties.</translation>
-=======
         <source>Show the RatCoin3.2-Qt help message to get a list with possible RatCoin3.2 command-line options.</source>
         <translation>Laat het BRatCoin3.2-QT help bericht zien om een lijst te krijgen met mogelijke BRatCoin3.2 command-regel opties.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+3"/>
@@ -1706,15 +1593,6 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-104"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 - Debug window</source>
-        <translation>BRatCoin3.0 - Debugscherm</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>RatCoin3.0 Core</source>
-        <translation>RatCoin3.0 Kern</translation>
-=======
         <source>RatCoin3.2 - Debug window</source>
         <translation>BRatCoin3.2 - Debugscherm</translation>
     </message>
@@ -1722,7 +1600,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <location line="+25"/>
         <source>RatCoin3.2 Core</source>
         <translation>RatCoin3.2 Kern</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+279"/>
@@ -1731,13 +1609,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD
-        <source>Open the RatCoin3.0 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het RatCoin3.0 debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
-=======
         <source>Open the RatCoin3.2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Open het RatCoin3.2 debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+102"/>
@@ -1746,13 +1620,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-<<<<<<< HEAD
-        <source>Welcome to the RatCoin3.0 RPC console.</source>
-        <translation>Welkom bij de RatCoin3.0 RPC console.</translation>
-=======
         <source>Welcome to the RatCoin3.2 RPC console.</source>
         <translation>Welkom bij de RatCoin3.2 RPC console.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -1910,13 +1780,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Voeg een BRatCoin3.0 adres in (bijv. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Voeg een BRatCoin3.2 adres in (bijv. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+15"/>
@@ -2015,13 +1881,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+251"/>
-<<<<<<< HEAD
-        <source>WARNING: Invalid RatCoin3.0 address</source>
-        <translation>WAARSCHUWING: Ongeldig BRatCoin3.0 adres</translation>
-=======
         <source>WARNING: Invalid RatCoin3.2 address</source>
         <translation>WAARSCHUWING: Ongeldig BRatCoin3.2 adres</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+13"/>
@@ -2094,13 +1956,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Voeg een BRatCoin3.0 adres in (bijv. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Voeg een BRatCoin3.2 adres in (bijv. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
 </context>
 <context>
@@ -2160,13 +2018,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this RatCoin3.0 address</source>
-        <translation>Teken een bericht om te bewijzen dat je een RatCoin3.0 adres bezit.</translation>
-=======
         <source>Sign the message to prove you own this RatCoin3.2 address</source>
         <translation>Teken een bericht om te bewijzen dat je een RatCoin3.2 adres bezit.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+17"/>
@@ -2197,13 +2051,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+40"/>
-<<<<<<< HEAD
-        <source>Verify the message to ensure it was signed with the specified RatCoin3.0 address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek RatCoin3.0 adres</translation>
-=======
         <source>Verify the message to ensure it was signed with the specified RatCoin3.2 address</source>
         <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek RatCoin3.2 adres</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+17"/>
@@ -2213,13 +2063,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-<<<<<<< HEAD
-        <source>Enter a RatCoin3.0 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Voeg een BRatCoin3.0 adres in (bijv. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
-=======
         <source>Enter a RatCoin3.2 address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation>Voeg een BRatCoin3.2 adres in (bijv. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-2"/>
@@ -2228,13 +2074,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+3"/>
-<<<<<<< HEAD
-        <source>Enter RatCoin3.0 signature</source>
-        <translation>Voer RatCoin3.0 handtekening in</translation>
-=======
         <source>Enter RatCoin3.2 signature</source>
         <translation>Voer RatCoin3.2 handtekening in</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+82"/>
@@ -2804,13 +2646,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-<<<<<<< HEAD
-        <source>RatCoin3.0 version</source>
-        <translation>RatCoin3.0 versie</translation>
-=======
         <source>RatCoin3.2 version</source>
         <translation>RatCoin3.2 versie</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -2819,13 +2657,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-        <source>Send command to -server or RatCoin3.0d</source>
-        <translation>Verstuur commando naar -server of RatCoin3.0d</translation>
-=======
         <source>Send command to -server or RatCoin3.2d</source>
         <translation>Verstuur commando naar -server of RatCoin3.2d</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -2844,15 +2678,6 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
-        <source>Specify configuration file (default: RatCoin3.0.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: RatCoin3.0.conf)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Specify pid file (default: RatCoin3.0d.pid)</source>
-        <translation>Selecteer pid bestand (standaard: RatCoin3.0.conf)</translation>
-=======
         <source>Specify configuration file (default: RatCoin3.2.conf)</source>
         <translation>Selecteer configuratie bestand (standaard: RatCoin3.2.conf)</translation>
     </message>
@@ -2860,7 +2685,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <location line="+1"/>
         <source>Specify pid file (default: RatCoin3.2d.pid)</source>
         <translation>Selecteer pid bestand (standaard: RatCoin3.2.conf)</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+2"/>
@@ -3009,13 +2834,9 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+61"/>
-<<<<<<< HEAD
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.0 will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is RatCoin3.0 zal niet goed werken.</translation>
-=======
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong RatCoin3.2 will not work properly.</source>
         <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is RatCoin3.2 zal niet goed werken.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-31"/>
@@ -3204,40 +3025,28 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-<<<<<<< HEAD
-rpcuser=RatCoin3.0rpc
-=======
 rpcuser=RatCoin3.2rpc
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-<<<<<<< HEAD
-for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@foo.com
-=======
 for example: alertnotify=echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admin@foo.com
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 </source>
         <translation>%s, u moet een rpcpassword instellen in het configuratiebestand: 
 %s 
 Het wordt aanbevolen de volgende willekeurig wachtwoord gebruiken: 
-<<<<<<< HEAD
-rpcuser = RatCoin3.0rpc 
-=======
 rpcuser = RatCoin3.2rpc 
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 rpcpassword = %s 
 (je hoeft niet dit wachtwoord te onthouden) 
 De gebruikersnaam en het wachtwoord MAG NIET hetzelfde zijn. 
 Als het bestand niet bestaat, maakt u met leesbare-alleen-eigenaar bestandsbeheermachtigingen.  
 Het wordt ook aanbevolen om alertnotify instellen zodat u een melding van problemen;  
-<<<<<<< HEAD
-bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;RatCoin3.0 Alert&quot; admin@foo.com </translation>
-=======
 bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admin@foo.com </translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+51"/>
@@ -3361,15 +3170,6 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admi
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-        <source>Cannot obtain a lock on data directory %s.  RatCoin3.0 is probably already running.</source>
-        <translation>Kan een slot op data directory %s niet verkrijgen. RatCoin3.0 wordt waarschijnlijk al uitgevoerd.</translation>
-    </message>
-    <message>
-        <location line="-98"/>
-        <source>RatCoin3.0</source>
-        <translation>RatCoin3.0</translation>
-=======
         <source>Cannot obtain a lock on data directory %s.  RatCoin3.2 is probably already running.</source>
         <translation>Kan een slot op data directory %s niet verkrijgen. RatCoin3.2 wordt waarschijnlijk al uitgevoerd.</translation>
     </message>
@@ -3377,7 +3177,7 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admi
         <location line="-98"/>
         <source>RatCoin3.2</source>
         <translation>RatCoin3.2</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+140"/>
@@ -3411,15 +3211,6 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admi
     </message>
     <message>
         <location line="+4"/>
-<<<<<<< HEAD
-        <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.0</source>
-        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van RatCoin3.0</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart RatCoin3.0 to complete</source>
-        <translation>Portemonnee moet herschreven worden: herstart RatCoin3.0 om te voltooien</translation>
-=======
         <source>Error loading wallet.dat: Wallet requires newer version of RatCoin3.2</source>
         <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van RatCoin3.2</translation>
     </message>
@@ -3427,7 +3218,7 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admi
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart RatCoin3.2 to complete</source>
         <translation>Portemonnee moet herschreven worden: herstart RatCoin3.2 om te voltooien</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="+1"/>
@@ -3496,13 +3287,9 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;RatCoin3.2 Alert&quot; admi
     </message>
     <message>
         <location line="+122"/>
-<<<<<<< HEAD
-        <source>Unable to bind to %s on this computer. RatCoin3.0 is probably already running.</source>
-        <translation>Niet mogelijk om %s op deze computer. RatCoin3.0 is waarschijnlijk al geopened.</translation>
-=======
         <source>Unable to bind to %s on this computer. RatCoin3.2 is probably already running.</source>
         <translation>Niet mogelijk om %s op deze computer. RatCoin3.2 is waarschijnlijk al geopened.</translation>
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     </message>
     <message>
         <location line="-97"/>

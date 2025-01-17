@@ -955,11 +955,8 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-<<<<<<< HEAD
-    const char* pszModule = "RatCoin3.0";
-=======
     const char* pszModule = "RatCoin3.2";
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 #endif
     if (pex)
         return strprintf(
@@ -989,15 +986,6 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-<<<<<<< HEAD
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\RatCoin3.0
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\RatCoin3.0
-    // Mac: ~/Library/Application Support/RatCoin3.0
-    // Unix: ~/.RatCoin3.0
-#ifdef WIN32
-    // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "RatCoin3.0";
-=======
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\RatCoin3.2
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\RatCoin3.2
     // Mac: ~/Library/Application Support/RatCoin3.2
@@ -1005,7 +993,7 @@ boost::filesystem::path GetDefaultDataDir()
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "RatCoin3.2";
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1017,17 +1005,11 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-<<<<<<< HEAD
-    return pathRet / "RatCoin3.0";
-#else
-    // Unix
-    return pathRet / ".RatCoin3.0";
-=======
     return pathRet / "RatCoin3.2";
 #else
     // Unix
     return pathRet / ".RatCoin3.2";
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 #endif
 #endif
 }
@@ -1100,11 +1082,8 @@ void createConf()
 
 boost::filesystem::path GetConfigFile()
 {
-<<<<<<< HEAD
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "RatCoin3.0.conf"));
-=======
     boost::filesystem::path pathConfigFile(GetArg("-conf", "RatCoin3.2.conf"));
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1127,11 +1106,8 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-<<<<<<< HEAD
-        // Don't overwrite RatCoin3.0ing settings so command line settings override bitcoin.conf
-=======
         // Don't overwrite RatCoin3.2ing settings so command line settings override bitcoin.conf
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -1145,11 +1121,8 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-<<<<<<< HEAD
-    boost::filesystem::path pathPidFile(GetArg("-pid", "RatCoin3.0d.pid"));
-=======
     boost::filesystem::path pathPidFile(GetArg("-pid", "RatCoin3.2d.pid"));
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1279,17 +1252,11 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-<<<<<<< HEAD
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong RatCoin3.0 will not work properly.");
-                    strMiscWarning = strMessage;
-                    printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("RatCoin3.0"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
-=======
                     string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong RatCoin3.2 will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage+" ", string("RatCoin3.2"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
                 }
             }
         }

@@ -45,15 +45,10 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-<<<<<<< HEAD
-    case BTC: return QString("RatCoin3.0");
-    case mBTC: return QString("Milli-RatCoin3.0 (1 / 1,000)");
-    case uBTC: return QString("Micro-RatCoin3.0 (1 / 1,000,000)");
-=======
     case BTC: return QString("RatCoin3.2");
     case mBTC: return QString("Milli-RatCoin3.2 (1 / 1,000)");
     case uBTC: return QString("Micro-RatCoin3.2 (1 / 1,000,000)");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
     default: return QString("???");
     }
 }

@@ -103,17 +103,11 @@ Value getworkex(const Array& params, bool fHelp)
         );
 
     if (vNodes.empty())
-<<<<<<< HEAD
-        throw JSONRPCError(-9, "RatCoin3.0 is not connected!");
-
-    if (IsInitialBlockDownload())
-        throw JSONRPCError(-10, "RatCoin3.0 is downloading blocks...");
-=======
         throw JSONRPCError(-9, "RatCoin3.2 is not connected!");
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(-10, "RatCoin3.2 is downloading blocks...");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK)
@@ -246,17 +240,11 @@ Value getwork(const Array& params, bool fHelp)
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
     if (vNodes.empty())
-<<<<<<< HEAD
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "RatCoin3.0 is not connected!");
-
-    if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "RatCoin3.0 is downloading blocks...");
-=======
         throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "RatCoin3.2 is not connected!");
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "RatCoin3.2 is downloading blocks...");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK)
@@ -399,17 +387,11 @@ Value getblocktemplate(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-<<<<<<< HEAD
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "RatCoin3.0 is not connected!");
-
-    if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "RatCoin3.0 is downloading blocks...");
-=======
         throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "RatCoin3.2 is not connected!");
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "RatCoin3.2 is downloading blocks...");
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK)

@@ -1,11 +1,6 @@
 [Protocol]
-<<<<<<< HEAD
-exec=RatCoin3.0-qt '%u'
-protocol=RatCoin3.0
-=======
 exec=RatCoin3.2-qt '%u'
 protocol=RatCoin3.2
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
 input=none
 output=none
 helper=true

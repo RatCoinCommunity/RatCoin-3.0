@@ -3,11 +3,8 @@
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-<<<<<<< HEAD
-# Mac OS X makefile for RatCoin3.0
-=======
 # Mac OS X makefile for RatCoin3.2
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 CXX=llvm-g++
@@ -28,11 +25,8 @@ USE_UPNP:=1
 LIBS= -dead_strip
 
 ifdef STATIC
-<<<<<<< HEAD
-# Build STATIC if you are redistributing the RatCoin3.0d binary
-=======
 # Build STATIC if you are redistributing the RatCoin3.2d binary
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 LIBS += \
  $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a \
  $(DEPSDIR)/lib/libboost_system-mt.a \
@@ -125,11 +119,8 @@ else
 endif
 endif
 
-<<<<<<< HEAD
-all: RatCoin3.0d
-=======
 all: RatCoin3.2d
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -167,19 +158,12 @@ obj/scrypt-x86.o: scrypt-x86.S
 obj/scrypt-x86_64.o: scrypt-x86_64.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
 
-<<<<<<< HEAD
-RatCoin3.0d: $(OBJS:obj/%=obj/%)
-	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
-
-clean:
-	-rm -f RatCoin3.0d
-=======
 RatCoin3.2d: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
 	-rm -f RatCoin3.2d
->>>>>>> fd9415b (Update to 3.2 forcing fork and rendering unauthorized mined blocks as invalid)
+
 	-rm -f obj/*.o
 	-rm -f obj/zerocoin/*.o
 	-rm -f obj/*.P
