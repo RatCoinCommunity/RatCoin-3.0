@@ -1149,6 +1149,9 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits)
 {
+    if( nBestHeight > LAST_POW_BLOCK)
+        return false; // Reject all PoW blocks
+
     CBigNum bnTarget;
     bnTarget.SetCompact(nBits);
 
@@ -2036,6 +2039,10 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return DoS(100, error("CheckBlock() : size limits failed"));
 
+    // Reject all proof-of-work blocks
+    if (nBestHeight > LAST_POW_BLOCK && fCheckPOW && IsProofOfWork())
+        return DoS(100, error("CheckBlock() : PoW blocks are no longer accepted"));
+
     // Check proof of work matches claimed amount
     if (fCheckPOW && IsProofOfWork() && !CheckProofOfWork(GetPoWHash(), nBits))
         return DoS(50, error("CheckBlock() : proof of work failed"));
@@ -2239,6 +2246,13 @@ bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, uns
 
 bool ProcessBlock(CNode* pfrom, CBlock* pblock)
 {
+    //Invalidate POW blocks
+    if (nBestHeight > LAST_POW_BLOCK && pblock->IsProofOfWork())
+    {
+        printf("Rejecting PoW block from %s\n", pfrom->addr.ToString().c_str());
+        return error("ProcessBlock(): Proof-of-Work blocks are no longer allowed");
+    }
+
     AssertLockHeld(cs_main);
 
     // Check for duplicate
