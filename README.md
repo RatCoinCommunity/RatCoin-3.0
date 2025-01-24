@@ -7,7 +7,7 @@ Block Time: 1.5 minutes<br>
 =======
 Premine: 100% <br>
 Coinbase maturity: 10 blocks<br>
-Target spacing: 3 minute<br>
+Target spacing: 3 minutes<br>
 Target timespan: 1 block<br>
 Transaction confirmations: 4 blocks<br>
 Pow 0 coins per block
