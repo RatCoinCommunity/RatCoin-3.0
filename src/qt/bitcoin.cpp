@@ -148,9 +148,9 @@ int main(int argc, char *argv[])
     app.setOrganizationName("RatCoin3.2");
     //XXX app.setOrganizationDomain("");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("RatCoin3.2-Qt-testnet");
+        app.setApplicationName("RatCoin3.2.1-Qt-testnet");
     else
-        app.setApplicationName("RatCoin3.2-Qt");
+        app.setApplicationName("RatCoin3.2.1-Qt");
 
 
     // ... then GUI settings:

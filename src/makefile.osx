@@ -119,7 +119,7 @@ else
 endif
 endif
 
-all: RatCoin3.2d
+all: RatCoin3.2.1d
 
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
