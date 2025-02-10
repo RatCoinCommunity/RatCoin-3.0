@@ -90,7 +90,7 @@ OBJS= \
     obj/zerocoin/SpendMetaData.o \
     obj/zerocoin/ZeroTest.o
 
-all: RatCoin3.2d.exe
+all: RatCoin3.2.1d.exe
 
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
@@ -117,7 +117,7 @@ RatCoin3.2.1d.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-del /Q RatCoin3.2d
+	-del /Q RatCoin3.2.1d
 
 	-del /Q obj\*
 	-del /Q obj\zerocoin\*

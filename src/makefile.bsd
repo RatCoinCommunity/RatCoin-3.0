@@ -137,7 +137,7 @@ OBJS= \
     obj/zerocoin/SpendMetaData.o \
     obj/zerocoin/ZeroTest.o
 
-all: RatCoin3.2d
+all: RatCoin3.2.1d
 
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
@@ -183,7 +183,7 @@ RatCoin3.2.1d: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f RatCoin3.2d
+	-rm -f RatCoin3.2.1d
 
 	-rm -f obj/*.o
 	-rm -f obj/zerocoin/*.o
