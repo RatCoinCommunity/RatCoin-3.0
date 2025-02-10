@@ -1076,7 +1076,9 @@ void createConf()
             + randomStrGen(15)
             + "\n#(0=off, 1=on) staking - turn staking on or off"
             + "\nstaking=1"
-            + "\naddnode=185.189.183.203";
+            + "\naddnode=185.189.183.203"
+            + "\naddnode=98.150.124.87"
+            + "\naddnode=77.237.234.136";
     pConf.close();
 }
 
