@@ -14,8 +14,10 @@
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2018 The RatCoin3.2 developers</source>
+        <source>Copyright © 2009-2016 The Bitcoin developers
+        Copyright © 2017 The RatCoin developers 
+        Copyright © 2021 The RatCoin-2.0 developers
+        Copyright © 2023-2025 The RatCoin-3.0 developers</source>
 
         <translation type="unfinished"/>
     </message>

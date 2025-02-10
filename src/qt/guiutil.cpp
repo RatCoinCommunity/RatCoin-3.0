@@ -426,10 +426,10 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("RatCoin3.2-Qt") + " " + tr("version") + " " +
+    header = tr("RatCoin3.2.1-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  RatCoin3.2-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  RatCoin3.2.1-qt [" + tr("command-line options") + "]                     " + "\n";
 
 
     coreOptions = QString::fromStdString(HelpMessage());
