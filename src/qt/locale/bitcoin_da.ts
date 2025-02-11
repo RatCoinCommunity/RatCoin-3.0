@@ -2682,8 +2682,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Angiv konfigurationsfil (default: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Angiv konfigurationsfil (default: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

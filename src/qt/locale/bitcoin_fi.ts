@@ -2679,8 +2679,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

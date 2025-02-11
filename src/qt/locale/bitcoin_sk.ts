@@ -2681,8 +2681,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

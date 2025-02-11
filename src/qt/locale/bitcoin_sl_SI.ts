@@ -2679,8 +2679,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

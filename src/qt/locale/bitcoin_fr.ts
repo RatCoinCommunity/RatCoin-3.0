@@ -2683,8 +2683,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

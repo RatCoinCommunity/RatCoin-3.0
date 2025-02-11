@@ -2688,8 +2688,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Especifica un archivo de configuración (por defecto: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Especifica un archivo de configuración (por defecto: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

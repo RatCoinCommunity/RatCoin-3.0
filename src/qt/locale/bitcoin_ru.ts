@@ -2667,8 +2667,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -2683,8 +2683,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Spécifier le fichier de configuration (defaut: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Spécifier le fichier de configuration (defaut: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -1084,7 +1084,7 @@ void createConf()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "RatCoin3.2.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "RatCoin3.2.1.conf"));
 
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;

@@ -2673,8 +2673,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
