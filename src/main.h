@@ -30,7 +30,7 @@ class CNode;
 class CTxMemPool;
 
 
-static const int LAST_POW_BLOCK = 127630;
+static const int LAST_POW_BLOCK = 127851;
 
 
 
