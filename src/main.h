@@ -943,6 +943,11 @@ public:
         return (vtx.size() > 1 && vtx[1].IsCoinStake());
     }
 
+    bool IsProofOfWork() const
+    {
+        return !IsProofOfStake();
+    }
+
     std::pair<COutPoint, unsigned int> GetProofOfStake() const
     {
         return IsProofOfStake()? std::make_pair(vtx[1].vin[0].prevout, vtx[1].nTime) : std::make_pair(COutPoint(), (unsigned int)0);
@@ -1272,7 +1277,7 @@ public:
     {
         return !(nFlags & BLOCK_PROOF_OF_STAKE);
     }
-    
+
     bool IsProofOfStake() const
     {
         return (nFlags & BLOCK_PROOF_OF_STAKE);
