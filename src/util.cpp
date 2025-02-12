@@ -1076,6 +1076,9 @@ void createConf()
             + randomStrGen(15)
             + "\n#(0=off, 1=on) staking - turn staking on or off"
             + "\nstaking=1"
+            + "\ndaemon=1"
+            + "\nlisten=1"
+            + "\nserver=1"
             + "\naddnode=185.189.183.203"
             + "\naddnode=98.150.124.87"
             + "\naddnode=77.237.234.136";
@@ -1084,7 +1087,7 @@ void createConf()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "RatCoin3.2.1.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "RatCoin3.2.conf"));
 
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;

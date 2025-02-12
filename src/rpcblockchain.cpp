@@ -43,7 +43,7 @@ double GetDifficulty(const CBlockIndex* blockindex)
     return dDiff;
 }
 
-/*double GetPoWMHashPS()
+double GetPoWMHashPS()
 {
 #if 0
     if (pindexBest->nHeight >= LAST_POW_BLOCK)
@@ -70,7 +70,7 @@ double GetDifficulty(const CBlockIndex* blockindex)
     }
 
     return GetDifficulty() * 4294.967296 / nTargetSpacingWork;
-} */
+} 
 
 double GetPoSKernelPS()
 {
@@ -178,7 +178,7 @@ Value getdifficulty(const Array& params, bool fHelp)
             "Returns the difficulty as a multiple of the minimum difficulty.");
 
     Object obj;
-    //obj.push_back(Pair("proof-of-work",        GetDifficulty()));
+    obj.push_back(Pair("proof-of-work",        GetDifficulty()));
     obj.push_back(Pair("proof-of-stake",       GetDifficulty(GetLastBlockIndex(pindexBest, true))));
     obj.push_back(Pair("search-interval",      (int)nLastCoinStakeSearchInterval));
     return obj;
