@@ -32,8 +32,6 @@ class CTxMemPool;
 
 static const int LAST_POW_BLOCK = 127630;
 
-
-
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 /** The maximum size for mined blocks */
@@ -1270,6 +1268,11 @@ public:
                                 unsigned int nRequired, unsigned int nToCheck);
 
 
+    bool IsProofOfWork() const
+    {
+        return !(nFlags & BLOCK_PROOF_OF_STAKE);
+    }
+    
     bool IsProofOfStake() const
     {
         return (nFlags & BLOCK_PROOF_OF_STAKE);
