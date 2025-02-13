@@ -14,8 +14,10 @@
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2018 The RatCoin3.2 developers</source>
+        <source>Copyright © 2009-2016 The Bitcoin developers
+Copyright © 2017 The RatCoin developers 
+Copyright © 2021 The RatCoin-2.0 developers
+Copyright © 2023-2025 The RatCoin-3.0 developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2018 De RatCoin3.2 ontwikkelaars</translation>
 
@@ -2678,13 +2680,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: RatCoin3.2d.pid)</source>
-        <translation>Selecteer pid bestand (standaard: RatCoin3.2.conf)</translation>
+        <translation>Selecteer pid bestand (standaard: RatCoin3.2.1.conf)</translation>
 
     </message>
     <message>

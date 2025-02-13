@@ -70,7 +70,7 @@ double GetPoWMHashPS()
     }
 
     return GetDifficulty() * 4294.967296 / nTargetSpacingWork;
-}
+} 
 
 double GetPoSKernelPS()
 {

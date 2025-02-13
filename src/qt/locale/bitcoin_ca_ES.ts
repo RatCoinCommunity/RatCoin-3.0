@@ -14,10 +14,14 @@
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2018 The RatCoin3.2 developers</source>
-        <translation>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2018 The RatCoin3.2 developers</translation>
+        <source>Copyright © 2009-2016 The Bitcoin developers
+        Copyright © 2017 The RatCoin developers 
+        Copyright © 2021 The RatCoin-2.0 developers
+        Copyright © 2023-2025 The RatCoin-3.0 developers</source>
+        <translation>Copyright © 2009-2016 The Bitcoin developers
+        Copyright © 2017 The RatCoin developers 
+        Copyright © 2021 The RatCoin-2.0 developers
+        Copyright © 2023-2025 The RatCoin-3.0 developers</translation>
 
     </message>
     <message>
@@ -2669,8 +2673,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -14,8 +14,10 @@
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2018 The RatCoin3.2 developers</source>
+        <source>Copyright © 2009-2016 The Bitcoin developers
+Copyright © 2017 The RatCoin developers 
+Copyright © 2021 The RatCoin-2.0 developers
+Copyright © 2023-2025 The RatCoin-3.0 developers</source>
         <translation>Copyright © 2009-2014 Les développeurs Bitcoin
 Copyright © 2018 Les développeurs RatCoin3.2</translation>
 
@@ -2681,8 +2683,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>Spécifier le fichier de configuration (defaut: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>Spécifier le fichier de configuration (defaut: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About RatCoin3.2</string>
+   <string>About RatCoin3.2.1</string>
 
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -51,7 +51,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RatCoin3.2&lt;/span&gt; version&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RatCoin3.2.1&lt;/span&gt; version&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
 
          </property>
          <property name="textInteractionFlags">
@@ -96,7 +96,7 @@
         <string>Copyright © 2009-2016 The Bitcoin developers
 Copyright © 2017 The RatCoin developers 
 Copyright © 2021 The RatCoin-2.0 developers
-Copyright © 2024 The RatCoin-3.0 developers
+Copyright © 2023-2025 The RatCoin-3.0 developers
 
 </string>
        </property>
