@@ -15,8 +15,10 @@
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2018 The RatCoin3.2 developers</source>
+        <source>Copyright © 2009-2016 The Bitcoin developers
+Copyright © 2017 The RatCoin developers 
+Copyright © 2021 The RatCoin-2.0 developers
+Copyright © 2023-2025 The RatCoin-3.0 developers</source>
         <translation>コピーライト © 2009-2014 The Bitcoin developers
 コピーライト © 2018 The RatCoin3.2 developers</translation>
 
@@ -2682,8 +2684,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: RatCoin3.2.conf)</source>
-        <translation>設定ファイルを特定する (デファルト: RatCoin3.2.conf)</translation>
+        <source>Specify configuration file (default: RatCoin3.2.1.conf)</source>
+        <translation>設定ファイルを特定する (デファルト: RatCoin3.2.1.conf)</translation>
     </message>
     <message>
         <location line="+1"/>

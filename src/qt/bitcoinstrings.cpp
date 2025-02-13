@@ -40,7 +40,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Get help for a command"),
 QT_TRANSLATE_NOOP("bitcoin-core", "RatCoin3.2"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "This help message"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: RatCoin3.2.conf)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: RatCoin3.2.1.conf)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify pid file (default: RatCoin3.2d.pid)"),
 
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify data directory"),

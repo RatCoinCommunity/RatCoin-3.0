@@ -100,7 +100,7 @@ OBJS= \
     obj/zerocoin/SpendMetaData.o \
     obj/zerocoin/ZeroTest.o
 
-all: RatCoin3.2d.exe
+all: RatCoin3.2.1d.exe
 
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
@@ -122,7 +122,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/zerocoin/%.o: zerocoin/%.cpp $(HEADERS)
 	$(CXX) -c $(CFLAGS) -o $@ $<
 
-RatCoin3.2d.exe: $(OBJS:obj/%=obj/%)
+RatCoin3.2.1d.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) -lshlwapi
 	$(STRIP) RatCoin3.2d.exe
 
@@ -136,7 +136,7 @@ obj/scrypt-x86_64.o: scrypt-x86_64.S
 clean:
 	-rm -f obj/*.o
 	-rm -f obj/zerocoin/*.o
-	-rm -f RatCoin3.2d.exe
+	-rm -f RatCoin3.2.1d.exe
 
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..

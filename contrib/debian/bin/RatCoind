@@ -5,7 +5,7 @@ set -e
 umask 077
 
 basedir=~/.RatCoin3.2
-cfgfile="$basedir/RatCoin3.2.conf"
+cfgfile="$basedir/RatCoin3.2.1.conf"
 
 [ -e "$basedir" ] || mkdir "$basedir"
 

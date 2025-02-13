@@ -119,7 +119,7 @@ else
 endif
 endif
 
-all: RatCoin3.2d
+all: RatCoin3.2.1d
 
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
@@ -158,11 +158,11 @@ obj/scrypt-x86.o: scrypt-x86.S
 obj/scrypt-x86_64.o: scrypt-x86_64.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
 
-RatCoin3.2d: $(OBJS:obj/%=obj/%)
+RatCoin3.2.1d: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-rm -f RatCoin3.2d
+	-rm -f RatCoin3.2.1d
 
 	-rm -f obj/*.o
 	-rm -f obj/zerocoin/*.o
