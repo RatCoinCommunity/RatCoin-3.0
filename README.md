@@ -16,7 +16,7 @@ Pos 0.00000001 per block
 Website – https://ratcoin.net/<br>
 Explorer – https://ratcoin.rektfreak.io/<br>
 Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.2.0/RatCoin3.2-qt.exe<br>
-Mobile/Desktop Wallet - https://dogecash.net
+Mobile/Desktop Wallet - https://dogecash.net<br>
 Discord Bot - freak-multibot 
 
 Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfeIb0u7TW6lyRM/edit<br>
