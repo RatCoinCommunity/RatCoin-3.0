@@ -2,7 +2,7 @@ RATCOIN INFO
 --------------------------------------------------------------------------------------------------------------
 <b><u>SPECIFICATIONS:</u></b><br>
 Algorithm: Scrypt POS<br>
-MAX Supply: 4,000,000,000 (4 Billion)<br>
+MAX Supply: 4,013,099,990<br>
 Block Time: 1.5 minutes<br>
 =======
 Premine: 100% <br>
@@ -10,7 +10,6 @@ Coinbase maturity: 10 blocks<br>
 Target spacing: 3 minutes<br>
 Target timespan: 1 block<br>
 Transaction confirmations: 4 blocks<br>
-Pow 0 coins per block
 Pos 0.00000001 per block
 
 Website – https://ratcoin.net/<br>
@@ -50,7 +49,6 @@ https://dex-trade.com/<br>
 https://stakecube.net<br>
 https://qutrade.io<br>
 https://cratex.io<br>
-https://dogecash.net<br>
 
 TRADING PAIRS<br>
 
@@ -68,8 +66,6 @@ RAT / BTCZ - https://cratex.io/index.php?pair=RAT/BTCZ<br>
 RAT / DOGE - https://cratex.io/index.php?pair=RAT/DOGE<br>
 RAT / LTC  - https://cratex.io/index.php?pair=RAT/LTC<br>
 RAT / CRATX - https://cratex.io/index.php?pair=RAT/CRATX<br>
-
-RAT / USDT - https://app.dogecash.net/exchange/RAT_USDT
 
 INFO SITES<br>
 
