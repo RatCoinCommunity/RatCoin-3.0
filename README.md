@@ -60,6 +60,7 @@ RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
 
 RAT / USDT - https://qutrade.io/en/?market=rat_usdt<br>
 RAT / TRX -  https://qutrade.io/en/?market=rat_trx<br>
+RAT / PAK - https://qutrade.io/en/?market=rat_pak<br>
 
 RAT / USDT - https://cratex.io/index.php?pair=RAT/USDT<br>
 RAT / BTCZ - https://cratex.io/index.php?pair=RAT/BTCZ<br>
