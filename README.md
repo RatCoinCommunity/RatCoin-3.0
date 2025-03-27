@@ -76,6 +76,8 @@ CoinMarketLeague - https://coinmarketleague.com/coin/ratcoin<br>
 Coinpaprika - https://coinpaprika.com/coin/rat-ratcoin/<br>
 Coincodex - https://coincodex.com/crypto/ratcoin/<br>
 Blockspot.io - https://blockspot.io/coin/ratcoin/<br>
+Crypto.com - https://crypto.com/price/ratcoin-network
+Coinbase.com - https://www.coinbase.com/price/ratcoin-network
 Moonstats - https://www.moonstats.com/rat-ratcoin<br>
 Coinlore - https://www.coinlore.com/zh/coin/ratcoin<br>
 CoinMooner - https://coinmooner.com/coin/ratcoin-rat<br>
