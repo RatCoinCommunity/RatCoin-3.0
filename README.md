@@ -15,8 +15,7 @@ Pos 0.00000001 per block
 Website – https://ratcoin.net/<br>
 Explorer – https://ratcoin.rektfreak.io/<br>
 Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.2.1/RatCoin3.2.1-qt.exe<br>
-Mobile/Desktop Wallet - https://dogecash.net<br>
-Discord Bot - freak-multibot 
+Mobile Wallet - 
 
 Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfeIb0u7TW6lyRM/edit<br>
 
@@ -76,8 +75,9 @@ CoinMarketLeague - https://coinmarketleague.com/coin/ratcoin<br>
 Coinpaprika - https://coinpaprika.com/coin/rat-ratcoin/<br>
 Coincodex - https://coincodex.com/crypto/ratcoin/<br>
 Blockspot.io - https://blockspot.io/coin/ratcoin/<br>
-Crypto.com - https://crypto.com/price/ratcoin-network
-Coinbase.com - https://www.coinbase.com/price/ratcoin-network
+Crypto.com - https://crypto.com/price/ratcoin-network<br>
+Coinbase.com - https://www.coinbase.com/price/ratcoin-network<br>
+Gempump.io - https://www.gempump.io/token/ratcoin<br>
 Moonstats - https://www.moonstats.com/rat-ratcoin<br>
 Coinlore - https://www.coinlore.com/zh/coin/ratcoin<br>
 CoinMooner - https://coinmooner.com/coin/ratcoin-rat<br>
