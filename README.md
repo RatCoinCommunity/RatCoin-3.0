@@ -14,7 +14,7 @@ Pos 0.00000001 per block
 
 Website – https://ratcoin.net/<br>
 Explorer – https://ratcoin.rektfreak.io/<br>
-Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.2.1/RatCoin3.2.1-qt.exe<br>
+Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.2.11/RatCoin3.2.1-qt.exe<br>
 Mobile Wallet - 
 
 Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfeIb0u7TW6lyRM/edit<br>
