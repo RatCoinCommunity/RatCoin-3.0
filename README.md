@@ -13,7 +13,7 @@ Transaction confirmations: 4 blocks<br>
 Pos 0.00000001 per block
 
 Website – https://ratcoin.net/<br>
-Explorer – http://explorer.ratcoin.net/ and https://ratcoin.rektfreak.io/<br>
+Explorer – https://explorer.ratcoin.net/ and https://ratcoin.rektfreak.io/<br>
 Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.2.11/RatCoin3.2.1-qt.exe<br>
 Mobile Wallet - 
 
