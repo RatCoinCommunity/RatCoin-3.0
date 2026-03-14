@@ -12,14 +12,16 @@ Target timespan: 1 block<br>
 Transaction confirmations: 4 blocks<br>
 Pos 0.00000001 per block
 
-Website – https://ratcoin.net/<br>
-Explorer – https://explorer.ratcoin.net/ and https://ratcoin.rektfreak.io/<br>
+Website – https://ratcoin.net<br>
+Explorer – https://explorer.ratcoin.net<br>
 Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.2.11/RatCoin3.2.1-qt.exe<br>
 Mobile Wallet - 
 
+Rodent Rebellion Video Game (URL) - https://gaming.ratcoin.net<br>
+Rodent Rebellion Video Game (Telegram) - 
 Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfeIb0u7TW6lyRM/edit<br>
-
-RatCoin Logo - https://imgur.com/a/McWwCIP
+RatCoin Logo - https://imgur.com/a/McWwCIP<br>
+RatCoin Trading Bot - installed on VPS<br> 
 
 Telegram (English) - https://t.me/ratcoincommunity<br>
 Telegram (News/Announcements) - https://t.me/RatCoin_News_Announcements<br>
