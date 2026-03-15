@@ -21,7 +21,6 @@ Rodent Rebellion Video Game (URL) - https://gaming.ratcoin.net<br>
 Rodent Rebellion Video Game (Telegram) - <br>
 Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfeIb0u7TW6lyRM/edit<br>
 RatCoin Logo - https://imgur.com/a/McWwCIP<br>
-RatCoin Trading Bot - installed on VPS
 
 Telegram (English) - https://t.me/ratcoincommunity<br>
 Telegram (News/Announcements) - https://t.me/RatCoin_News_Announcements<br>
