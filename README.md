@@ -45,14 +45,11 @@ StockTwits - https://stocktwits.com/symbol/RAT.X<br>
 
 EXCHANGES<br>
 
-https://dex-trade.com/<br>
 https://stakecube.net<br>
 https://qutrade.io<br>
 https://cratex.io<br>
 
 TRADING PAIRS<br>
-
-RAT / USDT - https://dex-trade.com/spot/trading/RATUSDT?interface=fullscreen<br>
 
 RAT / USDT - https://stakecube.net/app/exchange/rat_usdt<br>
 RAT / SCC - https://stakecube.net/app/exchange/rat_scc<br>
@@ -61,6 +58,7 @@ RAT / BTC - https://stakecube.net/app/exchange/rat_btc<br>
 RAT / USDT - https://qutrade.io/en/?market=rat_usdt<br>
 RAT / TRX -  https://qutrade.io/en/?market=rat_trx<br>
 RAT / PAK - https://qutrade.io/en/?market=rat_pak<br>
+RAT / S11 - https://qutrade.io/en/?market=rat_s11<br>
 
 RAT / USDT - https://cratex.io/index.php?pair=RAT/USDT<br>
 RAT / BTCZ - https://cratex.io/index.php?pair=RAT/BTCZ<br>
