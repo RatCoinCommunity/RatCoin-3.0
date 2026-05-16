@@ -33,7 +33,7 @@ Telegram (Arabic) - https://t.me/RatCoinArabic<br>
 Telegram (Chinese) - https://t.me/RatCoinChinese
 
 Github - https://github.com/ratcoincommunity<br>
-Twitter - https://twitter.com/RatcoinR<br>
+   X   - https://x.com/RatcoinR<br>
 Facebook - https://www.facebook.com/groups/142509831068661<br>
 Instagram - https://www.instagram.com/ratcoin <br>
 YouTube - https://www.youtube.com/@ratcoinnetwork5448 and https://www.youtube.com/@ratcoinnetwork5787<br>
@@ -87,10 +87,17 @@ CryptoTopList - https://cointoplist.net/coin/ratcoin<br>
 CoinVote - https://coinvote.cc/coin/Ratcoin<br>
 RugFreeCoins - https://www.rugfreecoins.com/details/7731<br>
 
+AFFILIATES <br>
 
+"RatCoin Tribute to the OG RatCoin" Token<br>
+Contract Address: ATbDjGuY7whAFtFQACzeCnyTzJdoqNQp55Aywap2pump<br>
+Exchange - https://pump.fun/coin/ATbDjGuY7whAFtFQACzeCnyTzJdoqNQp55Aywap2pump<br>
+X - https://x.com/i/communities/2035886391620477395<br>
 
-
-
+Russian Blue Cat<br>
+Contract Address: 0x14A2db256Ef18c4f7165d5E48f65a528b4155100<br>
+Exchange - https://dexscreener.com/bsc/0xdaf952f2a7877609994a33dd7839c1b7f31c553a<br>
+x - https://x.com/RBCAT_BSC<br>
 
 
 
