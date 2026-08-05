@@ -17,8 +17,8 @@ Explorer – https://explorer.ratcoin.net<br>
 Desktop Wallet QT - https://github.com/RatCoinCommunity/RatCoin-3.0/releases/download/v3.2.11/RatCoin3.2.1-qt.exe<br>
 Mobile Wallet - 
 
-Rodent Rebellion Video Game (URL) - https://gaming.ratcoin.net<br>
-Rodent Rebellion Video Game (Telegram) - <br>
+Rodent Rebellion Video Game (Forthcoming URL) - https://gaming.ratcoin.net<br>
+Rodent Rebellion Video Game (Forthcoming Telegram) - <br>
 Whitepaper - https://docs.google.com/document/d/1ZSZ5fiZX-v90BpsnIp9RO15b5I2ekfeIb0u7TW6lyRM/edit<br>
 RatCoin Logo - https://imgur.com/a/McWwCIP<br>
 
@@ -92,6 +92,8 @@ AFFILIATES <br>
 "RatCoin Tribute to the OG RatCoin" Token<br>
 Contract Address: ATbDjGuY7whAFtFQACzeCnyTzJdoqNQp55Aywap2pump<br>
 Exchange - https://pump.fun/coin/ATbDjGuY7whAFtFQACzeCnyTzJdoqNQp55Aywap2pump<br>
+Exchange - https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=ATbDjGuY7whAFtFQACzeCnyTzJdoqNQp55Aywap2pump<br>
+Exchange - https://dexscreener.com/solana/4a7vahfvx5olegnnrq2g4fcwo7k67awus6nq8ybsgj1v
 X - https://x.com/i/communities/2035886391620477395<br>
 
 Russian Blue Cat<br>
